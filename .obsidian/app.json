@@ -2,5 +2,6 @@
   "trashOption": "local",
   "newFileLocation": "current",
   "attachmentFolderPath": "Z-附件",
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }
