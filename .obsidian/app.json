@@ -1,5 +1,6 @@
 {
   "trashOption": "local",
   "newFileLocation": "current",
-  "attachmentFolderPath": "Z-附件"
+  "attachmentFolderPath": "Z-附件",
+  "promptDelete": false
 }

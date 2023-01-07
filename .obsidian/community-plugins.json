@@ -2,11 +2,11 @@
   "obsidian-excalidraw-plugin",
   "obsidian-kanban",
   "templater-obsidian",
-  "obsidian-livesync",
   "calendar",
   "obsidian-enhancing-mindmap",
   "obsidian-gist",
   "media-extended",
   "mx-bili-plugin",
-  "obsidian-image-auto-upload-plugin"
+  "obsidian-image-auto-upload-plugin",
+  "obsidian-git"
 ]
