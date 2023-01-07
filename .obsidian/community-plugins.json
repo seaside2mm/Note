@@ -8,5 +8,10 @@
   "media-extended",
   "mx-bili-plugin",
   "obsidian-image-auto-upload-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-outliner",
+  "quickadd",
+  "easy-typing-obsidian",
+  "obsidian-advanced-slides",
+  "recent-files-obsidian"
 ]
