@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d8068390be5dca77",
+        "id": "c6f50e929fd0b7d4",
         "type": "tabs",
         "children": [
           {
-            "id": "3b21ba955cb092de",
+            "id": "466cb5c940f30912",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -69,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,7 +157,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "bdd27d79330575ba",
+  "active": "2d0778f677e5f075",
   "lastOpenFiles": [
     "T-工具/Obsidian使用.md",
     "README.md",
