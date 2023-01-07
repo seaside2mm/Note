@@ -1,0 +1,634 @@
+:root
+{
+    --dark0-hard:     #1d2021;
+    --dark0:          #282828;
+    --dark0-soft:     #32302f;
+    --dark1:          #3c3836;
+    --dark2:          #504945;
+    --dark3:          #665c54;
+    --dark4:          #7c6f64;
+ 
+    --gray:           #928374;
+ 
+    --light0-hard:    #f9f5d7;
+    --light0:         #fbf1c7;
+    --light0-soft:    #f2e5bc;
+    --light1:         #ebdbb2;
+    --light2:         #d5c4a1;
+    --light3:         #bdae93;
+    --light4:         #a89984;
+ 
+    --bright-red:     #fb4934;
+    --bright-green:   #b8bb26;
+    --bright-yellow:  #fabd2f;
+    --bright-blue:    #83a598;
+    --bright-purple:  #d3869b;
+    --bright-aqua:    #8ec07c;
+    --bright-orange:  #fe8019;
+ 
+    --neutral-red:    #cc241d;
+    --neutral-green:  #98971a;
+    --neutral-yellow: #d79921;
+    --neutral-blue:   #458588;
+    --neutral-purple: #b16286;
+    --neutral-aqua:   #689d6a;
+    --neutral-orange: #d65d0e;
+ 
+    --faded-red:      #9d0006;
+    --faded-green:    #79740e;
+    --faded-yellow:   #b57614;
+    --faded-blue:     #076678;
+    --faded-purple:   #8f3f71;
+    --faded-aqua:     #427b58;
+    --faded-orange:   #af3a03;
+}
+ 
+.theme-dark
+{
+    --font-monospace: 'Hack Nerd Font', 'Source Code Pro', monospace;
+    --background-primary:         var(--dark0);
+    --background-primary-alt:     var(--dark0);
+    --background-secondary:       var(--dark0-hard);
+    --background-secondary-alt:   var(--dark1);
+    --text-normal:                var(--light0);
+    --text-faint:                 var(--light3);
+    --text-title-h1:              var(--neutral-white);
+    --text-title-h2:              var(--neutral-white);
+    --text-title-h3:              var(--neutral-white);
+    --text-title-h4:              var(--neutral-white);
+    --text-title-h5:              var(--neutral-white);
+    --text-link:                  var(--bright-blue);
+    --text-a:                     var(--bright-orange);
+    --text-a-hover:               var(--bright-blue);
+    --text-mark:                  var(--neutral-yellow);
+    --pre-code:                   var(--dark1);
+    --text-highlight-bg:          var(--faded-aqua);
+    --interactive-accent:         var(--bright-orange);
+    --interactive-before:         var(--dark4);
+    --background-modifier-border: var(--dark2);
+    --text-accent:                var(--bright-orange);
+    --interactive-accent-rgb:     var(--bright-orange);
+    --inline-code:                var(--bright-blue);
+    --code-block:                 var(--bright-blue);
+    --vim-cursor:                 var(--bright-orange);
+    --text-selection:             var(--dark3);
+}
+ 
+.theme-light
+{
+    --background-primary:         var(--light0);
+    --background-primary-alt:     var(--light0);
+    --background-secondary:       var(--light0-hard);
+    --background-secondary-alt:   var(--light1);
+    --text-normal:                var(--dark0);
+    --text-faint:                 var(--dark3);
+    --text-title-h1:              var(--faded-red);
+    --text-title-h2:              var(--faded-orange);
+    --text-title-h3:              var(--faded-yellow);
+    --text-title-h4:              var(--faded-green);
+    --text-title-h5:              var(--faded-aqua);
+    --text-link:                  var(--neutral-blue);
+    --text-a:                     var(--neutral-orange);
+    --text-a-hover:               var(--neutral-blue);
+    --text-mark:                  var(--neutral-yellow);
+    --pre-code:                   var(--light1);
+    --text-highlight-bg:          var(--bright-aqua);
+    --interactive-accent:         var(--neutral-orange);
+    --interactive-before:         var(--light4);
+    --background-modifier-border: var(--light2);
+    --text-accent:                var(--neutral-orange);
+    --interactive-accent-rgb:     var(--neutral-orange);
+    --inline-code:                var(--neutral-blue);
+    --vim-cursor:                 var(--neutral-orange);
+    --text-selection:             var(--light2);
+}
+ 
+.theme-dark code[class*="language-"],
+.theme-dark pre[class*="language-"],
+.theme-light code[class*="language-"],
+.theme-light pre[class*="language-"]
+{
+    text-shadow: none !important;
+    background-color: var(--pre-code) !important;
+}
+ 
+.graph-view.color-circle,
+.graph-view.color-fill-highlight,
+.graph-view.color-line-highlight
+{
+    color: var(--interactive-accent-rgb) !important;
+}
+.graph-view.color-text
+{
+    color: var(--text-a-hover) !important;
+}
+/*
+.graph-view.color-fill
+{
+    color: var(--background-secondary);
+}
+.graph-view.color-line
+{
+  color: var(--background-modifier-border);
+}
+*/
+ 
+html,
+body
+{
+    font-size: 16px !important;
+}
+ 
+strong
+{
+    font-weight: 600 !important;
+}
+ 
+a,
+.cm-hmd-internal-link
+{
+    color: var(--text-a) !important;
+    text-decoration: none !important;
+}
+ 
+a:hover,
+.cm-hmd-internal-link:hover,
+.cm-url
+{
+    color: var(--text-a-hover) !important;
+    text-decoration: none !important;
+}
+ 
+mark
+{
+    background-color: var(--text-mark) !important;
+    color: var(--dark0) !important;
+}
+ 
+.view-actions a
+{
+    color: var(--text-normal) !important;
+}
+ 
+.view-actions a:hover
+{
+    color: var(--text-a) !important;
+}
+ 
+.HyperMD-codeblock-bg
+{
+    background-color: var(--pre-code) !important;
+}
+ 
+.HyperMD-codeblock
+{
+    line-height: 1.4em !important;
+    color: var(--code-block) !important;
+}
+ 
+.HyperMD-codeblock-begin
+{
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+}
+ 
+.HyperMD-codeblock-end
+{
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+}
+ 
+th
+{
+    font-weight: 600 !important;
+}
+ 
+thead
+{
+    border-bottom: 2px solid var(--background-modifier-border) !important;
+}
+ 
+.HyperMD-table-row
+{
+    line-height: normal !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+    background-color: var(--pre-code) !important;
+}
+ 
+.HyperMD-table-row-0
+{
+    /* padding-top: 4px !important; */
+}
+ 
+.CodeMirror-foldgutter-folded,
+.is-collapsed .nav-folder-collapse-indicator
+{
+    color: var(--text-a) !important;
+}
+ 
+.nav-file-tag
+{
+    color: var(--text-a) !important;
+}
+ 
+.is-active .nav-file-title
+{
+    color: var(--text-a) !important;
+    background-color: var(--background-primary-alt) !important;
+}
+ 
+.nav-file-title
+{
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+ 
+img
+{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+ 
+.HyperMD-list-line
+{
+    padding-top: 0 !important;
+}
+ 
+.CodeMirror-linenumber,
+.cm-formatting
+{
+    font-family: var(--font-monospace) !important;
+}
+ 
+.markdown-preview-section pre code,
+.markdown-preview-section code
+{
+    font-size: 0.9em !important;
+    background-color: var(--pre-code) !important;
+}
+ 
+.markdown-preview-section pre code
+{
+    padding: 4px !important;
+    line-height: 1.4em !important;
+    display: block !important;
+    color: var(--code-block) !important;
+}
+ 
+.markdown-preview-section code
+{
+    color: var(--inline-code) !important;
+}
+ 
+.cm-s-obsidian,
+.cm-inline-code
+{
+    -webkit-font-smoothing: auto !important;
+}
+ 
+.cm-inline-code
+{
+    color: var(--inline-code) !important;
+    background-color: var(--pre-code) !important;
+    padding: 1px !important;
+}
+ 
+.workspace-leaf-header-title
+{
+    font-weight: 600 !important;
+}
+ 
+.side-dock-title
+{
+    padding-top: 15px !important;
+    font-size: 20px !important;
+}
+ 
+.side-dock-ribbon-tab:hover,
+.side-dock-ribbon-action:hover,
+.side-dock-ribbon-action.is-active:hover,
+.nav-action-button:hover,
+.side-dock-collapse-btn:hover
+{
+    color: var(--text-a);
+}
+ 
+.side-dock
+{
+    border-right: 0 !important;
+}
+ 
+.cm-s-obsidian,
+.markdown-preview-view
+{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+ 
+/* vertical resize-handle */
+.workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
+.workspace-split.mod-left-split > .workspace-leaf-resize-handle, 
+.workspace-split.mod-right-split > .workspace-leaf-resize-handle
+{
+    width: 1px !important;
+    background-color: var(--background-secondary-alt);
+}
+ 
+/* horizontal resize-handle */
+.workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle
+{
+    height: 1px !important;
+    background-color: var(--background-secondary-alt);
+}
+ 
+/* Remove vertical split padding */
+.workspace-split.mod-root .workspace-split.mod-vertical .workspace-leaf-content,
+.workspace-split.mod-vertical > .workspace-split,
+.workspace-split.mod-vertical > .workspace-leaf,
+.workspace-tabs
+{
+    padding-right: 0px;
+}
+ 
+.markdown-embed-title
+{
+    font-weight: 600 !important;
+}
+ 
+.markdown-embed
+{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+ 
+.cm-header-1,
+.markdown-preview-section h1
+{
+    font-weight: 500 !important;
+    font-size: 34px !important;
+    color: var(--text-title-h1) !important;
+}
+ 
+.cm-header-2,
+.markdown-preview-section h2
+{
+    font-weight: 500 !important;
+    font-size: 26px !important;
+    color: var(--text-title-h2) !important;
+}
+ 
+.cm-header-3,
+.markdown-preview-section h3
+{
+    font-weight: 500 !important;
+    font-size: 22px !important;
+    color: var(--text-title-h3) !important;
+}
+ 
+.cm-header-4,
+.markdown-preview-section h4
+{
+    font-weight: 500 !important;
+    font-size: 20px !important;
+    color: var(--text-title-h4) !important;
+}
+ 
+.cm-header-5,
+.cm-header-6,
+.markdown-preview-section h5,
+.markdown-preview-section h6
+{
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: var(--text-title-h5) !important;
+}
+ 
+.suggestion-item.is-selected
+{
+    background-color: var(--background-secondary);
+}
+ 
+.empty-state-container:hover
+{
+    background-color: var(--background-secondary-alt);
+    border: 5px solid var(--interactive-accent) !important;
+}
+ 
+.checkbox-container
+{
+    background-color: var(--interactive-before);
+}
+ 
+.checkbox-container:after
+{
+    background-color: var(--background-secondary-alt);
+}
+ 
+.mod-cta
+{
+    color: var(--background-secondary-alt) !important;
+    font-weight: 600 !important;
+}
+ 
+.mod-cta:hover
+{
+    background-color: var(--interactive-before) !important;
+    font-weight: 600 !important;
+}
+ 
+.CodeMirror-cursor
+{
+    background-color: var(--vim-cursor) !important;
+    opacity: 60% !important;
+}
+ 
+input.task-list-item-checkbox {
+    border: 1px solid var(--dark4);
+    appearance: none;
+    -webkit-appearance: none;
+}
+ 
+input.task-list-item-checkbox:checked {
+    background-color: var(--dark4);
+    box-shadow: inset 0 0 0 2px var(--background-primary);
+}
+ 
+/*=== Bullet Point Relationship Lines ===*/
+.cm-hmd-list-indent, ul ul { 
+  position: relative; 
+}
+.cm-hmd-list-indent::before, ul ul::before {
+  content:'';
+  border-left: 1px solid rgba(255, 255, 255, 1.5);
+  position: absolute;
+}
+.cm-hmd-list-indent::before {
+  left: 0; 
+  top: -5px; 
+  bottom: -4px; 
+}
+ul ul::before {
+  left: -11px;
+  top: 0;
+  bottom: 0; 
+}
+/* Cursor color in normal vim mode and opacity */
+.cm-fat-cursor .CodeMirror-cursor, .cm-animate-fat-cursor {
+  width: 0.5em;
+  background: #d65d0e;
+  opacity: 60% !important;
+}
+ 
+/*an active line highlight in vim normal mode */
+.cm-fat-cursor .CodeMirror-activeline .CodeMirror-linebackground{
+  background-color: rgba(89, 75, 95, 0.99) !important;
+}
+ 
+/*if you want the highlight to present in both normal and insert mode of vim*/
+.CodeMirror-activeline .CodeMirror-linebackground{
+  background-color: rgba(89, 75, 95, 0.99) !important;
+}
+/* Round checkbxes in preview and editor */
+input[type=checkbox], .cm-formatting-task {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    border: 1px solid var(--text-faint);
+    padding: 0;
+    vertical-align: middle;    
+}
+ 
+.cm-s-obsidian span.cm-formatting-task {
+    color: transparent;
+    width: 1.25em !important;
+    height: 1.25em;
+    display: inline-block;
+}
+ 
+input[type=checkbox]:focus{
+  outline:0;
+}
+input[type=checkbox]:checked, .cm-formatting-task.cm-property {
+    background-color: var(--text-accent-hover);
+    border: 1px solid var(--text-accent-hover);
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-image: url('data:image/svg+xml; utf8, <svg width="12px" height="10px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-4.000000, -6.000000)" fill="%23ffffff"><path d="M8.1043257,14.0367999 L4.52468714,10.5420499 C4.32525014,10.3497722 4.32525014,10.0368095 4.52468714,9.8424863 L5.24777413,9.1439454 C5.44721114,8.95166768 5.77142411,8.95166768 5.97086112,9.1439454 L8.46638057,11.5903727 L14.0291389,6.1442083 C14.2285759,5.95193057 14.5527889,5.95193057 14.7522259,6.1442083 L15.4753129,6.84377194 C15.6747499,7.03604967 15.6747499,7.35003511 15.4753129,7.54129009 L8.82741268,14.0367999 C8.62797568,14.2290777 8.3037627,14.2290777 8.1043257,14.0367999"></path></g></g></svg>');
+}
+/* Add quotation character before quote */
+blockquote:before {
+  font: 14px/20px italic Times, serif;
+  content: "“";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+blockquote p { display: inline; }
+/* Remove blockquote left margin */
+blockquote {
+  margin-inline-start: 0;
+}
+ 
+ 
+ 
+/* Andy Matuschak mode! V2! for 0.7.0! (so... 2.7?) */
+ 
+/* everything under .mod-root now. Don't want Andy messing with sidebars */
+/* also, Andy only makes sense for vertical splits, at the root level, right? */
+.mod-root.workspace-split.mod-vertical { 
+  overflow-x:auto; 
+  --header-width: 36px; /* <- 36px is the header height in the default theme */
+}
+.mod-root.workspace-split.mod-vertical > div { 
+  min-width: calc(700px + var(--header-width)); /* <-- 700px is the default theme's "readable" max-width */
+  box-shadow: 0px 0px 20px 20px rgba(0,0,0,0.25);
+  position:sticky;
+  left:0;
+}
+ 
+/* shift sticky position, so titles will stack up to the left */
+/* This will currently stack to a maximum of 10 before resetting */
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-8) { left: calc(var(--header-width) * 0); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-7) { left: calc(var(--header-width) * 1); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-6) { left: calc(var(--header-width) * 2); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-5) { left: calc(var(--header-width) * 3); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-4) { left: calc(var(--header-width) * 4); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-3) { left: calc(var(--header-width) * 5); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-2) { left: calc(var(--header-width) * 6); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n-1) { left: calc(var(--header-width) * 7); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n+0) { left: calc(var(--header-width) * 8); }
+.mod-root.workspace-split.mod-vertical > div:nth-child(10n+1) { left: calc(var(--header-width) * 9); }
+ 
+/* now it's time for the fancy vertical titles */
+ 
+/* first we'll add a bit of gap for the title to sit inside of */
+.workspace-leaf-content {
+  padding-left: var(--header-width);
+  position: relative;
+}
+ 
+/* this is where the magic happens */
+.view-header {
+  writing-mode: vertical-lr;
+  border-right: 1px solid var(--background-secondary-alt);
+  border-left: 2px solid var(--background-secondary-alt);
+  border-top: none;
+  border-bottom: none;
+  height: auto;
+  width: var(--header-width);
+  position: absolute;
+  left:0;
+  top:0;
+  bottom:0;
+}
+ 
+/* active titles have different border colours */
+.workspace-leaf.mod-active .view-header {
+  border-right: 2px solid var(--interactive-accent);
+  border-bottom: none;
+}
+ 
+/* unset the title container height and swap padding */
+.view-header-title-container {
+  height: unset;
+  padding-left: unset;
+  padding-top: 5px;
+}
+ 
+/* fix the long-title-obscuring shadows */
+.view-header-title-container:after {
+  width: 100%;
+  height: 30px;
+  top:unset;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent, var(--background-secondary));
+}
+.workspace-leaf.mod-active .view-header-title-container:after {
+  background: linear-gradient(to bottom, transparent, var(--background-primary-alt));
+}
+ 
+/* swap the padding/margin around for the header and actions icons */
+.view-header-icon, .view-actions {
+  padding: 10px 5px;
+}
+.view-action {
+  margin: 8px 0;
+}
+ 
+/* get rid of the gap left by the now-missing horizontal title */
+.view-content {
+  height: 100%;
+}
+ 
+/* make the fake drop target overlay have a background so you can see it. */
+/* TODO: figure out how the fake target overlay works so we can put the title back, too */
+.workspace-fake-target-overlay {
+  background-color: var(--background-primary);
+}

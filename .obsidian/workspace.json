@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 488.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -152,7 +152,8 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "workspaces:管理工作区布局": false
     }
   },
   "active": "168ab728b29ff9da",
