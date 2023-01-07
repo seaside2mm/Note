@@ -19,8 +19,7 @@
               }
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,6 +157,7 @@
   },
   "active": "168ab728b29ff9da",
   "lastOpenFiles": [
+    "T-工具/Obsidian使用.md",
     "README.md",
     "T-工具/fly.io 使用指南.md"
   ]
