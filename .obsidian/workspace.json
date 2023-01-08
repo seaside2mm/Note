@@ -4,22 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "d29f6c4b1cf627c5",
-        "type": "tabs",
+        "id": "e0148d6311f43ba3",
+        "type": "split",
         "children": [
           {
-            "id": "21c77fdd60d0c498",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false
+            "id": "aaa6499f17ecfe0e",
+            "type": "tabs",
+            "dimension": 66.73076923076923,
+            "children": [
+              {
+                "id": "54be6e4be995d300",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
               }
-            }
+            ]
+          },
+          {
+            "id": "df89af8c2b6c46a4",
+            "type": "tabs",
+            "dimension": 33.26923076923077,
+            "children": [
+              {
+                "id": "a3f8f1eb91bc7b01",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -93,7 +112,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +128,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +149,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "未命名.md"
-              }
+              "state": {}
             }
           },
           {
@@ -146,11 +161,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,8 +180,9 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "21c77fdd60d0c498",
+  "active": "5186dddb7992a812",
   "lastOpenFiles": [
+    "未命名.md",
     "未命名.canvas",
     "T-工具/Obsidian使用.md",
     "README.md",
