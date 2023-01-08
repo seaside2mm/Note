@@ -3,5 +3,10 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "Z-附件",
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "spellcheckLanguages": [
+    "zh-CN",
+    "en-US"
+  ]
 }
