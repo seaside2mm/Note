@@ -12,5 +12,9 @@ Obsidian 支持多种「超链接语法」，这些功能也是「现代笔记�
 -   嵌入引用：`！[[Note Name]]`
 -   块引用：`[[Note Name ^]]`
 
+# 技术流
+
+## [自动导入标注到 Obsidian（不使用同步助手方案）](https://zhuanlan.zhihu.com/p/501251603)
+
 
 

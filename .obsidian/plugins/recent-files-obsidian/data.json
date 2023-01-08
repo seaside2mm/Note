@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Obsidian使用",
+      "path": "T-工具/Obsidian使用.md"
+    },
+    {
       "basename": "CUDA&TensorRT技术博客",
       "path": "E-网络杂烩/博客/CUDA&TensorRT技术博客.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "未命名",
       "path": "未命名.canvas"
-    },
-    {
-      "basename": "Obsidian使用",
-      "path": "T-工具/Obsidian使用.md"
     }
   ],
   "omittedPaths": [],
