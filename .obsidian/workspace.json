@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c6f50e929fd0b7d4",
+        "id": "d29f6c4b1cf627c5",
         "type": "tabs",
         "children": [
           {
-            "id": "466cb5c940f30912",
+            "id": "21c77fdd60d0c498",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -157,8 +157,9 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "5186dddb7992a812",
+  "active": "21c77fdd60d0c498",
   "lastOpenFiles": [
+    "未命名.canvas",
     "T-工具/Obsidian使用.md",
     "README.md",
     "T-工具/fly.io 使用指南.md"
