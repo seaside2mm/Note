@@ -632,3 +632,85 @@ blockquote {
 .workspace-fake-target-overlay {
   background-color: var(--background-primary);
 }
+
+
+/* 引用文件时，文件名前面会出现 “文档” icon */
+.markdown-preview-view a.internal-link::before {
+  margin-right: 4px;
+  margin-left: 2px;
+
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg t='1626093724345' class='icon' viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' p-id='3856' width='200' height='200'%3E%3Cpath d='M896.5 328.5h-256c-13.3 0-24-10.7-24-24v-256c0-13.3 10.7-24 24-24s24 10.7 24 24v232h232c13.3 0 24 10.7 24 24s-10.7 24-24 24z' fill='%230A59F7' p-id='3857'%3E%3C/path%3E%3Cpath d='M896.5 1000.5h-768c-13.3 0-24-10.7-24-24v-928c0-13.3 10.7-24 24-24h512c6.4 0 12.5 2.5 17 7l256 256c4.5 4.5 7 10.6 7 17v672c0 13.3-10.7 24-24 24z m-744-48h720V314.4L630.6 72.5H152.5v880z' fill='%230A59F7' p-id='3858'%3E%3C/path%3E%3Cpath d='M704.5 792.5h-384c-13.3 0-24-10.7-24-24s10.7-24 24-24h384c13.3 0 24 10.7 24 24s-10.7 24-24 24zM704.5 632.5h-384c-13.3 0-24-10.7-24-24s10.7-24 24-24h384c13.3 0 24 10.7 24 24s-10.7 24-24 24zM704.5 472.5h-384c-13.3 0-24-10.7-24-24s10.7-24 24-24h384c13.3 0 24 10.7 24 24s-10.7 24-24 24zM448.5 312.5h-128c-13.3 0-24-10.7-24-24s10.7-24 24-24h128c13.3 0 24 10.7 24 24s-10.7 24-24 24z' fill='%230A59F7' p-id='3859'%3E%3C/path%3E%3C/svg%3E");
+  background-size: 16px 16px;
+  transform: translate(0, 3px);
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 16.8px;
+  width: 16.33px;
+}
+
+
+
+/* 给左侧边栏文件夹前添加图标，""内图标和文件夹名称请自行修改 */
+.nav-folder-title[data-path^="@Inbox"] .nav-folder-title-content::before {
+    content: "📌" !important;
+    position: relative !important;
+    right: 5px;
+}
+
+.nav-folder-title[data-path^="000-项目"] .nav-folder-title-content::before {
+    content: "📜" !important;
+    position: relative !important;
+    right: 5px;
+}
+.nav-folder-title[data-path^="100-备忘"] .nav-folder-title-content::before {
+    content: "📝" !important;
+    position: relative !important;
+    right: 5px;
+}
+.nav-folder-title[data-path^="200-语言学"] .nav-folder-title-content::before {
+    content: "🎧" !important;
+    position: relative !important;
+    right: 5px;
+}
+.nav-folder-title[data-path^="300-学习&提升"] .nav-folder-title-content::before {
+    content: "📚" !important;
+    position: relative !important;
+    right: 5px;
+}
+.nav-folder-title[data-path^="400-工作&效率"] .nav-folder-title-content::before {
+    content: "📊" !important;
+    position: relative !important;
+    right: 5px;
+}
+.nav-folder-title[data-path^="500-生活&兴趣"] .nav-folder-title-content::before {
+    content: "🎨" !important;
+    position: relative !important;
+    right: 5px;
+}
+.nav-folder-title[data-path^="Archive"] .nav-folder-title-content::before {
+    content: "📦" !important;
+    position: relative !important;
+    right: 5px;
+}
+.nav-folder-title[data-path^="Attachment"] .nav-folder-title-content::before {
+    content: "🗂️" !important;
+    position: relative !important;
+    right: 5px;
+}
+.nav-folder-title[data-path^="Collections"] .nav-folder-title-content::before {
+    content: "🔖";
+    position: relative !important;
+    right: 5px;
+}
+.nav-folder-title[data-path^="Others"] .nav-folder-title-content::before {
+    content: "💾";
+    position: relative !important;
+    right: 5px;
+}
+.nav-folder-title[data-path^="Template"] .nav-folder-title-content::before {
+    content: "📑";
+    position: relative !important;
+    right: 5px;
+}
+
