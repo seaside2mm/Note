@@ -30,7 +30,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "I-Inbox/kk Blog —— 通用基础.md",
+                    "file": "I-Inbox/2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote.md",
                     "mode": "source",
                     "source": false
                   }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "I-Inbox/kk Blog —— 通用基础.md",
+                "file": "I-Inbox/2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "I-Inbox/kk Blog —— 通用基础.md",
+                "file": "I-Inbox/2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "I-Inbox/kk Blog —— 通用基础.md"
+                "file": "I-Inbox/2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote.md"
               }
             }
           },
@@ -203,8 +203,9 @@
   },
   "active": "b5a89ec5d3b67920",
   "lastOpenFiles": [
-    "未命名 1.md",
     "I-Inbox/kk Blog —— 通用基础.md",
+    "I-Inbox/2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote.md",
+    "未命名 1.md",
     "T-工具/Obsidian使用.md",
     "E-网络杂烩/博客/CUDA&TensorRT技术博客.md",
     "未命名 2.md",
