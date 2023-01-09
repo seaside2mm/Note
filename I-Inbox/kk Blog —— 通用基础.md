@@ -21,7 +21,6 @@ vgdisplay
 lvdisplay
 ```
 
-#### 初始化分区
 
 ```
 pvcreate /dev/vdx333
