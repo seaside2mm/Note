@@ -1,25 +1,29 @@
 ---
+UID: 20230110160803
 title: "srAnnote@放弃纠结、拥抱妥协，重器轻用就是高效"
 alias: ["srAnnote@放弃纠结、拥抱妥协，重器轻用就是高效"]
 type: Simpread
-tag: 
+index: 4
 ---
 
 # 放弃纠结、拥抱妥协，重器轻用就是高效
 
-> [!summary] 描述  
+> [!timeline]+ 简介
+>> **元数据**
+>---
+> **原文**:: [放弃纠结、拥抱妥协，重器轻用就是高效](https://sspai.com/post/71576)
+> **日期**:: [[2023_01_10]]
+> **标签**:: #SimpRead 
+>> **摘要**
+>---
 > 大家好，我是 Kenshin，简悦的作者，这次跟大家分享我对极简效率工作的一些理解，我接触效率相关的内容，与简悦的诞生有关：
 
 简悦始于 2016 年…… 那时因为家里的一些事情，我解散了团队，注销了公司。
 
-> [!md] Metadata  
-> **标题**:: "放弃纠结、拥抱妥协，重器轻用就是高效"  
-> **日期**:: [[2023-01-10]]  
+## 笔记
 
-## Annotations
-
-> [📌](<http://localhost:7026/reading/4#id=1673334481721>) <mark style="background-color: #a1e0ff">Highlight</mark> 
+> [!abstract]+ <mark style="background-color: #a1e0ff">Highlight</mark> [🧷](<http://localhost:7026/reading/4#id=1673334481721>)[🌐](<#id=1673334481721>) 
 > 故事的最后，我的「毛病」被简悦治愈了。借助简悦，我体会到了极简效率带来的改变，自此开启了我的「极简效率之旅」。
-
 ^sran-1673334481721
+
 
