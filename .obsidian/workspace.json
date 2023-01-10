@@ -11,8 +11,12 @@
             "id": "a3f8f1eb91bc7b01",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md"
+              }
             }
           },
           {
@@ -157,11 +165,11 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "5186dddb7992a812",
+  "active": "a3f8f1eb91bc7b01",
   "lastOpenFiles": [
+    "I-Inbox/4-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
     "I-Inbox/3-17_ TensorRT 的命令行程序 - NVIDIA 技术博客@annote.md",
     "I-Inbox/2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote.md",
-    "I-Inbox/4-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
     "I-Inbox/放弃纠结、拥抱妥协，重器轻用就是高效.md",
     "I-Inbox/17_ TensorRT 的命令行程序 - NVIDIA 技术博客.md",
     "I-Inbox/kk Blog —— 通用基础.md",
