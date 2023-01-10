@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "4-放弃纠结、拥抱妥协，重器轻用就是高效@annote",
+      "path": "I-Inbox/4-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md"
+    },
+    {
       "basename": "3-17_ TensorRT 的命令行程序 - NVIDIA 技术博客@annote",
       "path": "I-Inbox/3-17_ TensorRT 的命令行程序 - NVIDIA 技术博客@annote.md"
+    },
+    {
+      "basename": "2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote",
+      "path": "I-Inbox/2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote.md"
+    },
+    {
+      "basename": "放弃纠结、拥抱妥协，重器轻用就是高效",
+      "path": "I-Inbox/放弃纠结、拥抱妥协，重器轻用就是高效.md"
     },
     {
       "basename": "17_ TensorRT 的命令行程序 - NVIDIA 技术博客",
@@ -11,10 +23,6 @@
     {
       "basename": "kk Blog —— 通用基础",
       "path": "I-Inbox/kk Blog —— 通用基础.md"
-    },
-    {
-      "basename": "2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote",
-      "path": "I-Inbox/2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote.md"
     },
     {
       "basename": "未命名 1",
@@ -31,14 +39,6 @@
     {
       "basename": "未命名 2",
       "path": "未命名 2.md"
-    },
-    {
-      "basename": "主页",
-      "path": "主页.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "未命名.canvas"
     }
   ],
   "omittedPaths": [],

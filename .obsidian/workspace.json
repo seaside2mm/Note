@@ -30,14 +30,26 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "I-Inbox/3-17_ TensorRT 的命令行程序 - NVIDIA 技术博客@annote.md",
+                    "file": "I-Inbox/2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote.md",
+                    "mode": "preview",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "837eafd35b16605d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "I-Inbox/4-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "df89af8c2b6c46a4",
@@ -113,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 361.5
   },
   "right": {
     "id": "e6e0923f74be1f25",
@@ -129,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "I-Inbox/3-17_ TensorRT 的命令行程序 - NVIDIA 技术博客@annote.md",
+                "file": "I-Inbox/4-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "I-Inbox/3-17_ TensorRT 的命令行程序 - NVIDIA 技术博客@annote.md",
+                "file": "I-Inbox/4-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "I-Inbox/3-17_ TensorRT 的命令行程序 - NVIDIA 技术博客@annote.md"
+                "file": "I-Inbox/4-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md"
               }
             }
           },
@@ -201,17 +213,17 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "b5a89ec5d3b67920",
+  "active": "837eafd35b16605d",
   "lastOpenFiles": [
+    "I-Inbox/3-17_ TensorRT 的命令行程序 - NVIDIA 技术博客@annote.md",
+    "I-Inbox/2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote.md",
+    "I-Inbox/4-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
+    "I-Inbox/放弃纠结、拥抱妥协，重器轻用就是高效.md",
     "I-Inbox/17_ TensorRT 的命令行程序 - NVIDIA 技术博客.md",
     "I-Inbox/kk Blog —— 通用基础.md",
-    "I-Inbox/2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote.md",
-    "I-Inbox/3-17_ TensorRT 的命令行程序 - NVIDIA 技术博客@annote.md",
     "未命名 1.md",
     "T-工具/Obsidian使用.md",
     "E-网络杂烩/博客/CUDA&TensorRT技术博客.md",
-    "未命名 2.md",
-    "主页.md",
-    "未命名.canvas"
+    "未命名 2.md"
   ]
 }
