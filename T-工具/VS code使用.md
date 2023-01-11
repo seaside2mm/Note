@@ -1,1 +1,1 @@
-![[My File.pdf#page=number]]`
+<iframe src=" https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf"></iframe> `

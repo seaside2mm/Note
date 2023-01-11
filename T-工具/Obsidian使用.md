@@ -19,11 +19,20 @@ Obsidian 支持多种「超链接语法」，这些功能也是「现代笔记�
 3.  音声ファイル: `mp3`, `webm`, `wav`, `m4a`, `ogg`, `3gp`, `flac`
 4.  動画ファイル: `mp4`, `webm`, `ogv`
 5.  PDFファイル: `pdf`
+
+
 ```
+mp4:
 <iframe src="https://www.youtube.com/embed/NnTvZWp5Q7o"></iframe>
 
 
+Twitter:
+<iframe border=0 frameborder=0 height=250 width=550 src="https://twitframe.com/show?url=https%3A%2F%2Ftwitter.com%2Fjack%2Fstatus%2F20"> </iframe>
+
+画像size:
+![[image.png|100x100]]
 ```
+
 
 # 技术流
 
