@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
+                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#SimpRead",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
+                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
+                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md"
+                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md"
               }
             }
           },
@@ -146,12 +147,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 642.5,
-    "collapsed": true
+    "width": 642.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,6 +169,7 @@
   "active": "6963aff9976a293d",
   "lastOpenFiles": [
     "I-Inbox/7-(34 条消息) 优化库——ceres（一）快速概览_雨 luo 凡城的博客 - CSDN 博客_ceres 优化@annote.md",
+    "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
     "I-Inbox/6-Ceres Solver 源码阅读 - Evaluator@annote.md",
     "I-Inbox/Ceres-Solver 学习日志：官方典型使用样例与 Ceres 使用要点.md",
     "T-工具/VS code使用.md",
@@ -176,7 +177,6 @@
     "T-工具/My File.pdf.md",
     "I-Inbox/5-cuSOLVER API Reference@annote.md",
     "I-Inbox/4-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
-    "I-Inbox/3-17_ TensorRT 的命令行程序 - NVIDIA 技术博客@annote.md",
-    "I-Inbox/2-CUDA 编程手册系列第三章： CUDA 编程模型接口 - NVIDIA 技术博客@annote.md"
+    "I-Inbox/3-17_ TensorRT 的命令行程序 - NVIDIA 技术博客@annote.md"
   ]
 }
