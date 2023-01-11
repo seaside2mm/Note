@@ -20,21 +20,9 @@ index: 7
 
 ## 笔记
 
-> [!abstract]+ <mark style="background-color: #B4D9FB">Highlight</mark> [🧷](<http://localhost:7026/reading/7#id=1673401675217>)[🌐](<#id=1673401675217>) 
-> ![](https://img-blog.csdnimg.cn/3fab2f7272ba41c4afb928a82cff5a4c.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkeV9seXk=,size_16,color_FFFFFF,t_70)
-^sran-1673401675217
-
-> [!abstract]+ <mark style="background-color: #B4D9FB">Highlight</mark> [🧷](<http://localhost:7026/reading/7#id=1673401677500>)[🌐](<#id=1673401677500>) 
-> ![](https://img-blog.csdnimg.cn/3fab2f7272ba41c4afb928a82cff5a4c.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkeV9seXk=,size_16,color_FFFFFF,t_70)
-^sran-1673401677500
-
 > [!abstract]+ <mark style="background-color: #ffeb3b">Highlight</mark> [🧷](<http://localhost:7026/reading/7#id=1673401683321>)[🌐](<#id=1673401683321>) 
 > ![](https://img-blog.csdnimg.cn/3fab2f7272ba41c4afb928a82cff5a4c.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkeV9seXk=,size_16,color_FFFFFF,t_70)
 ^sran-1673401683321
-
-> [!abstract]+ <mark style="background-color: #B4D9FB">Highlight</mark> [🧷](<http://localhost:7026/reading/7#id=1673401713211>)[🌐](<#id=1673401713211>) 
-> ![](https://img-blog.csdnimg.cn/f30e19cb58184183819ef22cf2342275.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkeV9seXk=,size_16,color_FFFFFF,t_70)
-^sran-1673401713211
 
 > [!abstract]+ <mark style="background-color: #ffeb3b">Highlight</mark> [🧷](<http://localhost:7026/reading/7#id=1673401726803>)[🌐](<#id=1673401726803>) 
 > ![](https://img-blog.csdnimg.cn/f30e19cb58184183819ef22cf2342275.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkeV9seXk=,size_16,color_FFFFFF,t_70)
@@ -59,9 +47,3 @@ index: 7
 > *   【STEP 5】运行求解器 (`ceres::Solve(options, &problem, &summary)`)
 >
 ^sran-1673401726803
-
-> [!abstract]+ <mark style="background-color: #ffeb3b">Highlight</mark> [🧷](<http://localhost:7026/reading/7#id=1673401728553>)[🌐](<#id=1673401728553>) 
-> ![](https://img-blog.csdnimg.cn/f30e19cb58184183819ef22cf2342275.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2pkeV9seXk=,size_16,color_FFFFFF,t_70)
-^sran-1673401728553
-
-
