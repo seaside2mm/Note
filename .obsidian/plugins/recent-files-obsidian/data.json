@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名",
+      "path": "L-库/OpenCV/未命名.md"
+    },
+    {
       "basename": "工具",
       "path": "B-书籍/CUDA编程权威指南/工具.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "My File.pdf",
       "path": "T-工具/My File.pdf.md"
-    },
-    {
-      "basename": "CUDA&TensorRT技术博客",
-      "path": "E-网络杂烩/博客/CUDA&TensorRT技术博客.md"
     }
   ],
   "omittedPaths": [],
