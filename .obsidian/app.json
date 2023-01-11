@@ -8,5 +8,6 @@
   "spellcheckLanguages": [
     "zh-CN",
     "en-US"
-  ]
+  ],
+  "useMarkdownLinks": true
 }
