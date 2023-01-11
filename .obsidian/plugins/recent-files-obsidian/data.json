@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "工具",
+      "path": "B-书籍/CUDA编程权威指南/工具.md"
+    },
+    {
       "basename": "5-cuSOLVER API Reference@annote",
       "path": "I-Inbox/5-cuSOLVER API Reference@annote.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "CUDA&TensorRT技术博客",
       "path": "E-网络杂烩/博客/CUDA&TensorRT技术博客.md"
-    },
-    {
-      "basename": "未命名 2",
-      "path": "未命名 2.md"
     }
   ],
   "omittedPaths": [],

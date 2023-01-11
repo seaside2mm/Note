@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1b81221b95ed1c4d",
+        "id": "1a75f8a4a7519448",
         "type": "tabs",
         "children": [
           {
-            "id": "6963aff9976a293d",
+            "id": "3936e91a3691e85c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md",
-                "mode": "preview",
+                "file": "B-书籍/CUDA编程权威指南/工具.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md",
+                "file": "B-书籍/CUDA编程权威指南/工具.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md",
+                "file": "B-书籍/CUDA编程权威指南/工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md"
+                "file": "B-书籍/CUDA编程权威指南/工具.md"
               }
             }
           },
@@ -166,8 +165,10 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "6963aff9976a293d",
+  "active": "3936e91a3691e85c",
   "lastOpenFiles": [
+    "I-Inbox/5-cuSOLVER API Reference@annote.md",
+    "I-Inbox/工具.md",
     "I-Inbox/7-(34 条消息) 优化库——ceres（一）快速概览_雨 luo 凡城的博客 - CSDN 博客_ceres 优化@annote.md",
     "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
     "I-Inbox/6-Ceres Solver 源码阅读 - Evaluator@annote.md",
@@ -175,8 +176,6 @@
     "T-工具/VS code使用.md",
     "T-工具/Obsidian使用.md",
     "T-工具/My File.pdf.md",
-    "I-Inbox/5-cuSOLVER API Reference@annote.md",
-    "I-Inbox/4-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md",
-    "I-Inbox/3-17_ TensorRT 的命令行程序 - NVIDIA 技术博客@annote.md"
+    "I-Inbox/4-放弃纠结、拥抱妥协，重器轻用就是高效@annote.md"
   ]
 }
