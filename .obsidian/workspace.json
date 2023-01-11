@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md",
+                "file": "T-工具/VS code使用.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md",
+                "file": "T-工具/VS code使用.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md",
+                "file": "T-工具/VS code使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "I-Inbox/5-cuSOLVER API Reference@annote.md"
+                "file": "T-工具/VS code使用.md"
               }
             }
           },
@@ -150,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 642.5
+    "width": 642.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,7 +175,7 @@
     "I-Inbox/放弃纠结、拥抱妥协，重器轻用就是高效.md",
     "I-Inbox/17_ TensorRT 的命令行程序 - NVIDIA 技术博客.md",
     "I-Inbox/kk Blog —— 通用基础.md",
-    "未命名 1.md",
+    "T-工具/VS code使用.md",
     "T-工具/Obsidian使用.md",
     "E-网络杂烩/博客/CUDA&TensorRT技术博客.md"
   ]
