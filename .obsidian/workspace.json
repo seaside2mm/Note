@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "I-Inbox/7-(34 条消息) 优化库——ceres（一）快速概览_雨 luo 凡城的博客 - CSDN 博客_ceres 优化@annote.md",
+                "file": "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "I-Inbox/7-(34 条消息) 优化库——ceres（一）快速概览_雨 luo 凡城的博客 - CSDN 博客_ceres 优化@annote.md",
+                "file": "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "I-Inbox/7-(34 条消息) 优化库——ceres（一）快速概览_雨 luo 凡城的博客 - CSDN 博客_ceres 优化@annote.md",
+                "file": "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "I-Inbox/7-(34 条消息) 优化库——ceres（一）快速概览_雨 luo 凡城的博客 - CSDN 博客_ceres 优化@annote.md"
+                "file": "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md"
               }
             }
           },
@@ -167,13 +167,13 @@
   },
   "active": "c8d182b049babbfb",
   "lastOpenFiles": [
+    "I-Inbox/6-Ceres Solver 源码阅读 - Evaluator@annote.md",
+    "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
+    "I-Inbox/7-(34 条消息) 优化库——ceres（一）快速概览_雨 luo 凡城的博客 - CSDN 博客_ceres 优化@annote.md",
     "B-书籍/CUDA编程权威指南/工具.md",
     "L-库/OpenCV/未命名.md",
     "I-Inbox/5-cuSOLVER API Reference@annote.md",
     "I-Inbox/工具.md",
-    "I-Inbox/7-(34 条消息) 优化库——ceres（一）快速概览_雨 luo 凡城的博客 - CSDN 博客_ceres 优化@annote.md",
-    "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
-    "I-Inbox/6-Ceres Solver 源码阅读 - Evaluator@annote.md",
     "I-Inbox/Ceres-Solver 学习日志：官方典型使用样例与 Ceres 使用要点.md",
     "T-工具/VS code使用.md",
     "T-工具/Obsidian使用.md"
