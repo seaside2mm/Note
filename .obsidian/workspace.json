@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c8d182b049babbfb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "I-Inbox/(34 条消息) 在 WSL2 上运行 nVIDIA Nsight_SAGAERA 的博客 - CSDN 博客.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2917508ed5d7c246",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,6 +66,18 @@
             }
           },
           {
+            "id": "c8d182b049babbfb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "I-Inbox/(34 条消息) 在 WSL2 上运行 nVIDIA Nsight_SAGAERA 的博客 - CSDN 博客.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "bdd27d79330575ba",
             "type": "leaf",
             "state": {
@@ -90,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 372.5,
+    "collapsed": true
   },
   "right": {
     "id": "e6e0923f74be1f25",
@@ -163,7 +163,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 642.5
+    "width": 642.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,7 +179,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "2d0778f677e5f075",
+  "active": "5186dddb7992a812",
   "lastOpenFiles": [
     "T-工具/vim使用.md",
     "I-Inbox/(34 条消息) 在 WSL2 上运行 nVIDIA Nsight_SAGAERA 的博客 - CSDN 博客.md",
