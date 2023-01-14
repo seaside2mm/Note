@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "T-工具/vim使用.md",
+                "file": "B-书籍/CUDA编程权威指南/工具.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "T-工具/vim使用.md",
+                "file": "B-书籍/CUDA编程权威指南/工具.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "T-工具/vim使用.md",
+                "file": "B-书籍/CUDA编程权威指南/工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "T-工具/vim使用.md"
+                "file": "B-书籍/CUDA编程权威指南/工具.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -178,8 +178,9 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "2917508ed5d7c246",
+  "active": "2d0778f677e5f075",
   "lastOpenFiles": [
+    "T-工具/vim使用.md",
     "I-Inbox/(34 条消息) 在 WSL2 上运行 nVIDIA Nsight_SAGAERA 的博客 - CSDN 博客.md",
     "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
     "I-Inbox/6-Ceres Solver 源码阅读 - Evaluator@annote.md",
@@ -188,7 +189,6 @@
     "L-库/OpenCV/未命名.md",
     "I-Inbox/5-cuSOLVER API Reference@annote.md",
     "I-Inbox/工具.md",
-    "I-Inbox/Ceres-Solver 学习日志：官方典型使用样例与 Ceres 使用要点.md",
-    "T-工具/VS code使用.md"
+    "I-Inbox/Ceres-Solver 学习日志：官方典型使用样例与 Ceres 使用要点.md"
   ]
 }
