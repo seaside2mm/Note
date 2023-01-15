@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "指令",
-      "path": "B-书籍/CUDA编程权威指南/指令.md"
-    },
-    {
       "basename": "性能调优工具",
       "path": "B-书籍/CUDA编程权威指南/性能调优工具.md"
+    },
+    {
+      "basename": "常用 GPU 相关命令",
+      "path": "B-书籍/CUDA编程权威指南/常用 GPU 相关命令.md"
+    },
+    {
+      "basename": "调试工具",
+      "path": "B-书籍/CUDA编程权威指南/调试工具.md"
     },
     {
       "basename": "vim使用",
@@ -35,10 +39,6 @@
     {
       "basename": "5-cuSOLVER API Reference@annote",
       "path": "I-Inbox/5-cuSOLVER API Reference@annote.md"
-    },
-    {
-      "basename": "Ceres-Solver 学习日志：官方典型使用样例与 Ceres 使用要点",
-      "path": "I-Inbox/Ceres-Solver 学习日志：官方典型使用样例与 Ceres 使用要点.md"
     }
   ],
   "omittedPaths": [],
