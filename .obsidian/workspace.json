@@ -13,14 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/工具.md",
+                "file": "B-书籍/CUDA编程权威指南/指令.md",
                 "mode": "source",
                 "source": false
               }
             },
             "group": "95c868224afa6399"
+          },
+          {
+            "id": "ecf920b5c6f52afc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "B-书籍/CUDA编程权威指南/指令.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "8b38c1633ef77856",
@@ -39,7 +52,7 @@
                   "iframe": "https://player.bilibili.com/player.html?bvid=BV15P4y1R7VG&high_quality=1&danmaku=0",
                   "hash": ""
                 },
-                "currentTime": 608.554365
+                "currentTime": 958.968359
               }
             },
             "group": "95c868224afa6399"
@@ -114,8 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e6e0923f74be1f25",
@@ -131,6 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "B-书籍/CUDA编程权威指南/指令.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,6 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "B-书籍/CUDA编程权威指南/指令.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +182,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "B-书籍/CUDA编程权威指南/指令.md"
+              }
             }
           },
           {
@@ -199,9 +215,10 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "4938d2047d98bbce",
+  "active": "5186dddb7992a812",
   "lastOpenFiles": [
-    "B-书籍/CUDA编程权威指南/工具.md",
+    "B-书籍/CUDA编程权威指南/性能调优工具.md",
+    "B-书籍/CUDA编程权威指南/指令.md",
     "T-工具/vim使用.md",
     "I-Inbox/(34 条消息) 在 WSL2 上运行 nVIDIA Nsight_SAGAERA 的博客 - CSDN 博客.md",
     "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
@@ -209,7 +226,6 @@
     "I-Inbox/7-(34 条消息) 优化库——ceres（一）快速概览_雨 luo 凡城的博客 - CSDN 博客_ceres 优化@annote.md",
     "L-库/OpenCV/未命名.md",
     "I-Inbox/5-cuSOLVER API Reference@annote.md",
-    "I-Inbox/工具.md",
-    "I-Inbox/Ceres-Solver 学习日志：官方典型使用样例与 Ceres 使用要点.md"
+    "I-Inbox/工具.md"
   ]
 }
