@@ -14,20 +14,20 @@
               "type": "markdown",
               "state": {
                 "file": "B-书籍/CUDA编程权威指南/工具.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             },
-            "group": "813a3d5b2d901617"
+            "group": "95c868224afa6399"
           }
         ]
       },
       {
-        "id": "a3fbbe05091ebfd3",
+        "id": "8b38c1633ef77856",
         "type": "tabs",
         "children": [
           {
-            "id": "7df310cdb6ab29a9",
+            "id": "4938d2047d98bbce",
             "type": "leaf",
             "state": {
               "type": "media-view",
@@ -39,10 +39,10 @@
                   "iframe": "https://player.bilibili.com/player.html?bvid=BV15P4y1R7VG&high_quality=1&danmaku=0",
                   "hash": ""
                 },
-                "currentTime": 1.126212
+                "currentTime": 608.554365
               }
             },
-            "group": "813a3d5b2d901617"
+            "group": "95c868224afa6399"
           }
         ]
       }
@@ -131,7 +131,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/工具.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,9 +168,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "B-书籍/CUDA编程权威指南/工具.md"
-              }
+              "state": {}
             }
           },
           {
@@ -203,7 +199,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "2917508ed5d7c246",
+  "active": "4938d2047d98bbce",
   "lastOpenFiles": [
     "B-书籍/CUDA编程权威指南/工具.md",
     "T-工具/vim使用.md",
