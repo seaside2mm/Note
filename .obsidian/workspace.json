@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5,
-    "collapsed": true
+    "width": 372.5
   },
   "right": {
     "id": "e6e0923f74be1f25",
@@ -179,7 +178,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "5186dddb7992a812",
+  "active": "2917508ed5d7c246",
   "lastOpenFiles": [
     "T-工具/vim使用.md",
     "I-Inbox/(34 条消息) 在 WSL2 上运行 nVIDIA Nsight_SAGAERA 的博客 - CSDN 博客.md",
