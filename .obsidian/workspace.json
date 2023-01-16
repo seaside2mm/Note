@@ -64,7 +64,7 @@
                   "iframe": "https://player.bilibili.com/player.html?bvid=BV13w411o7cu&high_quality=1&danmaku=0",
                   "hash": ""
                 },
-                "currentTime": 803.847823
+                "currentTime": 850.362849
               }
             },
             "group": "04d21885c5f1998c"
@@ -156,7 +156,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/性能调优工具.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +172,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/性能调优工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,9 +193,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "B-书籍/CUDA编程权威指南/性能调优工具.md"
-              }
+              "state": {}
             }
           },
           {
@@ -229,7 +225,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "659c76f20df3800b",
+  "active": "c92055f9e8feaf99",
   "lastOpenFiles": [
     "B-书籍/CUDA编程权威指南/性能调优工具.md",
     "B-书籍/CUDA编程权威指南/常用 GPU 相关命令.md",
