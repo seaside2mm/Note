@@ -6,7 +6,6 @@
       {
         "id": "9e4fa3e84580b67f",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
             "id": "2917508ed5d7c246",
@@ -43,33 +42,32 @@
                 "source": false
               }
             },
-            "group": "2ede23c684b8c3d3"
+            "group": "153f95f6c364c00f"
           }
         ],
         "currentTab": 2
       },
       {
-        "id": "adfb8f0c74acb3e6",
+        "id": "ed50221c3e9f7e40",
         "type": "tabs",
-        "dimension": 50,
         "children": [
           {
-            "id": "7e51c193203a969d",
+            "id": "7aa85384907e35d1",
             "type": "leaf",
             "state": {
               "type": "media-view",
               "state": {
                 "info": {
-                  "host": 1,
-                  "id": "BV13w411o7cu",
-                  "src": "https://www.bilibili.com/video/BV13w411o7cu#t=803.161128",
-                  "iframe": "https://player.bilibili.com/player.html?bvid=BV13w411o7cu&high_quality=1&danmaku=0",
-                  "hash": "#t=803.161128"
+                  "host": 0,
+                  "id": "fsC3QeZHM1U",
+                  "iframe": "https://www.youtube.com/embed/fsC3QeZHM1U",
+                  "src": "https://www.youtube.com/watch?v=fsC3QeZHM1U",
+                  "hash": ""
                 },
-                "currentTime": 4186.705643
+                "currentTime": null
               }
             },
-            "group": "2ede23c684b8c3d3"
+            "group": "153f95f6c364c00f"
           }
         ]
       }
@@ -158,6 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "B-书籍/CUDA编程权威指南/性能调优工具.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,6 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "B-书籍/CUDA编程权威指南/性能调优工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "B-书籍/CUDA编程权威指南/性能调优工具.md"
+              }
             }
           },
           {
@@ -227,7 +229,7 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "7e51c193203a969d",
+  "active": "659c76f20df3800b",
   "lastOpenFiles": [
     "B-书籍/CUDA编程权威指南/性能调优工具.md",
     "B-书籍/CUDA编程权威指南/常用 GPU 相关命令.md",
