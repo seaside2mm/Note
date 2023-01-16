@@ -14,35 +14,10 @@
               "type": "markdown",
               "state": {
                 "file": "B-书籍/CUDA编程权威指南/性能调优工具.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
-            },
-            "group": "2f54402eafc7af54"
-          }
-        ]
-      },
-      {
-        "id": "b58638d81d05b3af",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "786e50f6f92fc401",
-            "type": "leaf",
-            "state": {
-              "type": "media-view",
-              "state": {
-                "info": {
-                  "host": 0,
-                  "id": "fsC3QeZHM1U",
-                  "iframe": "https://www.youtube.com/embed/fsC3QeZHM1U",
-                  "src": "https://www.youtube.com/watch?v=fsC3QeZHM1U",
-                  "hash": ""
-                },
-                "currentTime": 3076.959550005722
-              }
-            },
-            "group": "2f54402eafc7af54"
+            }
           }
         ]
       }
