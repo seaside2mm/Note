@@ -17,8 +17,7 @@
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "95c868224afa6399"
+            }
           },
           {
             "id": "ecf920b5c6f52afc",
@@ -42,32 +41,33 @@
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "04d21885c5f1998c"
           }
         ],
         "currentTab": 2
       },
       {
-        "id": "8b38c1633ef77856",
+        "id": "62401ec0f930c4b1",
         "type": "tabs",
         "children": [
           {
-            "id": "4938d2047d98bbce",
+            "id": "c92055f9e8feaf99",
             "type": "leaf",
             "state": {
               "type": "media-view",
               "state": {
                 "info": {
                   "host": 1,
-                  "id": "BV15P4y1R7VG",
-                  "src": "https://www.bilibili.com/video/BV15P4y1R7VG",
-                  "iframe": "https://player.bilibili.com/player.html?bvid=BV15P4y1R7VG&high_quality=1&danmaku=0",
+                  "id": "BV13w411o7cu",
+                  "src": "https://www.bilibili.com/video/BV13w411o7cu",
+                  "iframe": "https://player.bilibili.com/player.html?bvid=BV13w411o7cu&high_quality=1&danmaku=0",
                   "hash": ""
                 },
-                "currentTime": 958.968359
+                "currentTime": 147.702712
               }
             },
-            "group": "95c868224afa6399"
+            "group": "04d21885c5f1998c"
           }
         ]
       }
@@ -155,7 +155,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/性能调优工具.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +171,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/性能调优工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,9 +192,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "B-书籍/CUDA编程权威指南/性能调优工具.md"
-              }
+              "state": {}
             }
           },
           {
@@ -212,7 +208,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 642.5
+    "width": 642.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,11 +224,11 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "659c76f20df3800b",
+  "active": "c92055f9e8feaf99",
   "lastOpenFiles": [
+    "B-书籍/CUDA编程权威指南/性能调优工具.md",
     "B-书籍/CUDA编程权威指南/常用 GPU 相关命令.md",
     "B-书籍/CUDA编程权威指南/调试工具.md",
-    "B-书籍/CUDA编程权威指南/性能调优工具.md",
     "T-工具/vim使用.md",
     "I-Inbox/(34 条消息) 在 WSL2 上运行 nVIDIA Nsight_SAGAERA 的博客 - CSDN 博客.md",
     "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
