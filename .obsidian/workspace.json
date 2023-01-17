@@ -4,43 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "9e4fa3e84580b67f",
+        "id": "f4203ccb293647a8",
         "type": "tabs",
         "children": [
           {
-            "id": "659c76f20df3800b",
+            "id": "60a36e5c7a33e904",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/常用 GPU 相关命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c54d134ec3a60e54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "B-书籍/CUDA编程权威指南/视频.md",
-                "mode": "source",
+                "file": "B-书籍/CUDA编程权威指南/调试工具.md",
+                "mode": "preview",
                 "source": false
               }
             },
-            "group": "21558ec3908ff78f"
+            "group": "85511ac8bdb2222d"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "c9c4ee2e9fa7e98b",
+        "id": "95d1a12358b129ff",
         "type": "tabs",
         "children": [
           {
-            "id": "89c81cea438b1eb5",
+            "id": "d5039cab67638115",
             "type": "leaf",
             "state": {
               "type": "media-view",
@@ -55,7 +42,7 @@
                 "currentTime": 0
               }
             },
-            "group": "21558ec3908ff78f"
+            "group": "85511ac8bdb2222d"
           }
         ]
       }
@@ -143,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/视频.md",
+                "file": "B-书籍/CUDA编程权威指南/调试工具.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/视频.md",
+                "file": "B-书籍/CUDA编程权威指南/调试工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/视频.md"
+                "file": "B-书籍/CUDA编程权威指南/调试工具.md"
               }
             }
           },
@@ -216,17 +203,17 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "c54d134ec3a60e54",
+  "active": "60a36e5c7a33e904",
   "lastOpenFiles": [
-    "B-书籍/CUDA编程权威指南/常用 GPU 相关命令.md",
     "B-书籍/CUDA编程权威指南/性能调优工具.md",
     "B-书籍/CUDA编程权威指南/调试工具.md",
+    "B-书籍/CUDA编程权威指南/常用 GPU 相关命令.md",
+    "B-书籍/CUDA编程权威指南/视频.md",
     "T-工具/vim使用.md",
     "I-Inbox/(34 条消息) 在 WSL2 上运行 nVIDIA Nsight_SAGAERA 的博客 - CSDN 博客.md",
     "I-Inbox/8-(34 条消息) 参考系列 2：优化库——ceres（二）深入探索 ceres：：Problem_他人是一面镜子，保持谦虚的态度的博客 - CSDN 博客_ceres 固定优化变量@annote.md",
     "I-Inbox/6-Ceres Solver 源码阅读 - Evaluator@annote.md",
     "I-Inbox/7-(34 条消息) 优化库——ceres（一）快速概览_雨 luo 凡城的博客 - CSDN 博客_ceres 优化@annote.md",
-    "L-库/OpenCV/未命名.md",
-    "I-Inbox/5-cuSOLVER API Reference@annote.md"
+    "L-库/OpenCV/未命名.md"
   ]
 }

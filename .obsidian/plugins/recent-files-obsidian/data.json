@@ -1,20 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "视频",
-      "path": "B-书籍/CUDA编程权威指南/视频.md"
-    },
-    {
-      "basename": "常用 GPU 相关命令",
-      "path": "B-书籍/CUDA编程权威指南/常用 GPU 相关命令.md"
+      "basename": "调试工具",
+      "path": "B-书籍/CUDA编程权威指南/调试工具.md"
     },
     {
       "basename": "性能调优工具",
       "path": "B-书籍/CUDA编程权威指南/性能调优工具.md"
     },
     {
-      "basename": "调试工具",
-      "path": "B-书籍/CUDA编程权威指南/调试工具.md"
+      "basename": "常用 GPU 相关命令",
+      "path": "B-书籍/CUDA编程权威指南/常用 GPU 相关命令.md"
     },
     {
       "basename": "vim使用",
