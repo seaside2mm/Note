@@ -17,32 +17,7 @@
                 "mode": "preview",
                 "source": false
               }
-            },
-            "group": "85511ac8bdb2222d"
-          }
-        ]
-      },
-      {
-        "id": "95d1a12358b129ff",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d5039cab67638115",
-            "type": "leaf",
-            "state": {
-              "type": "media-view",
-              "state": {
-                "info": {
-                  "host": 0,
-                  "id": "nAsMhH1tnYw",
-                  "iframe": "https://www.youtube.com/embed/nAsMhH1tnYw",
-                  "src": "https://www.youtube.com/watch?v=nAsMhH1tnYw&list=PL6RdenZrxrw-zNX7uuGppWETdxt_JxdMj&index=12&t=258s",
-                  "hash": ""
-                },
-                "currentTime": 0
-              }
-            },
-            "group": "85511ac8bdb2222d"
+            }
           }
         ]
       }
