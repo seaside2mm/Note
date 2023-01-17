@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/性能调优工具.md",
-                "mode": "preview",
+                "file": "B-书籍/CUDA编程权威指南/调试工具.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e6e0923f74be1f25",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/性能调优工具.md",
+                "file": "B-书籍/CUDA编程权威指南/调试工具.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/性能调优工具.md",
+                "file": "B-书籍/CUDA编程权威指南/调试工具.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "B-书籍/CUDA编程权威指南/性能调优工具.md"
+                "file": "B-书籍/CUDA编程权威指南/调试工具.md"
               }
             }
           },
