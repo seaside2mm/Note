@@ -4,83 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f4203ccb293647a8",
+        "id": "0fca627475ec8277",
         "type": "tabs",
         "children": [
           {
-            "id": "60a36e5c7a33e904",
+            "id": "a95bdab15a16a13b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "B-书籍/CUDA编程权威指南/调试工具.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7251f691e73f9ba0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L-库/G2O/未命名.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5bea3df429b33b61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L-库/G2O/未命名 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "81304d2738008038",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L-库/G2O/未命名 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e67e7247972c2ba0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L-库/G2O/未命名 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "051f72acf97707e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L-库/G2O/未命名.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -166,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/G2O/未命名.md",
+                "file": "L-库/Eigen/未命名 2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/G2O/未命名.md",
+                "file": "L-库/Eigen/未命名 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/G2O/未命名.md"
+                "file": "L-库/Eigen/未命名 2.md"
               }
             }
           },
@@ -239,17 +174,17 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "051f72acf97707e2",
+  "active": "5186dddb7992a812",
   "lastOpenFiles": [
+    "L-库/Eigen/未命名 1.md",
+    "L-库/Eigen/未命名.md",
+    "L-库/G2O/未命名 7.md",
+    "L-库/G2O/未命名 6.md",
     "L-库/G2O/未命名 5.md",
     "L-库/G2O/未命名 4.md",
     "L-库/G2O/未命名 3.md",
+    "L-库/G2O/未命名 2.md",
     "L-库/G2O/未命名 1.md",
-    "L-库/G2O/未命名.md",
-    "B-书籍/CUDA编程权威指南/调试工具.md",
-    "B-书籍/CUDA编程权威指南/性能调优工具.md",
-    "B-书籍/CUDA编程权威指南/常用 GPU 相关命令.md",
-    "B-书籍/CUDA编程权威指南/视频.md",
-    "T-工具/vim使用.md"
+    "L-库/G2O/未命名.md"
   ]
 }

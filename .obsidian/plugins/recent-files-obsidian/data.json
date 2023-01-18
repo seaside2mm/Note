@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名 2",
+      "path": "L-库/Eigen/未命名 2.md"
+    },
+    {
+      "basename": "未命名 1",
+      "path": "L-库/Eigen/未命名 1.md"
+    },
+    {
       "basename": "未命名",
-      "path": "L-库/G2O/未命名.md"
+      "path": "L-库/Eigen/未命名.md"
+    },
+    {
+      "basename": "未命名 7",
+      "path": "L-库/G2O/未命名 7.md"
+    },
+    {
+      "basename": "未命名 6",
+      "path": "L-库/G2O/未命名 6.md"
     },
     {
       "basename": "未命名 5",
@@ -17,28 +33,12 @@
       "path": "L-库/G2O/未命名 3.md"
     },
     {
+      "basename": "未命名 2",
+      "path": "L-库/G2O/未命名 2.md"
+    },
+    {
       "basename": "未命名 1",
       "path": "L-库/G2O/未命名 1.md"
-    },
-    {
-      "basename": "调试工具",
-      "path": "B-书籍/CUDA编程权威指南/调试工具.md"
-    },
-    {
-      "basename": "性能调优工具",
-      "path": "B-书籍/CUDA编程权威指南/性能调优工具.md"
-    },
-    {
-      "basename": "常用 GPU 相关命令",
-      "path": "B-书籍/CUDA编程权威指南/常用 GPU 相关命令.md"
-    },
-    {
-      "basename": "vim使用",
-      "path": "T-工具/vim使用.md"
-    },
-    {
-      "basename": "(34 条消息) 在 WSL2 上运行 nVIDIA Nsight_SAGAERA 的博客 - CSDN 博客",
-      "path": "I-Inbox/(34 条消息) 在 WSL2 上运行 nVIDIA Nsight_SAGAERA 的博客 - CSDN 博客.md"
     }
   ],
   "omittedPaths": [],
