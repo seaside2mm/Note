@@ -173,7 +173,6 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
       "workspaces:管理工作区布局": false,
       "obsidian-advanced-slides:Show Slide Preview": false
     }
