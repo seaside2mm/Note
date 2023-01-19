@@ -9,5 +9,6 @@
     "zh-CN",
     "en-US"
   ],
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "spellcheck": true
 }

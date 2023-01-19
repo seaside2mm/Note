@@ -1,9 +1,7 @@
 [
-  "obsidian-excalidraw-plugin",
   "obsidian-kanban",
   "templater-obsidian",
   "calendar",
-  "obsidian-enhancing-mindmap",
   "obsidian-gist",
   "media-extended",
   "mx-bili-plugin",
@@ -18,6 +16,5 @@
   "various-complements",
   "obsidian-style-settings",
   "obsidian-local-rest-api",
-  "obsidian-annotator",
   "oz-image-plugin"
 ]
