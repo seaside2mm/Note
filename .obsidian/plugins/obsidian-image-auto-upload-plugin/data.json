@@ -1,9 +1,9 @@
 {
   "uploadByClipSwitch": true,
   "uploader": "PicGo",
-  "uploadServer": "momo",
+  "uploadServer": "127.0.0.1:36677",
   "picgoCorePath": "",
-  "workOnNetWork": false,
+  "workOnNetWork": true,
   "fixPath": false,
   "applyImage": true,
   "newWorkBlackDomains": ""
