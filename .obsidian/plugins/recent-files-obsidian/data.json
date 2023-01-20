@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "稀疏矩阵",
+      "path": "L-库/Eigen/稀疏矩阵.md"
+    },
+    {
+      "basename": "四元数",
+      "path": "L-库/Eigen/四元数.md"
+    },
+    {
+      "basename": "矩阵",
+      "path": "L-库/Eigen/矩阵.md"
+    },
+    {
       "basename": "【C++】Eigen サンプルコード - Qiita",
       "path": "I-Inbox/【C++】Eigen サンプルコード - Qiita.md"
     },
@@ -27,18 +39,6 @@
     {
       "basename": "未命名",
       "path": "L-库/OpenCV/未命名.md"
-    },
-    {
-      "basename": "未命名 6",
-      "path": "L-库/G2O/未命名 6.md"
-    },
-    {
-      "basename": "未命名 2",
-      "path": "L-库/Eigen/未命名 2.md"
-    },
-    {
-      "basename": "未命名 1",
-      "path": "L-库/Eigen/未命名 1.md"
     }
   ],
   "omittedPaths": [],

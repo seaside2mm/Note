@@ -6,15 +6,7 @@ tag:
 summary: 行列計算ライブラリ Eigen のサンプルコード
 係数毎の計算には Array 型を使う。
 ---
-info
 
-More than 3 years have passed since last update.
-
-[![](https://qiita-user-profile-images.imgix.net/https%3A%2F%2Fqiita-image-store.s3.ap-northeast-1.amazonaws.com%2F0%2F101580%2Fprofile-images%2F1579846348?ixlib=rb-4.0.0&auto=compress%2Cformat&lossless=0&w=48&s=02d7d2f74c39d4d6712e0bb7bbf140fd)](https://qiita.com/kenichi-t)
-
-posted at 2015-12-01
-
-updated at 2019-04-27
 
 行列計算ライブラリ Eigen のサンプルコード  
 係数毎の計算には Array 型を使う。  
