@@ -1,9 +1,10 @@
 {
-  "accentColor": "#9ba17d",
+  "accentColor": "#b6a863",
   "cssTheme": "Blue Topaz",
   "translucency": false,
   "theme": "obsidian",
   "enabledCssSnippets": [
     "obsidian"
-  ]
+  ],
+  "baseFontSize": 16
 }

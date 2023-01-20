@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "源码1-顶点和边的抽象",
+      "path": "L-库/G2O/源码1-顶点和边的抽象.md"
+    },
+    {
       "basename": "Eigen 学习与使用笔记 1",
       "path": "L-库/Eigen/Eigen 学习与使用笔记 1.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "几种常用线性方程组的直接解法探究",
       "path": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md"
-    },
-    {
-      "basename": "矩阵分解",
-      "path": "A-专业知识/线性代数与矩阵论/矩阵分解.md"
     }
   ],
   "omittedPaths": [],
