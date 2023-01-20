@@ -1,3 +1,11 @@
 {
-  "blue-topaz-theme@@transparent-setting-panel": false
+  "blue-topaz-theme@@transparent-setting-panel": false,
+  "Blue-Topaz-Codebox-Highlight@@mute-code-indent-line": true,
+  "Blue-Topaz-Codebox-Highlight@@code-line-number": true,
+  "Blue-Topaz-Codebox-Highlight@@whole-code-wrap": true,
+  "Blue-Topaz-Codebox-Highlight@@nowrap-edit-codebox": false,
+  "Blue-Topaz-Codebox-Highlight@@letter-space-code": 0.4,
+  "Blue-Topaz-Codebox-Highlight@@code-box-style-option": "codebox-frosted-glass",
+  "Blue-Topaz-Codebox-Highlight@@blur-codebox-frosted-glass": 1,
+  "Blue-Topaz-Codebox-Highlight@@remove-language-type": false
 }
