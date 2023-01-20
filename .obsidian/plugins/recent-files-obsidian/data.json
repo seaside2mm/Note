@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "四元数",
+      "path": "L-库/Eigen/四元数.md"
+    },
+    {
+      "basename": "Eigen 学习与使用笔记 2",
+      "path": "L-库/Eigen/Eigen 学习与使用笔记 2.md"
+    },
+    {
+      "basename": "矩阵",
+      "path": "L-库/Eigen/矩阵.md"
+    },
+    {
       "basename": "源码1-顶点和边的抽象",
       "path": "L-库/G2O/源码1-顶点和边的抽象.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "稀疏矩阵",
       "path": "L-库/Eigen/稀疏矩阵.md"
-    },
-    {
-      "basename": "四元数",
-      "path": "L-库/Eigen/四元数.md"
     },
     {
       "basename": "未命名 4",
@@ -29,16 +37,8 @@
       "path": "L-库/Eigen/Eigen 库使用笔记 – zxl19 – 一个工程师的存档点.md"
     },
     {
-      "basename": "矩阵",
-      "path": "L-库/Eigen/矩阵.md"
-    },
-    {
       "basename": "6-Ceres Solver 源码阅读 - Evaluator@annote",
       "path": "L-库/Ceres/6-Ceres Solver 源码阅读 - Evaluator@annote.md"
-    },
-    {
-      "basename": "几种常用线性方程组的直接解法探究",
-      "path": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L-库/G2O/源码1-顶点和边的抽象.md",
+                "file": "L-库/Eigen/四元数.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/G2O/源码1-顶点和边的抽象.md",
+                "file": "L-库/Eigen/四元数.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/G2O/源码1-顶点和边的抽象.md",
+                "file": "L-库/Eigen/四元数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,16 +145,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/G2O/源码1-顶点和边的抽象.md"
+                "file": "L-库/Eigen/四元数.md"
               }
-            }
-          },
-          {
-            "id": "c32c8e942f08ef26",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           }
         ],
@@ -172,21 +164,20 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
-      "workspaces:管理工作区布局": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "workspaces:管理工作区布局": false
     }
   },
   "active": "d48abb17a6b8fe71",
   "lastOpenFiles": [
+    "L-库/Eigen/Eigen 学习与使用笔记 2.md",
+    "L-库/Eigen/矩阵.md",
+    "L-库/G2O/源码1-顶点和边的抽象.md",
     "L-库/Eigen/Eigen 学习与使用笔记 1.md",
     "L-库/Eigen/稀疏矩阵.md",
     "L-库/Eigen/四元数.md",
     "L-库/G2O/未命名 4.md",
     "L-库/G2O/未命名 7.md",
     "L-库/Eigen/Eigen 库使用笔记 – zxl19 – 一个工程师的存档点.md",
-    "L-库/Eigen/矩阵.md",
-    "L-库/Ceres/6-Ceres Solver 源码阅读 - Evaluator@annote.md",
-    "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
-    "A-专业知识/线性代数与矩阵论/矩阵分解.md"
+    "L-库/Ceres/6-Ceres Solver 源码阅读 - Evaluator@annote.md"
   ]
 }
