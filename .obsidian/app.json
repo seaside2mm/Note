@@ -13,5 +13,6 @@
   "spellcheck": true,
   "showIndentGuide": true,
   "showFrontmatter": false,
-  "strictLineBreaks": true
+  "strictLineBreaks": false,
+  "readableLineLength": false
 }
