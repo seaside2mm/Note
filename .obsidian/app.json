@@ -4,11 +4,14 @@
   "attachmentFolderPath": "Z-附件",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "spellcheckLanguages": [
     "zh-CN",
     "en-US"
   ],
   "useMarkdownLinks": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "showIndentGuide": true,
+  "showFrontmatter": false,
+  "strictLineBreaks": true
 }
