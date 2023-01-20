@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "6-Ceres Solver 源码阅读 - Evaluator@annote",
-      "path": "I-Inbox/6-Ceres Solver 源码阅读 - Evaluator@annote.md"
-    },
-    {
       "basename": "Eigen 库使用笔记 – zxl19 – 一个工程师的存档点",
       "path": "L-库/Eigen/Eigen 库使用笔记 – zxl19 – 一个工程师的存档点.md"
+    },
+    {
+      "basename": "四元数",
+      "path": "L-库/Eigen/四元数.md"
+    },
+    {
+      "basename": "矩阵",
+      "path": "L-库/Eigen/矩阵.md"
+    },
+    {
+      "basename": "6-Ceres Solver 源码阅读 - Evaluator@annote",
+      "path": "L-库/Ceres/6-Ceres Solver 源码阅读 - Evaluator@annote.md"
     },
     {
       "basename": "Eigen 学习与使用笔记 1",
@@ -31,14 +39,6 @@
     {
       "basename": "稀疏矩阵",
       "path": "L-库/Eigen/稀疏矩阵.md"
-    },
-    {
-      "basename": "四元数",
-      "path": "L-库/Eigen/四元数.md"
-    },
-    {
-      "basename": "矩阵",
-      "path": "L-库/Eigen/矩阵.md"
     }
   ],
   "omittedPaths": [],
