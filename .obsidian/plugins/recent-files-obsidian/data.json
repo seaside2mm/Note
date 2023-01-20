@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "6-Ceres Solver 源码阅读 - Evaluator@annote",
+      "path": "I-Inbox/6-Ceres Solver 源码阅读 - Evaluator@annote.md"
+    },
+    {
+      "basename": "Eigen 库使用笔记 – zxl19 – 一个工程师的存档点",
+      "path": "L-库/Eigen/Eigen 库使用笔记 – zxl19 – 一个工程师的存档点.md"
+    },
+    {
+      "basename": "Eigen 学习与使用笔记 1",
+      "path": "L-库/Eigen/Eigen 学习与使用笔记 1.md"
+    },
+    {
       "basename": "几种常用线性方程组的直接解法探究",
       "path": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md"
     },
@@ -27,18 +39,6 @@
     {
       "basename": "矩阵",
       "path": "L-库/Eigen/矩阵.md"
-    },
-    {
-      "basename": "【C++】Eigen サンプルコード - Qiita",
-      "path": "I-Inbox/【C++】Eigen サンプルコード - Qiita.md"
-    },
-    {
-      "basename": "源码1-顶点和边的抽象",
-      "path": "L-库/G2O/源码1-顶点和边的抽象.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "L-库/G2O/未命名.md"
     }
   ],
   "omittedPaths": [],
