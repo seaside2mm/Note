@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "几种常用线性方程组的直接解法探究",
+      "path": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md"
+    },
+    {
       "basename": "稀疏矩阵",
       "path": "L-库/Eigen/稀疏矩阵.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "调试工具",
       "path": "B-书籍/CUDA编程权威指南/调试工具.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "L-库/OpenCV/未命名.md"
     }
   ],
   "omittedPaths": [],
