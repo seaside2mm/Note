@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "未命名 4",
+      "path": "L-库/G2O/未命名 4.md"
+    },
+    {
+      "basename": "未命名 3",
+      "path": "L-库/G2O/未命名 3.md"
+    },
+    {
       "basename": "几种常用线性方程组的直接解法探究",
       "path": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md"
     },
@@ -31,14 +39,6 @@
     {
       "basename": "未命名 7",
       "path": "L-库/G2O/未命名 7.md"
-    },
-    {
-      "basename": "源码2-顶点和边",
-      "path": "L-库/G2O/源码2-顶点和边.md"
-    },
-    {
-      "basename": "调试工具",
-      "path": "B-书籍/CUDA编程权威指南/调试工具.md"
     }
   ],
   "omittedPaths": [],

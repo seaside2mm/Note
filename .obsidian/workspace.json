@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cd698b0a188d04ed",
+        "id": "e9d66dafa785825c",
         "type": "tabs",
         "children": [
           {
-            "id": "023526c069358418",
+            "id": "1082b7483e632ae7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -105,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
+                "file": "L-库/G2O/未命名 4.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
+                "file": "L-库/G2O/未命名 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md"
+                "file": "L-库/G2O/未命名 4.md"
               }
             }
           },
@@ -162,8 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,8 +172,9 @@
       "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "023526c069358418",
+  "active": "5186dddb7992a812",
   "lastOpenFiles": [
+    "L-库/G2O/未命名 3.md",
     "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
     "L-库/Eigen/稀疏矩阵.md",
     "L-库/Eigen/四元数.md",
@@ -187,7 +183,6 @@
     "L-库/G2O/源码1-顶点和边的抽象.md",
     "L-库/G2O/未命名.md",
     "L-库/G2O/未命名 7.md",
-    "L-库/G2O/源码2-顶点和边.md",
-    "B-书籍/CUDA编程权威指南/调试工具.md"
+    "L-库/G2O/源码2-顶点和边.md"
   ]
 }
