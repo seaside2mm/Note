@@ -14,5 +14,5 @@
   "showIndentGuide": true,
   "showFrontmatter": false,
   "strictLineBreaks": false,
-  "readableLineLength": false
+  "readableLineLength": true
 }
