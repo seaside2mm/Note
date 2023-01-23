@@ -89,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 465.5,
-    "collapsed": true
+    "width": 465.5
   },
   "right": {
     "id": "e6e0923f74be1f25",
@@ -168,7 +167,7 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "d48abb17a6b8fe71",
+  "active": "5186dddb7992a812",
   "lastOpenFiles": [
     "L-库/Eigen/四元数.md",
     "L-库/Eigen/Eigen 学习与使用笔记 2.md",
