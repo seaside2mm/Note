@@ -4,7 +4,7 @@
   "translucency": false,
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "obsidian"
+    "page-width"
   ],
   "baseFontSize": 17,
   "nativeMenus": true
