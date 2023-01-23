@@ -149,9 +149,17 @@
                 "file": "L-库/CUDA-bundle-adjustment/基本数据结构.md"
               }
             }
+          },
+          {
+            "id": "2731f87e1713d6f0",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -167,10 +175,11 @@
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "ea271b39de6bbf3f",
+  "active": "2731f87e1713d6f0",
   "lastOpenFiles": [
     "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md",
     "Excalidraw/Drawing 2023-01-23 13.51.33.excalidraw.md",
