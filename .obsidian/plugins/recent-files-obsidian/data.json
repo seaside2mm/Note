@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Drawing 2023-01-23 13.51.33.excalidraw",
+      "path": "Excalidraw/Drawing 2023-01-23 13.51.33.excalidraw.md"
+    },
+    {
       "basename": "基本数据结构",
       "path": "L-库/CUDA-bundle-adjustment/基本数据结构.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "稀疏矩阵",
       "path": "L-库/Eigen/稀疏矩阵.md"
-    },
-    {
-      "basename": "未命名 4",
-      "path": "L-库/G2O/未命名 4.md"
     }
   ],
   "omittedPaths": [],
