@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "基本数据结构",
+      "path": "L-库/CUDA-bundle-adjustment/基本数据结构.md"
+    },
+    {
+      "basename": "CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo",
+      "path": "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md"
+    },
+    {
       "basename": "Eigen 学习与使用笔记 3",
       "path": "L-库/Eigen/Eigen 学习与使用笔记 3.md"
     },
@@ -31,14 +39,6 @@
     {
       "basename": "未命名 4",
       "path": "L-库/G2O/未命名 4.md"
-    },
-    {
-      "basename": "未命名 7",
-      "path": "L-库/G2O/未命名 7.md"
-    },
-    {
-      "basename": "Eigen 库使用笔记 – zxl19 – 一个工程师的存档点",
-      "path": "L-库/Eigen/Eigen 库使用笔记 – zxl19 – 一个工程师的存档点.md"
     }
   ],
   "omittedPaths": [],
