@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/基本数据结构.md",
+                "file": "L-库/Eigen/稀疏矩阵.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/基本数据结构.md",
+                "file": "L-库/Eigen/稀疏矩阵.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/基本数据结构.md",
+                "file": "L-库/Eigen/稀疏矩阵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/基本数据结构.md"
+                "file": "L-库/Eigen/稀疏矩阵.md"
               }
             }
           },
@@ -182,9 +182,9 @@
   },
   "active": "ea271b39de6bbf3f",
   "lastOpenFiles": [
+    "L-库/CUDA-bundle-adjustment/基本数据结构.md",
     "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md",
     "Excalidraw/Drawing 2023-01-23 13.51.33.excalidraw.md",
-    "L-库/CUDA-bundle-adjustment/基本数据结构.md",
     "L-库/Eigen/Eigen 学习与使用笔记 3.md",
     "L-库/Eigen/四元数.md",
     "L-库/Eigen/Eigen 学习与使用笔记 2.md",

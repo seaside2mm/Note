@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "稀疏矩阵",
+      "path": "L-库/Eigen/稀疏矩阵.md"
+    },
+    {
       "basename": "基本数据结构",
       "path": "L-库/CUDA-bundle-adjustment/基本数据结构.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Eigen 学习与使用笔记 1",
       "path": "L-库/Eigen/Eigen 学习与使用笔记 1.md"
-    },
-    {
-      "basename": "稀疏矩阵",
-      "path": "L-库/Eigen/稀疏矩阵.md"
     }
   ],
   "omittedPaths": [],
