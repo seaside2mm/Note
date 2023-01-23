@@ -17,5 +17,8 @@
   "obsidian-plantuml",
   "obsidian-excalidraw-plugin",
   "obsidian42-brat",
-  "Enhanced-editing"
+  "Enhanced-editing",
+  "markdown-prettifier",
+  "obsidian-markdown-formatting-assistant-plugin",
+  "cm-editor-syntax-highlight-obsidian"
 ]
