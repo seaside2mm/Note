@@ -1,28 +1,16 @@
-
-:root {
-	--color-monospace: khaki;
+.markdown-preview-view pre,
+.markdown-preview-view code :not(pre) {
+  overflow-x: auto;
+  white-space: pre;
 }
 
-.markdown-source-view {
-	font-family: var(--font-monospace);
+.markdown-rendered div > pre > code {
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
-code, pre {
-	word-wrap: break-word;
-	white-space: pre;
-	overflow-x: auto;
-	font-size: 0.95em;
-	line-height: 1.5;
-}
-
-.markdown-preview-view code,
-.cm-s-obsidian .HyperMD-codeblock,
-.cm-s-obsidian span.cm-inline-code {
-	color: var(--color-monospace);
-	-webkit-font-smoothing: auto;
-	font-size: 0.95em;
-}
-
-.cm-s-obsidian .HyperMD-codeblock {
-	line-height: 1.5;
+.markdown-preview-view code[class*="lang"] {
+  overflow-x: auto;
+  white-space: pre;
 }
