@@ -70,6 +70,14 @@
           "lastUpdated": 1673948077960
         }
       }
+    },
+    "const": {
+      "const": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674460601540
+        }
+      }
     }
   }
 }
