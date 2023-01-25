@@ -102,6 +102,8 @@ using GpuLx1BlockVec = DeviceBlockVector<Scalar, LDIM, 1>;
 
 ### BlockPtr：  连续矩阵块的索引
 
+^ff5765
+
 -  `T* data_ `：GPU 内存，连续矩阵块
 
 ``` c++

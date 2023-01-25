@@ -1,5 +1,7 @@
 
 
+[[device_matrix#BlockPtr： 连续矩阵块的索引]]
+
 ```cpp
 template <int N>
 using Vecxd = Vec<Scalar, N>;
@@ -42,6 +44,10 @@ struct LessColId
 ```
 
 
+## MatView
+
+
+
 
 ```cpp
 template <typename T, int ROWS, int COLS>
@@ -52,13 +58,6 @@ struct MatView
 	T* data;
 };
 
-template <typename T, int ROWS, int COLS>
-struct ConstMatView
-{
-	__device__ inline T operator()(int i, int j) const { return data[j * ROWS + i]; }
-	__device__ inline ConstMatView(const T* data) : data(data) {}
-	const T* data;
-};
 
 template <typename T, int ROWS, int COLS>
 struct Matx
@@ -73,6 +72,5 @@ struct Matx
 };
 
 using MatView3x3d = MatView<Scalar, 3, 3>;
-using ConstMatView3x3d = ConstMatView<Scalar, 3, 3>;
 
 ```
