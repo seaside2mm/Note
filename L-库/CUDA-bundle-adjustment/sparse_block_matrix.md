@@ -1,6 +1,6 @@
 
 
-```c++
+```cpp
 
 template <int _BLOCK_ROWS, int _BLOCK_COLS, int ORDER>
 class SparseBlockMatrix
@@ -44,47 +44,38 @@ protected:
 };
 ```
 
-```c++
 
-template <int _BLOCK_ROWS, int _BLOCK_COLS, int ORDER>
-class SparseBlockMatrix
+
+```cpp
+
+struct HplBlockPos { int row, col, id; };
+
+class HplSparseBlockMatrix : public SparseBlockMatrix<PDIM, LDIM, COL_MAJOR>
 {
 public:
 
-	static const int BLOCK_ROWS = _BLOCK_ROWS;
-	static const int BLOCK_COLS = _BLOCK_COLS;
-	static const int BLOCK_AREA = BLOCK_ROWS * BLOCK_COLS;
+	void constructFromBlockPos(std::vector<HplBlockPos>& blockpos);
+};
 
-	void resize(int brows, int bcols)
-	{
-		brows_ = brows;
-		bcols_ = bcols;
-		outerSize_ = ORDER == ROW_MAJOR ? brows : bcols;
-		innerSize_ = ORDER == ROW_MAJOR ? bcols : brows;
-		outerIndices_.resize(outerSize_ + 1);
-	}
+class HschurSparseBlockMatrix : public SparseBlockMatrix<PDIM, PDIM, ROW_MAJOR>
+{
+public:
 
-	void resizeNonzeros(int nblocks)
-	{
-		nblocks_ = nblocks;
-		innerIndices_.resize(nblocks);
-	}
+	void constructFromVertices(const std::vector<VertexL*>& verticesL);
+	void convertBSRToCSR();
 
-	int* outerIndices() { return outerIndices_.data(); }
-	int* innerIndices() { return innerIndices_.data(); }
-	const int* outerIndices() const { return outerIndices_.data(); }
-	const int* innerIndices() const { return innerIndices_.data(); }
+	const int* rowPtr() const { return rowPtr_.data(); }
+	const int* colInd() const { return colInd_.data(); }
+	const int* BSR2CSR() const { return BSR2CSR_.data(); }
 
-	int brows() const { return brows_; }
-	int bcols() const { return bcols_; }
-	int nblocks() const { return nblocks_; }
-	int rows() const { return brows_ * BLOCK_ROWS; }
-	int cols() const { return bcols_ * BLOCK_COLS; }
+	int nnzTrig() const { return nblocks_ * BLOCK_AREA; }
+	int nnzSymm() const { return (2 * nblocks_ - brows_) * BLOCK_AREA; }
+	int nmulBlocks() const { return nmultiplies_; }
 
-protected:
+private:
 
-	Eigen::VectorXi outerIndices_, innerIndices_;
-	int brows_, bcols_, nblocks_, outerSize_, innerSize_;
+	int nmultiplies_;
+	Eigen::VectorXi rowPtr_, colInd_, nnzPerRow_, BSR2CSR_;
 };
 ```
 
