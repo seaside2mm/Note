@@ -85,6 +85,12 @@ using GpuVec2d = GpuVec<Vec2d>;
 using GpuVec1i = GpuVec<int>;
 using GpuVec1b = GpuVec<uint8_t>;
 
+
+template <int N>
+using Vecxd = Vec<Scalar, N>;
+template <int N>
+using GpuVecxd = GpuVec<Vecxd<N>>;
+
 using GpuHplBlockMat = DeviceBlockMatrix<Scalar, PDIM, LDIM, COL_MAJOR>;
 using GpuHscBlockMat = DeviceBlockMatrix<Scalar, PDIM, PDIM, ROW_MAJOR>;
 
@@ -114,6 +120,18 @@ class BlockPtr
 	__device__ T* at(int i) { return data_ + i * BLOCK_AREA; }
 	__device__ const T* at(int i) const { return data_ + i * BLOCK_AREA; }
 };
+```
+
+
+
+```cpp
+
+
+using PxPBlockPtr = BlockPtr<Scalar, PDIM, PDIM>;
+using LxLBlockPtr = BlockPtr<Scalar, LDIM, LDIM>;
+using PxLBlockPtr = BlockPtr<Scalar, PDIM, LDIM>;
+using Px1BlockPtr = BlockPtr<Scalar, PDIM, 1>;
+using Lx1BlockPtr = BlockPtr<Scalar, LDIM, 1>;
 ```
 
 

@@ -1,22 +1,5 @@
 
 
-[[device_matrix#BlockPtr： 连续矩阵块的索引]]
-
-```cpp
-template <int N>
-using Vecxd = Vec<Scalar, N>;
-
-template <int N>
-using GpuVecxd = GpuVec<Vecxd<N>>;
-
-using PxPBlockPtr = BlockPtr<Scalar, PDIM, PDIM>;
-using LxLBlockPtr = BlockPtr<Scalar, LDIM, LDIM>;
-using PxLBlockPtr = BlockPtr<Scalar, PDIM, LDIM>;
-using Px1BlockPtr = BlockPtr<Scalar, PDIM, 1>;
-using Lx1BlockPtr = BlockPtr<Scalar, LDIM, 1>;
-```
-
-
 
 ```cpp
 
@@ -47,7 +30,8 @@ struct LessColId
 ## MatView 
 
 - MatView：对一块设备内存，进行数据读取 
-- Matx：
+- Matx：创建一块内存，并进行矩阵元素的读取
+
 ```cpp
 template <typename T, int ROWS, int COLS>
 struct MatView
@@ -71,3 +55,4 @@ struct Matx
 using MatView3x3d = MatView<Scalar, 3, 3>;
 
 ```
+
