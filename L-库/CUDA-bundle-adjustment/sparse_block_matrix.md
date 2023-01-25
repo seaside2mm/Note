@@ -38,7 +38,7 @@ public:
 ```
 
 
-
+## HplSparseBlockMatrix
 ```cpp
 struct HplBlockPos { int row, col, id; };
 
@@ -50,7 +50,8 @@ public:
 ```
 
 
-https://github.com/fixstars/cuda-bundle-adjustment/blob/master/src/sparse_block_matrix.cpp#L24
+<iframe src=" https://github.com/fixstars/cuda-bundle-adjustment/blob/master/src/sparse_block_matrix.cpp#L24" width=100% height="500px" frameborder="0" scrolling="auto">
+</iframe>
 
 <iframe src="" width=100% height="500px" frameborder="0" scrolling="auto"></iframe>
 
