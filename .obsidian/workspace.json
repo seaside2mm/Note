@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "B-书籍/pdf/cuda-programming.pdf",
+                "file": "L-库/Eigen/SparseCore.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "B-书籍/pdf/cuda-programming.pdf",
+                "file": "L-库/Eigen/SparseCore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "B-书籍/pdf/cuda-programming.pdf"
+                "file": "L-库/Eigen/SparseCore.md"
               }
             }
           },
@@ -249,11 +249,11 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "ea271b39de6bbf3f",
+  "active": "875b9271d2c20a91",
   "lastOpenFiles": [
+    "B-书籍/pdf/cuda-programming.pdf",
     "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
     "L-库/Eigen/SparseCore.md",
-    "B-书籍/pdf/cuda-programming.pdf",
     "L-库/Eigen/Sparse Module.md",
     "L-库/Eigen/使用示例-稀疏矩阵.md",
     "T-工具/Obsidian使用.md",
