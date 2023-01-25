@@ -45,9 +45,11 @@
             "id": "875b9271d2c20a91",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "B-书籍/pdf/cuda-programming.pdf"
+                "file": "L-库/Eigen/稀疏矩阵.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -150,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "B-书籍/pdf/cuda-programming.pdf",
+                "file": "L-库/Eigen/稀疏矩阵.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "B-书籍/pdf/cuda-programming.pdf",
+                "file": "L-库/Eigen/稀疏矩阵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "B-书籍/pdf/cuda-programming.pdf"
+                "file": "L-库/Eigen/稀疏矩阵.md"
               }
             }
           },
@@ -225,12 +227,12 @@
   },
   "active": "875b9271d2c20a91",
   "lastOpenFiles": [
-    "L-库/Eigen/稀疏矩阵.md",
-    "T-工具/Obsidian使用.md",
     "B-书籍/pdf/cuda-programming.pdf",
+    "L-库/Eigen/稀疏矩阵.md",
+    "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
+    "T-工具/Obsidian使用.md",
     "T-工具/VS code使用.md",
     "T-工具/My File.pdf.md",
-    "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
     "L-库/CUDA-bundle-adjustment/device_matrix.md",
     "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md",
     "Excalidraw/Drawing 2023-01-23 13.51.33.excalidraw.md",
