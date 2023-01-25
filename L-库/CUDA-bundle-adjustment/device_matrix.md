@@ -1,9 +1,6 @@
 
 
-##  `scalar.h`
-`using Scalar = double;`
-
-##  `fixed_vector.h`
+##  fixed_vector
 
 ```c++
 #define HOST_DEVICE __host__ __device__ inline
@@ -17,7 +14,7 @@ struct Vec
 ```
 
 
-##  `device_buffer.h`
+##  device_buffer
 
 - `T* data_` :  数据首地址
 - `size_t size_, capacity_` : 数据大小
@@ -75,8 +72,7 @@ public:
 
 ```
 
-##  `device_matrix.h`
-
+##  device_matrix
 
 ### 需要的类型
 
