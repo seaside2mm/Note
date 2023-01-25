@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "基本数据结构",
-      "path": "L-库/CUDA-bundle-adjustment/基本数据结构.md"
-    },
-    {
       "basename": "稀疏矩阵",
       "path": "L-库/Eigen/稀疏矩阵.md"
+    },
+    {
+      "basename": "Obsidian使用",
+      "path": "T-工具/Obsidian使用.md"
+    },
+    {
+      "basename": "基本数据结构",
+      "path": "L-库/CUDA-bundle-adjustment/基本数据结构.md"
     },
     {
       "basename": "CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo",
@@ -35,10 +39,6 @@
     {
       "basename": "源码1-顶点和边的抽象",
       "path": "L-库/G2O/源码1-顶点和边的抽象.md"
-    },
-    {
-      "basename": "Eigen 学习与使用笔记 1",
-      "path": "L-库/Eigen/Eigen 学习与使用笔记 1.md"
     }
   ],
   "omittedPaths": [],
