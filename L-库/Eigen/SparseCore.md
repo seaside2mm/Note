@@ -35,12 +35,16 @@ Eigen的操作总是返回压缩模式的稀疏矩阵。当向一个SparseMatrix
 
 下面使用 sm 表示稀疏矩阵，sv 表示稀疏向量，dm 表示密集矩阵，dv 表示密集向量。
 
-基本操作
-
 稀疏矩阵支持大多数的逐元素的一元操作符和二元操作符。
 
-  
 
+  
+ <iframe src=" https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221021170058.png" width=100% height="500px" frameborder="0" scrolling="auto"></iframe>
+
+  
+https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221021170209.png
+  
+  
 
 ## 模板参数
 
@@ -99,16 +103,7 @@ mat.makeCompressed(); //压缩剩余的空间
 是 SparseMatrix 的一个特例，只有 `Values` 和 `InnerIndices` 数组。没有压缩和非压缩的区别。
 
   
-  
-
-[20221021170058](https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221021170058.png)
-
-  
-
-[20221021170209](https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221021170209.png)
-
-  
-  
+ 
   
 
 # 例子
