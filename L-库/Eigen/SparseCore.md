@@ -6,31 +6,20 @@
 
 ##  `SparseMatrix` 
 
-是 Eigen 的稀疏模块的最主要的稀疏矩阵。它实现了 `Compressed Column (or Row) Storage` 方案。
+## CCS or CRS
+是 Eigen 的稀疏模块的最主要的稀疏矩阵。如果中间没有留未占用的空间，就是压缩模式。对应于 `Compressed Column (or Row) Storage Schemes (CCS or CRS)`。
+
+SparseMatrix 包含了 4 个精简的数组：
+* Values: 存储非零元素
+* InnerIndices: 存储非零元素的行/列索引.
+* OuterStarts: 存储每一列/行第一个非零元素在上面两个数组中的索引。
+* InnerNNZs: 存储每一列/行中非零元素的数量。Inner 在列优先矩阵中表示一个列，在行优先矩阵中表示一个行。Outer 表示另一个方向。
 
 
 
 ![](https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20220930145024.png )
 
   
-  
-
-SparseMatrix包含了4个精简的数组：
-
-  
-
-* Values: 存储非零元素
-
-* InnerIndices: 存储非零元素的行/列索引.
-
-* OuterStarts: 存储每一列/行第一个非零元素在上面两个数组中的索引。
-
-* InnerNNZs: 存储每一列/行中非零元素的数量。Inner在列优先矩阵中表示一个列，在行优先矩阵中表示一个行。Outer表示另一个方向。
-
-  
-
-如果中间没有留未占用的空间，就是压缩模式。 对应于`Compressed Column (or Row) Storage Schemes (CCS or CRS)`。
-
   
 
 任何SparseMatrix都可以通过`SparseMatrix::makeCompressed()` 方法变成稀疏模式。此时，`InnerNNZs`相对于`OuterStarts`而言，就是多余的，因`为InnerNNZs[j] = OuterStarts[j+1]-OuterStarts[j]`。因此`SparseMatrix::makeCompressed()`会释放InnerNNZ存储空间。
