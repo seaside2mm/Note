@@ -2,11 +2,11 @@
 
 # Data Storage Formats
 [[cuda-programming.pdf#page=361]]
-COO
-
-CSR
-
-CSC
+- COO
+	- the coordinate (COO) sparse matrix format stores the non-zero value with both its row index and its column index.
+- CSR
+	- 
+- CSC
 
 
 [[sparse_block_matrix]]
