@@ -1,8 +1,9 @@
 
+## SparseBlockMatrix ： 存储 CSR 数组信息
 
 
-	Eigen::VectorXi outerIndices_, innerIndices_;
-	int brows_, bcols_, nblocks_, outerSize_, innerSize_;
+- `Eigen:: VectorXi outerIndices_, innerIndices_ ` : 根据 ORDER，分别存储非零元素的行/列索引.
+- `int brows_, bcols_, nblocks_, outerSize_, innerSize_`
 
 ```cpp
 

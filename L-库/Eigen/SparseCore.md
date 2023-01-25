@@ -2,6 +2,8 @@
 
 # Data Storage Formats
 [[cuda-programming.pdf#page=361]]
+实现： [[sparse_block_matrix]]
+
 - COO
 	- the coordinate (COO) sparse matrix format stores the non-zero value with both its row index and its column index.
 - CSR
@@ -9,9 +11,6 @@
 	- 数组 V 和 C 中的第 i 行的偏移量存储在 R 的 i 索引中。第 i 行的长度可以通过比较 i 和 i+1 行的差的判定。 
 ![](https://raw.githubusercontent.com/seaside2mm/github-photos/master/CSR.gif)
 - CSC
-
-
-[[sparse_block_matrix]]
 
 ##  `SparseMatrix` 
 
