@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/device_matrix.md",
+                "file": "I-Inbox/稀疏矩阵.md",
                 "mode": "source",
                 "source": false
               }
@@ -251,15 +251,15 @@
   },
   "active": "875b9271d2c20a91",
   "lastOpenFiles": [
-    "I-Inbox/稀疏矩阵.md",
     "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
     "L-库/Eigen/Sparse Module.md",
-    "I-Inbox/稀疏矩阵存储格式总结 + 存储效率对比： COO_CSR_DIA_ELL_HYB.md",
     "L-库/Eigen/SparseCore.md",
+    "I-Inbox/稀疏矩阵.md",
+    "L-库/CUDA-bundle-adjustment/device_matrix.md",
     "B-书籍/pdf/cuda-programming.pdf",
+    "I-Inbox/稀疏矩阵存储格式总结 + 存储效率对比： COO_CSR_DIA_ELL_HYB.md",
     "L-库/Eigen/使用示例-稀疏矩阵.md",
     "T-工具/Obsidian使用.md",
-    "T-工具/VS code使用.md",
-    "T-工具/My File.pdf.md"
+    "T-工具/VS code使用.md"
   ]
 }

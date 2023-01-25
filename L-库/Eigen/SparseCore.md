@@ -6,7 +6,7 @@
 	- the coordinate (COO) sparse matrix format stores the non-zero value with both its row index and its column index.
 - CSR
 	- stores an offset to where all of the values belonging to the same row are stored in the value and column arrays.
-	- 数组 V 和 C 中的第 i 行的偏移量存储在 R 的
+	- 数组 V 和 C 中的第 i 行的偏移量存储在 R 的 i 索引中。第 i 行的长度可以通过比较 i 和 i+1 行的差的判定。
 - CSC
 
 
