@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Sparse Matrices · Matt Eding",
+      "path": "I-Inbox/Sparse Matrices · Matt Eding.md"
+    },
+    {
       "basename": "sparse_block_matrix",
       "path": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "使用示例-稀疏矩阵",
       "path": "L-库/Eigen/使用示例-稀疏矩阵.md"
-    },
-    {
-      "basename": "VS code使用",
-      "path": "T-工具/VS code使用.md"
     }
   ],
   "omittedPaths": [],
