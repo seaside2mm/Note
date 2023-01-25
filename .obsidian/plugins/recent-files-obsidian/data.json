@@ -5,16 +5,16 @@
       "path": "L-库/Eigen/SparseCore.md"
     },
     {
+      "basename": "sparse_block_matrix",
+      "path": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md"
+    },
+    {
       "basename": "Sparse Module",
       "path": "L-库/Eigen/Sparse Module.md"
     },
     {
       "basename": "使用示例-稀疏矩阵",
       "path": "L-库/Eigen/使用示例-稀疏矩阵.md"
-    },
-    {
-      "basename": "sparse_block_matrix",
-      "path": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md"
     },
     {
       "basename": "cuda-programming",
