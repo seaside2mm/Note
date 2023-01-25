@@ -1,10 +1,10 @@
 
-## SparseBlockMatrix ： 存储 CSR 数组信息
+## SparseBlockMatrix ： 存储 CSR/CSC 数组信息
 [[SparseCore#^3e0a1f]]
 
 - `Eigen:: VectorXi outerIndices_, innerIndices_ ` : 根据 ORDER，分别存储非零元素的行/列索引.
-- `int brows_, bcols_` :
-- `nblocks_, outerSize_, innerSize_ `
+- `int brows_, bcols_` : 行/列索引数组的长度
+- `nblocks_, outerSize_, innerSize_ ` : 行/列索引数组的长度
 
 ```cpp
 
@@ -34,7 +34,6 @@ public:
 
 	int rows() const { return brows_ * BLOCK_ROWS; }
 	int cols() const { return bcols_ * BLOCK_COLS; }
-
 };
 ```
 
