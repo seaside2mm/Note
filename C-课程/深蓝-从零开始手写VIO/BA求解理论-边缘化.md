@@ -1,5 +1,7 @@
 
-#excalidraw 协方差和信息矩阵
+# 协方差和信息矩阵
+
+![[第4节 滑动窗口理论.pdf]]
 <p align="center">
 <img src=" https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221023184612.png"  width="46%"/>
 <img src=" https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221023184354.png"  width="40%"/>
