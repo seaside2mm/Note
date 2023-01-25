@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "BA求解理论",
+      "path": "C-课程/深蓝-从零开始手写VIO/BA求解理论.md"
+    },
+    {
       "basename": "理论1-最小二乘",
       "path": "C-课程/深蓝-从零开始手写VIO/理论1-最小二乘.md"
     },
@@ -31,10 +35,6 @@
     {
       "basename": "雅可比计算",
       "path": "L-库/G2O/雅可比计算.md"
-    },
-    {
-      "basename": "GPU矩阵操作",
-      "path": "L-库/CUDA-bundle-adjustment/GPU矩阵操作.md"
     }
   ],
   "omittedPaths": [],
