@@ -21,121 +21,77 @@ SparseMatrix 包含了 4 个精简的数组：
 
   
   
-
+## 转换
 任何SparseMatrix都可以通过`SparseMatrix::makeCompressed()` 方法变成稀疏模式。此时，`InnerNNZs`相对于`OuterStarts`而言，就是多余的，因`为InnerNNZs[j] = OuterStarts[j+1]-OuterStarts[j]`。因此`SparseMatrix::makeCompressed()`会释放InnerNNZ存储空间。
-
-  
 
 Eigen的操作总是返回压缩模式的稀疏矩阵。当向一个SparseMatrix插入新元素时，会变成非压缩模式。
 
-  
-  
-**属性**
 
-`SparseMatrix`类和`SparseVector`类有3个模板参数：元素类型，存储顺序，`（ColMajor(默认)或RowMajor）`和内索引类型（默认int）。
 
-  
 
-对于密集Matrix类，构造函数的参数是对象的大小。
+## 支持的操作和函数
 
-```c++
+由于稀疏矩阵的特殊存储格式，它没有密集矩阵那样的灵活性。Eigen 的稀疏矩阵模块仅仅实现了密集矩阵 API 的一个子集。
 
-SparseMatrix<std::complex<float> > mat(1000,2000);         //声明一个 1000x2000 列优先的压缩的稀疏矩阵（元素类型：complex<float>）
-
-SparseMatrix<double,RowMajor> mat(1000,2000);              //声明一个 1000x2000 行优先的压缩的稀疏矩阵（元素类型：double）
-
-  
-
-// 迭代所有的非零元素
-
-// 使用coeffRef(i,j)函数可以随机访问稀疏对象的元素，但是用到的二叉搜索比较浪费时间。
-
-// 大多数情况下，我们仅需迭代所有的非零元素。这时，可以先迭代外维度，然后迭代当前内维度向量的非零元素。非零元素的访问顺序和存储顺序相同？
-
-for (int k=0; k<mat.outerSize(); ++k)
-
-    for (SparseMatrix<double>::InnerIterator it(mat,k); it; ++it)
-
-    {
-
-        it.value(); // 元素值
-
-        it.row();   // 行标row index
-
-        it.col();   // 列标（此处等于k）
-
-        it.index(); // 内部索引，此处等于it.row()
-
-    }
-
-  
-
-// 填充稀疏矩阵
-
-// 由于稀疏矩阵的特殊存储格式，添加新的非零元素时需要特别注意。例如，随机插入一个非零元素的复杂度是O(nnz)，nnz表示非零元素的个数。
-
-// 最简单的保证性能的创建稀疏矩阵的方法是，先创建一个三元组列表，然后转换成SparseMatrix。如下所示
-
-typedef Eigen::Triplet<double> T;
-
-typedef Eigen::SparseMatrix<double> SparseMatrixType;
-
-  
-
-int estimation_of_entries = 10; //预计非零元素的个数
-
-std::vector<T> tripletList;
-
-tripletList.reserve(estimation_of_entries);
-
-int j = 1; // 列标
-
-for(int i=0; i<estimation_of_entries; i++){ //遍历行
-
-    int v_ij = i*i+1;
-
-    tripletList.push_back(T(i,j,v_ij));
-
-}
-
-SparseMatrixType mat(rows,cols);
-
-mat.setFromTriplets(tripletList.begin(), tripletList.end()); //根据三元组列表生成稀疏矩阵
-
-  
-  
-
-直接将非零元素插入到目标矩阵的方法更加高效，节省内存。如下所示：
-
-mat.reserve(VectorXi::Constant(cols,6)); //关键：为每一列保留6个非零元素空间
-
-for(int i=0; i<3; i++){ //遍历行
-
-    for(int j=0;j<3; j++){
-
-        int v_ij = i+j+1;
-
-        mat.insert(i,j) = v_ij;                    // alternative: mat.coeffRef(i,j) += v_ij;
-
-    }
-
-}
-
-mat.makeCompressed(); //压缩剩余的空间
-
-```
-
-  
-
-支持的操作和函数
-
-由于稀疏矩阵的特殊存储格式，它没有密集矩阵那样的灵活性。Eigen的稀疏矩阵模块仅仅实现了密集矩阵API的一个子集。
-
-下面使用sm表示稀疏矩阵，sv表示稀疏向量，dm表示密集矩阵，dv表示密集向量。
+下面使用 sm 表示稀疏矩阵，sv 表示稀疏向量，dm 表示密集矩阵，dv 表示密集向量。
 
 基本操作
 
 稀疏矩阵支持大多数的逐元素的一元操作符和二元操作符。
+
+  
+
+
+## 模板参数
+
+`SparseMatrix`类和`SparseVector`类有3个模板参数：元素类型，存储顺序，`（ColMajor(默认)或RowMajor）`和内索引类型（默认int）。
+
+对于密集 Matrix 类，构造函数的参数是对象的大小。
+
+
+## 使用例子
+
+```c++
+
+SparseMatrix<std::complex<float> > mat(1000,2000);         //声明一个 1000x2000 列优先的压缩的稀疏矩阵（元素类型：complex<float>）
+SparseMatrix<double,RowMajor> mat(1000,2000);              //声明一个 1000x2000 行优先的压缩的稀疏矩阵（元素类型：double）
+// 迭代所有的非零元素
+// 使用coeffRef(i,j)函数可以随机访问稀疏对象的元素，但是用到的二叉搜索比较浪费时间。
+// 大多数情况下，我们仅需迭代所有的非零元素。这时，可以先迭代外维度，然后迭代当前内维度向量的非零元素。非零元素的访问顺序和存储顺序相同？
+for (int k=0; k<mat.outerSize(); ++k)
+    for (SparseMatrix<double>::InnerIterator it(mat,k); it; ++it)
+    {
+        it.value(); // 元素值
+        it.row();   // 行标row index
+        it.col();   // 列标（此处等于k）
+        it.index(); // 内部索引，此处等于it.row()
+    }
+// 填充稀疏矩阵
+// 由于稀疏矩阵的特殊存储格式，添加新的非零元素时需要特别注意。例如，随机插入一个非零元素的复杂度是O(nnz)，nnz表示非零元素的个数。
+// 最简单的保证性能的创建稀疏矩阵的方法是，先创建一个三元组列表，然后转换成SparseMatrix。如下所示
+typedef Eigen::Triplet<double> T;
+typedef Eigen::SparseMatrix<double> SparseMatrixType;
+int estimation_of_entries = 10; //预计非零元素的个数
+std::vector<T> tripletList;
+tripletList.reserve(estimation_of_entries);
+int j = 1; // 列标
+for(int i=0; i<estimation_of_entries; i++){ //遍历行
+    int v_ij = i*i+1;
+    tripletList.push_back(T(i,j,v_ij));
+}
+SparseMatrixType mat(rows,cols);
+mat.setFromTriplets(tripletList.begin(), tripletList.end()); //根据三元组列表生成稀疏矩阵
+直接将非零元素插入到目标矩阵的方法更加高效，节省内存。如下所示：
+mat.reserve(VectorXi::Constant(cols,6)); //关键：为每一列保留6个非零元素空间
+for(int i=0; i<3; i++){ //遍历行
+    for(int j=0;j<3; j++){
+        int v_ij = i+j+1;
+        mat.insert(i,j) = v_ij;                    // alternative: mat.coeffRef(i,j) += v_ij;
+    }
+}
+mat.makeCompressed(); //压缩剩余的空间
+
+```
 
   
 ##  `SparseVector`
