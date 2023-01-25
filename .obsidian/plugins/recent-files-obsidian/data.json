@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "device_matrix",
-      "path": "L-库/CUDA-bundle-adjustment/device_matrix.md"
+      "basename": "GPU矩阵操作",
+      "path": "L-库/CUDA-bundle-adjustment/GPU矩阵操作.md"
     },
     {
-      "basename": "device MatView",
-      "path": "L-库/CUDA-bundle-adjustment/device MatView.md"
+      "basename": "MatView",
+      "path": "L-库/CUDA-bundle-adjustment/MatView.md"
+    },
+    {
+      "basename": "device_matrix",
+      "path": "L-库/CUDA-bundle-adjustment/device_matrix.md"
     },
     {
       "basename": "sparse_block_matrix",
@@ -35,10 +39,6 @@
     {
       "basename": "稀疏矩阵",
       "path": "I-Inbox/稀疏矩阵.md"
-    },
-    {
-      "basename": "稀疏矩阵存储格式总结 + 存储效率对比： COO_CSR_DIA_ELL_HYB",
-      "path": "I-Inbox/稀疏矩阵存储格式总结 + 存储效率对比： COO_CSR_DIA_ELL_HYB.md"
     }
   ],
   "omittedPaths": [],

@@ -108,8 +108,6 @@ using GpuLx1BlockVec = DeviceBlockVector<Scalar, LDIM, 1>;
 
 ### BlockPtr：  连续矩阵块的索引
 
-^ff5765
-
 -  `T* data_ `：GPU 内存，连续矩阵块
 
 ``` c++
@@ -120,12 +118,6 @@ class BlockPtr
 	__device__ T* at(int i) { return data_ + i * BLOCK_AREA; }
 	__device__ const T* at(int i) const { return data_ + i * BLOCK_AREA; }
 };
-```
-
-
-
-```cpp
-
 
 using PxPBlockPtr = BlockPtr<Scalar, PDIM, PDIM>;
 using LxLBlockPtr = BlockPtr<Scalar, LDIM, LDIM>;
@@ -133,7 +125,6 @@ using PxLBlockPtr = BlockPtr<Scalar, PDIM, LDIM>;
 using Px1BlockPtr = BlockPtr<Scalar, PDIM, 1>;
 using Lx1BlockPtr = BlockPtr<Scalar, LDIM, 1>;
 ```
-
 
 
 ### DeviceBlockVector：向量类型
