@@ -1,8 +1,6 @@
   
   
 
-# G2O架构
-
 <p align="center">
 
   <img src="https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221007161203.png"  width="120%"/>
