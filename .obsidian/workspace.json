@@ -215,9 +215,9 @@
   },
   "active": "7805ca685145b384",
   "lastOpenFiles": [
-    "L-库/CUDA-bundle-adjustment/SparseCore^CSR.md",
-    "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
     "L-库/Eigen/SparseCore.md",
+    "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
+    "L-库/CUDA-bundle-adjustment/SparseCore^CSR.md",
     "T-工具/Obsidian使用.md",
     "I-Inbox/Sparse Matrices · Matt Eding.md",
     "I-Inbox/稀疏矩阵.md",

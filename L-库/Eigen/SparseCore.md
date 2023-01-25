@@ -9,7 +9,7 @@
 - CSR
 	- stores an offset to where all of the values belonging to the same row are stored in the value and column arrays.
 	- 数组 V 和 C 中的第 i 行的偏移量存储在 R 的 i 索引中。第 i 行的长度可以通过比较 i 和 i+1 行的差的判定。 
-![](https://raw.githubusercontent.com/seaside2mm/github-photos/master/CSR.gif)
+![](https://raw.githubusercontent.com/seaside2mm/github-photos/master/CSR.gif) ^3e0a1f
 - CSC
 
 ##  `SparseMatrix` 

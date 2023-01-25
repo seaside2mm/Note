@@ -5,12 +5,12 @@
       "path": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md"
     },
     {
-      "basename": "SparseCore^CSR",
-      "path": "L-库/CUDA-bundle-adjustment/SparseCore^CSR.md"
-    },
-    {
       "basename": "SparseCore",
       "path": "L-库/Eigen/SparseCore.md"
+    },
+    {
+      "basename": "SparseCore^CSR",
+      "path": "L-库/CUDA-bundle-adjustment/SparseCore^CSR.md"
     },
     {
       "basename": "Obsidian使用",

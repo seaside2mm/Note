@@ -1,6 +1,6 @@
 
 ## SparseBlockMatrix ： 存储 CSR 数组信息
-[[SparseCore^CSR]]
+[[SparseCore#^3e0a1f]]
 
 - `Eigen:: VectorXi outerIndices_, innerIndices_ ` : 根据 ORDER，分别存储非零元素的行/列索引.
 - `int brows_, bcols_` :
