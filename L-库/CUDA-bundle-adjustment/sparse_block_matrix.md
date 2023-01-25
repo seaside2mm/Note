@@ -1,5 +1,9 @@
 
 
+
+	Eigen::VectorXi outerIndices_, innerIndices_;
+	int brows_, bcols_, nblocks_, outerSize_, innerSize_;
+
 ```cpp
 
 template <int _BLOCK_ROWS, int _BLOCK_COLS, int ORDER>
@@ -37,10 +41,6 @@ public:
 	int rows() const { return brows_ * BLOCK_ROWS; }
 	int cols() const { return bcols_ * BLOCK_COLS; }
 
-protected:
-
-	Eigen::VectorXi outerIndices_, innerIndices_;
-	int brows_, bcols_, nblocks_, outerSize_, innerSize_;
 };
 ```
 
