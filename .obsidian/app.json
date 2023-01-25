@@ -9,7 +9,7 @@
     "zh-CN",
     "en-US"
   ],
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "spellcheck": true,
   "showIndentGuide": true,
   "showFrontmatter": false,

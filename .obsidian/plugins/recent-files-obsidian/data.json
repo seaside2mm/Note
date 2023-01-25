@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Obsidian使用",
-      "path": "T-工具/Obsidian使用.md"
-    },
-    {
-      "basename": "VS code使用",
-      "path": "T-工具/VS code使用.md"
+      "basename": "cuda-programming",
+      "path": "B-书籍/pdf/cuda-programming.pdf"
     },
     {
       "basename": "稀疏矩阵",
       "path": "L-库/Eigen/稀疏矩阵.md"
     },
     {
-      "basename": "cuda-programming",
-      "path": "B-书籍/pdf/cuda-programming.pdf"
+      "basename": "Obsidian使用",
+      "path": "T-工具/Obsidian使用.md"
+    },
+    {
+      "basename": "VS code使用",
+      "path": "T-工具/VS code使用.md"
     },
     {
       "basename": "sparse_block_matrix",

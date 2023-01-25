@@ -45,11 +45,9 @@
             "id": "875b9271d2c20a91",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "L-库/Eigen/稀疏矩阵.md",
-                "mode": "source",
-                "source": false
+                "file": "B-书籍/pdf/cuda-programming.pdf"
               }
             }
           },
@@ -66,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -152,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "T-工具/Obsidian使用.md",
+                "file": "B-书籍/pdf/cuda-programming.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "T-工具/Obsidian使用.md",
+                "file": "B-书籍/pdf/cuda-programming.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "T-工具/Obsidian使用.md"
+                "file": "B-书籍/pdf/cuda-programming.pdf"
               }
             }
           },
@@ -225,13 +223,13 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "db71039a44bb1a1e",
+  "active": "875b9271d2c20a91",
   "lastOpenFiles": [
-    "T-工具/VS code使用.md",
     "L-库/Eigen/稀疏矩阵.md",
     "T-工具/Obsidian使用.md",
-    "T-工具/My File.pdf.md",
     "B-书籍/pdf/cuda-programming.pdf",
+    "T-工具/VS code使用.md",
+    "T-工具/My File.pdf.md",
     "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
     "L-库/CUDA-bundle-adjustment/device_matrix.md",
     "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md",
