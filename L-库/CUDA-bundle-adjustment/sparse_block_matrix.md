@@ -39,6 +39,8 @@ public:
 
 
 ## HplSparseBlockMatrix
+
+
 ```cpp
 struct HplBlockPos { int row, col, id; };
 
@@ -51,6 +53,33 @@ public:
 
 
 <iframe src=" https://github.com/fixstars/cuda-bundle-adjustment/blob/master/src/sparse_block_matrix.cpp#L24" width=100% height="500px" frameborder="0" scrolling="auto">
+</iframe>
+
+
+## HschurSparseBlockMatrix
+
+	int nmultiplies_;
+	Eigen::VectorXi rowPtr_, colInd_, nnzPerRow_, BSR2CSR_;
+	
+```cpp
+class HschurSparseBlockMatrix : public SparseBlockMatrix<PDIM, PDIM, ROW_MAJOR>
+{
+public:
+	void constructFromVertices(const std::vector<VertexL*>& verticesL);
+	void convertBSRToCSR();
+
+	const int* rowPtr() const { return rowPtr_.data(); }
+	const int* colInd() const { return colInd_.data(); }
+	const int* BSR2CSR() const { return BSR2CSR_.data(); }
+
+	int nnzTrig() const { return nblocks_ * BLOCK_AREA; }
+	int nnzSymm() const { return (2 * nblocks_ - brows_) * BLOCK_AREA; }
+	int nmulBlocks() const { return nmultiplies_; }
+};
+```
+
+
+<iframe src=" https://github.com/fixstars/cuda-bundle-adjustment/blob/master/src/sparse_block_matrix.cpp#L55" width=100% height="500px" frameborder="0" scrolling="auto">
 </iframe>
 
 <iframe src="" width=100% height="500px" frameborder="0" scrolling="auto"></iframe>
