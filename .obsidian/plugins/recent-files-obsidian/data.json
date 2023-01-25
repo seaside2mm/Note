@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "稀疏矩阵",
-      "path": "L-库/Eigen/稀疏矩阵.md"
+      "basename": "未命名",
+      "path": "L-库/Eigen/未命名.md"
+    },
+    {
+      "basename": "SparseCore",
+      "path": "L-库/Eigen/SparseCore.md"
     },
     {
       "basename": "cuda-programming",

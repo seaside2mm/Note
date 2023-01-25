@@ -162,7 +162,7 @@ public:
 - `DeviceBuffer<int> outerIndices_, innerIndices_` ：
 - `int rows_, cols_, nnz_, outerSize_, innerSize_` ： 
 
-[[稀疏矩阵]]
+[[SparseCore]]
 
 ``` c++
 template <typename T, int BLOCK_ROWS, int BLOCK_COLS, int ORDER>

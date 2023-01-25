@@ -5,18 +5,9 @@
 
 
 
-[Eigen Sparse doc](https://eigen.tuxfamily.org/dox/group__TutorialSparse.html)
-
    Data
 
-
-# 模块
-
-
-![](https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221021154256.png)
-  
-
-## SparseCore
+## 
 
   
 
