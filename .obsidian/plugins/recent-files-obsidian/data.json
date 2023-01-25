@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "稀疏矩阵",
-      "path": "L-库/Eigen/稀疏矩阵.md"
-    },
-    {
       "basename": "基本数据结构",
       "path": "L-库/CUDA-bundle-adjustment/基本数据结构.md"
+    },
+    {
+      "basename": "稀疏矩阵",
+      "path": "L-库/Eigen/稀疏矩阵.md"
     },
     {
       "basename": "CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo",
