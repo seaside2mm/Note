@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L-库/Eigen/SparseCore.md",
+                "file": "I-Inbox/稀疏矩阵.md",
                 "mode": "source",
                 "source": false
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/Eigen/SparseCore.md",
+                "file": "I-Inbox/稀疏矩阵.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -193,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/Eigen/SparseCore.md",
+                "file": "I-Inbox/稀疏矩阵.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/Eigen/SparseCore.md"
+                "file": "I-Inbox/稀疏矩阵.md"
               }
             }
           },
@@ -251,15 +251,15 @@
   },
   "active": "875b9271d2c20a91",
   "lastOpenFiles": [
+    "I-Inbox/稀疏矩阵存储格式总结 + 存储效率对比： COO_CSR_DIA_ELL_HYB.md",
+    "I-Inbox/稀疏矩阵.md",
+    "L-库/Eigen/SparseCore.md",
     "B-书籍/pdf/cuda-programming.pdf",
     "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
-    "L-库/Eigen/SparseCore.md",
     "L-库/Eigen/Sparse Module.md",
     "L-库/Eigen/使用示例-稀疏矩阵.md",
     "T-工具/Obsidian使用.md",
     "T-工具/VS code使用.md",
-    "T-工具/My File.pdf.md",
-    "L-库/CUDA-bundle-adjustment/device_matrix.md",
-    "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md"
+    "T-工具/My File.pdf.md"
   ]
 }
