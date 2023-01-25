@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "cuda-programming",
+      "path": "B-书籍/pdf/cuda-programming.pdf"
+    },
+    {
       "basename": "sparse_block_matrix",
       "path": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "Eigen 学习与使用笔记 2",
       "path": "L-库/Eigen/Eigen 学习与使用笔记 2.md"
-    },
-    {
-      "basename": "矩阵",
-      "path": "L-库/Eigen/矩阵.md"
     }
   ],
   "omittedPaths": [],

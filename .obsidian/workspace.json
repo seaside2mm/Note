@@ -23,11 +23,9 @@
             "id": "ea271b39de6bbf3f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
-                "mode": "source",
-                "source": false
+                "file": "B-书籍/pdf/cuda-programming.pdf"
               }
             }
           }
@@ -102,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "e6e0923f74be1f25",
@@ -119,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
+                "file": "B-书籍/pdf/cuda-programming.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
+                "file": "B-书籍/pdf/cuda-programming.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md"
+                "file": "B-书籍/pdf/cuda-programming.pdf"
               }
             }
           },
@@ -194,8 +191,8 @@
   },
   "active": "ea271b39de6bbf3f",
   "lastOpenFiles": [
-    "L-库/Eigen/稀疏矩阵.md",
     "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
+    "L-库/Eigen/稀疏矩阵.md",
     "L-库/CUDA-bundle-adjustment/device_matrix.md",
     "T-工具/Obsidian使用.md",
     "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md",
