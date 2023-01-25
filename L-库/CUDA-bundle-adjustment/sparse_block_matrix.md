@@ -1,9 +1,10 @@
 
 ## SparseBlockMatrix ： 存储 CSR 数组信息
-
+[[SparseCore^CSR]]
 
 - `Eigen:: VectorXi outerIndices_, innerIndices_ ` : 根据 ORDER，分别存储非零元素的行/列索引.
-- `int brows_, bcols_, nblocks_, outerSize_, innerSize_`
+- `int brows_, bcols_` :
+- `nblocks_, outerSize_, innerSize_ `
 
 ```cpp
 
@@ -31,14 +32,6 @@ public:
 		innerIndices_.resize(nblocks);
 	}
 
-	int* outerIndices() { return outerIndices_.data(); }
-	int* innerIndices() { return innerIndices_.data(); }
-	const int* outerIndices() const { return outerIndices_.data(); }
-	const int* innerIndices() const { return innerIndices_.data(); }
-
-	int brows() const { return brows_; }
-	int bcols() const { return bcols_; }
-	int nblocks() const { return nblocks_; }
 	int rows() const { return brows_ * BLOCK_ROWS; }
 	int cols() const { return bcols_ * BLOCK_COLS; }
 
