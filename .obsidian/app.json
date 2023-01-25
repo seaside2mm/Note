@@ -14,5 +14,6 @@
   "showIndentGuide": true,
   "showFrontmatter": false,
   "strictLineBreaks": false,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "showUnsupportedFiles": true
 }
