@@ -4,23 +4,11 @@
 [[cuda-programming.pdf#page=361]]
 
 
+##  `SparseMatrix` 
 
-   Data
-
-## 
-
-  
+是 Eigen 的稀疏模块的最主要的稀疏矩阵。它实现了 `Compressed Column (or Row) Storage` 方案。
 
 
-`SparseMatrix` 是 Eigen 的稀疏模块的最主要的稀疏矩阵。
-
-它实现了`Compressed Column (or Row) Storage`方案。
-
-  
-
-`SparseVector`是SparseMatrix的一个特例，只有 `Values` 和 `InnerIndices`数组。没有压缩和非压缩的区别。
-
-  
 
 ![](https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20220930145024.png )
 
@@ -159,6 +147,11 @@ mat.makeCompressed(); //压缩剩余的空间
 基本操作
 
 稀疏矩阵支持大多数的逐元素的一元操作符和二元操作符。
+
+  
+##  `SparseVector`
+
+是 SparseMatrix 的一个特例，只有 `Values` 和 `InnerIndices` 数组。没有压缩和非压缩的区别。
 
   
   

@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L-库/Eigen/未命名.md",
+                "file": "L-库/Eigen/Sparse Module.md",
                 "mode": "source",
                 "source": false
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/Eigen/未命名.md",
+                "file": "L-库/Eigen/Sparse Module.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/Eigen/未命名.md",
+                "file": "L-库/Eigen/Sparse Module.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/Eigen/未命名.md"
+                "file": "L-库/Eigen/Sparse Module.md"
               }
             }
           },
@@ -240,6 +240,7 @@
   "active": "12b00e47f75e00e5",
   "lastOpenFiles": [
     "L-库/Eigen/SparseCore.md",
+    "L-库/Eigen/Sparse Module.md",
     "B-书籍/pdf/cuda-programming.pdf",
     "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
     "T-工具/Obsidian使用.md",
@@ -247,7 +248,6 @@
     "T-工具/My File.pdf.md",
     "L-库/CUDA-bundle-adjustment/device_matrix.md",
     "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md",
-    "Excalidraw/Drawing 2023-01-23 13.51.33.excalidraw.md",
-    "L-库/Eigen/Eigen 学习与使用笔记 3.md"
+    "Excalidraw/Drawing 2023-01-23 13.51.33.excalidraw.md"
   ]
 }
