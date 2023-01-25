@@ -12,10 +12,9 @@
 ![](https://raw.githubusercontent.com/seaside2mm/github-photos/master/CSR.gif) ^3e0a1f
 - CSC
 
-##  `SparseMatrix` 
+#  `SparseMatrix` 
 
-## CCS or CRS
-是 Eigen 的稀疏模块的最主要的稀疏矩阵。如果中间没有留未占用的空间，就是压缩模式。对应于 `Compressed Column (or Row) Storage Schemes (CCS or CRS)`。
+是 Eigen 的稀疏模块的最主要的稀疏矩阵。如果中间没有留未占用的空间，就是压缩模式。对应于 `Compressed Column (or Row) Storage Schemes`。
 
 SparseMatrix 包含了 4 个精简的数组：
 * Values: 存储非零元素
@@ -25,7 +24,7 @@ SparseMatrix 包含了 4 个精简的数组：
 
 ![](https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20220930145024.png )
 
-  
+## SparseVector
 `SparseVector` 是一个特例，只有 `Values` 和 `InnerIndices` 数组。没有压缩和非压缩的区别。
 
 `SparseMatrix` 类和 `SparseVector` 类有 3 个模板参数：元素类型，存储顺序，`（ColMajor(默认)或RowMajor）` 和内索引类型（默认 int）。
@@ -44,7 +43,7 @@ SparseMatrix 包含了 4 个精简的数组：
 ![](https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221021170209.png)
   
 
-### 转换
+## 转换
 任何 SparseMatrix 都可以通过 `SparseMatrix::makeCompressed()` 方法变成稀疏模式。此时，`InnerNNZs` 相对于 `OuterStarts` 而言，就是多余的，因 `为InnerNNZs[j] = OuterStarts[j+1]-OuterStarts[j]`。因此 `SparseMatrix::makeCompressed()` 会释放 InnerNNZ 存储空间。
 
 Eigen 的操作总是返回压缩模式的稀疏矩阵。当向一个 SparseMatrix 插入新元素时，会变成非压缩模式。

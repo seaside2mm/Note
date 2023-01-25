@@ -40,16 +40,16 @@ public:
 
 
 ```cpp
-
 struct HplBlockPos { int row, col, id; };
 
 class HplSparseBlockMatrix : public SparseBlockMatrix<PDIM, LDIM, COL_MAJOR>
 {
 public:
-
 	void constructFromBlockPos(std::vector<HplBlockPos>& blockpos);
 };
+```
 
+```cpp
 class HschurSparseBlockMatrix : public SparseBlockMatrix<PDIM, PDIM, ROW_MAJOR>
 {
 public:
