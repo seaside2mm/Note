@@ -44,11 +44,10 @@ struct LessColId
 ```
 
 
-## MatView
+## MatView 
 
-
-
-
+- MatView：对一块设备内存，进行数据读取 
+- Matx：
 ```cpp
 template <typename T, int ROWS, int COLS>
 struct MatView
@@ -63,11 +62,9 @@ template <typename T, int ROWS, int COLS>
 struct Matx
 {
 	using View = MatView<T, ROWS, COLS>;
-	using ConstView = ConstMatView<T, ROWS, COLS>;
 	__device__ inline T& operator()(int i, int j) { return data[j * ROWS + i]; }
-	__device__ inline T operator()(int i, int j) const { return data[j * ROWS + i]; }
 	__device__ inline operator View() { return View(data); }
-	__device__ inline operator ConstView() const { return ConstView(data); }
+
 	T data[ROWS * COLS];
 };
 
