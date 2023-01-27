@@ -95,3 +95,26 @@ GpuVec1i d_nnzPerCol_;
 ```
 
 
+## initialize
+
+```cpp
+void initialize(const VertexMapP& vertexMapP, const VertexMapL& vertexMapL, const EdgeSet2D& edgeSet2D, const EdgeSet3D& edgeSet3D, const RobustKernel kernels[])
+```
+
+## buildStructure 
+
+```cpp
+void buildStructure()
+```
+
+
+## buildSystem 
+
+```cpp
+void buildSystem()
+```
+
+## solve
+
+## update
+
