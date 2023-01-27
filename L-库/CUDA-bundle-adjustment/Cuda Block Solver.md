@@ -150,8 +150,13 @@ if (!linearSolver_)
 
 ## buildStructure 
 
+- 将 host buffer 内容拷贝到 gpu buffer 中
+- 构建线性方程所需各种变量
+
 ```cpp
 void buildStructure()
+
+
 ```
 
 
