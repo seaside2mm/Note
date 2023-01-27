@@ -2,16 +2,8 @@
 # 协方差和信息矩阵
 
 ![[第4节 滑动窗口理论.pdf]]
-<p align="center">
-<img src=" https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221023184612.png"  width="46%"/>
-<img src=" https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221023184354.png"  width="40%"/>
-<img src=" https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221023183913.png"  width="50%"/>
-</p>
+
 ## Schur complement
-正定対称矩阵，コレスキー分解 ${\bf H}_{\rm sc}={\bf L}{\bf L}^{\rm T}$
-$$
-{\bf H}_{\rm sc} = {\bf H}_{\rm pp} − {\bf H}_{\rm pl} {\bf H}_{\rm ll}^{-1} {\bf H}_{\rm pl}^{\rm T}
-$$
 <p align="center">
 <img src=" https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221023183913.png"  width="60%"/>
 <img src=" https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221021131342.png"  width="40%"/>

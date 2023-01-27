@@ -130,8 +130,8 @@
     "Structure": {
       "Structure": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1674802635080
+          "count": 2,
+          "lastUpdated": 1674863773223
         }
       }
     },
@@ -148,6 +148,22 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1674808345861
+        }
+      }
+    },
+    "Optimizer": {
+      "Optimizer": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674863767266
+        }
+      }
+    },
+    "函数来初始化。": {
+      "函数来初始化。": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674863818045
         }
       }
     }

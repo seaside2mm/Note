@@ -13,15 +13,28 @@ url: 'https://proc-cpuinfo.fixstars.com/2020/10/cuda-bundle-adjustment/'
 
 # 流程
 
-* Initialize Optimizer
-* Build Structure 
-	* 未迭代之前，首先构建 $Hx=b$ 这样一个线性系统。
+- Initialize Optimizer 
+
+- Build Structure 
+	- 未迭代之前，首先构建 $Hx=b$ 这样一个线性系统。
+
+
 * Compute Error
+
 * Build System 
-	* 每次迭代求解之前，都需要调用 buildSystem 函数来初始化。
+	* 每次迭代求解之前，都需要调用 buildSystem 函数来初始化。 
+
 * Schur Complement
+
+正定対称矩阵，コレスキー分解 ${\bf H}_{\rm sc}={\bf L}{\bf L}^{\rm T}$
+$$
+{\bf H}_{\rm sc} = {\bf H}_{\rm pp} − {\bf H}_{\rm pl} {\bf H}_{\rm ll}^{-1} {\bf H}_{\rm pl}^{\rm T}
+$$
+
 * Symbolic Decomposition
+
 * Numerical Decomposition
+
 * Update Solution 
 	* 把得到的 $Δx$ 对应的状态变量进行更新 
 

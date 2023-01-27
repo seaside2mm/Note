@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "BA流程",
+      "path": "L-库/CUDA-bundle-adjustment/BA流程.md"
+    },
+    {
       "basename": "BA求解理论-边缘化",
       "path": "C-课程/深蓝-从零开始手写VIO/BA求解理论-边缘化.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "Obsidian使用",
       "path": "T-工具/Obsidian使用.md"
-    },
-    {
-      "basename": "BA流程",
-      "path": "L-库/CUDA-bundle-adjustment/BA流程.md"
     },
     {
       "basename": "host稀疏矩阵定义",
