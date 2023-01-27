@@ -8,6 +8,24 @@ url: 'https://proc-cpuinfo.fixstars.com/2020/10/cuda-bundle-adjustment/'
 ```
 
 
+
+  
+
+# 流程
+
+* Initialize Optimizer
+* Build Structure
+	* 未迭代之前，首先构建 $Hx=b$ 这样一个线性系统。
+* Compute Error
+* Build System
+每次迭代求解之前，都需要调用 buildSystem 函数来初始化。
+* Schur Complement
+* Symbolic Decomposition
+* Numerical Decomposition
+* Update Solution
+把得到的 $Δx$ 对应的调用顶点中的 `oplusImpl` 函数对状态变量进行更新
+
+  
 核心步骤是实现在 `CudaBlockSolver` 类中。
 
 
