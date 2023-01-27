@@ -23,9 +23,9 @@ url: 'https://proc-cpuinfo.fixstars.com/2020/10/cuda-bundle-adjustment/'
 * Symbolic Decomposition
 * Numerical Decomposition
 * Update Solution 
-	* 把得到的 $Δx$ 对应的状态变量进行更新
+	* 把得到的 $Δx$ 对应的状态变量进行更新 
 
-  
+
 核心步骤是实现在 `CudaBlockSolver` 类中。
 
 
