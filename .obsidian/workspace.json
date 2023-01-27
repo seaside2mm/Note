@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "47445567c080aa6e",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "file:///G:\\seaside-note/L-库/CUDA-bundle-adjustment/Fixstars%20Tech%20Blog%20_proc_cpuinfo_files/saved_resource.html"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +116,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +132,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +153,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md"
-              }
+              "state": {}
             }
           },
           {
@@ -178,17 +185,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "468be1811c4fe2fe",
+  "active": "47445567c080aa6e",
   "lastOpenFiles": [
-    "L-库/CUDA-bundle-adjustment/BA流程.md",
+    "L-库/CUDA-bundle-adjustment/Fixstars Tech Blog _proc_cpuinfo_files/ba-3.png",
     "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md",
+    "L-库/CUDA-bundle-adjustment/BA流程.md",
     "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md",
     "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
     "L-库/G2O/雅可比计算.md",
     "L-库/G2O/G2O架构.md",
     "L-库/G2O/源码3-优化.md",
     "L-库/G2O/源码2-顶点和边.md",
-    "L-库/G2O/源码1-顶点和边的抽象.md",
-    "L-库/CUDA-bundle-adjustment/SparseLinearSolver 1.md"
+    "L-库/G2O/源码1-顶点和边的抽象.md"
   ]
 }
