@@ -121,12 +121,12 @@ using Lx1BlockPtr = BlockPtr<Scalar, LDIM, 1>;
 ```
 
 
-### DeviceBlockVector：
+### DeviceBlockVector：Dense 矩阵管理的外部接口
 
 进一步管理 DeviceBuffer，作为外部使用接口。注意类中实际创建了一个 T 类型数据，而 BLOCK_AREA 的数组需要计算管理。
 
 - `DeviceBuffer<T> values_` :  创建了 T 类型的数据，用于提供 GPU 的起始地址
-- `int size_` :  block 大小
+- `int size_` :  block 数
 
 ```c++
 static const int BLOCK_AREA = BLOCK_ROWS * BLOCK_COLS;
@@ -155,7 +155,7 @@ public:
 
 	void map(int size, T* data)
 	{
-		size_ = size; //block size
+		size_ = size; //block num
 		// buffer中所需的一维数组：size * BLOCK_AREA
 		values_.map(size * BLOCK_AREA, data);
 	}
@@ -170,12 +170,14 @@ public:
 ```
 
 
-### DeviceBlockMatrix：稀疏矩阵
+### DeviceBlockMatrix：稀疏矩阵的外部接口
 
 
 - `DeviceBuffer<T> values_` ： GPU 内存
 - `DeviceBuffer<int> outerIndices_, innerIndices_` ：
-- `int rows_, cols_, nnz_, outerSize_, innerSize_` ： 
+- `int rows_, cols_, 
+- `int nnz_, 
+- `int outerSize_, innerSize_ ` ： 
 
 [[SparseCore]]
 
