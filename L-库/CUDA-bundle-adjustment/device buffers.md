@@ -174,9 +174,9 @@ public:
 
 
 - `DeviceBuffer<T> values_` ： GPU 内存
-- `DeviceBuffer<int> outerIndices_, innerIndices_` ：
-- `int rows_, cols_, 
-- `int nnz_, 
+- `DeviceBuffer<int> outerIndices_, innerIndices_` ： 稀疏矩阵索引数组
+- `int rows_, cols_` 矩阵大小
+- `int nnz_` ：  non zeros 数
 - `int outerSize_, innerSize_` ： 
 
 稀疏矩阵定义查看： [[SparseCore]]
@@ -200,7 +200,7 @@ public:
 		cols_ = cols;
 		outerSize_ = ORDER == ROW_MAJOR ? rows : cols;
 		innerSize_ = ORDER == ROW_MAJOR ? cols : rows;
-		outerIndices_.resize(outerSize_ + 1);
+		outerIndices_.resize(outerSize_ + 1); // 
 	}
 
 	void resizeNonZeros(int nnz)
