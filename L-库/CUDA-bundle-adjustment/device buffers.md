@@ -125,8 +125,8 @@ using Lx1BlockPtr = BlockPtr<Scalar, LDIM, 1>;
 
 进一步管理 DeviceBuffer，作为外部使用接口。注意类中实际创建了一个 T 类型数据，而 BLOCK_AREA 的数组需要计算管理。
 
-- `DeviceBuffer<T> values_` :  创建了 T 类型的数据
-- `int size_` :  buffer 数组大小
+- `DeviceBuffer<T> values_` :  创建了 T 类型的数据，用于提供 GPU 的起始地址
+- `int size_` :  block 大小
 
 ```c++
 static const int BLOCK_AREA = BLOCK_ROWS * BLOCK_COLS;
@@ -155,7 +155,8 @@ public:
 
 	void map(int size, T* data)
 	{
-		size_ = size;
+		size_ = size; //block size
+		// buffer中所需的一维数组：size * BLOCK_AREA
 		values_.map(size * BLOCK_AREA, data);
 	}
 
