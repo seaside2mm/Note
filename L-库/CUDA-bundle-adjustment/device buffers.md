@@ -2,7 +2,7 @@
 
 ##  fixed_vector 创建 CPU / GPU 内存的数组
 
-- 拷贝内存指针指向的数据 
+- 拷贝一个指针指向的数据
 
 ```cpp
 using Vec2d = Vec<Scalar, 2>;
@@ -15,7 +15,7 @@ using Vecxd = Vec<Scalar, N>;
 template <typename T, int N>
 struct Vec
 {
-	//将一块其他格式的数组指针用Vec管理。
+	//将一块其他格式的数组指针的数据进行拷贝，用Vec管理。
 	//比如vector的data，或者eigen的data
     HOST_DEVICE Vec(const T* values) { for (int i = 0; i < N; i++) data[i] = values[i]; }
     
@@ -76,14 +76,14 @@ public:
 		allocate(size);
 		size_ = size;
 	}
-
+	// 映射一块内存，相当于浅拷贝
 	void map(size_t size, void* data)
 	{
 		data_ = (T*)data;
 		size_ = size;
 		allocated_ = false;
 	}
-
+	// 
 	void assign(size_t size, const void* h_data)
 	{
 		resize(size);
