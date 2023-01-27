@@ -1,6 +1,6 @@
 
 
-##  fixed_vector
+##  fixed_vector 用于 CPU 以及 GPU 数据
 
 ```c++
 #define HOST_DEVICE __host__ __device__ inline
@@ -14,7 +14,7 @@ struct Vec
 ```
 
 
-##  device_buffer
+##  device_buffer 用于包装 GPU 数据的指针
 
 - `T* data_` :  数据首地址
 - `size_t size_, capacity_` : 数据大小

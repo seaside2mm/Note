@@ -45,7 +45,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
+                "file": "L-库/CUDA-bundle-adjustment/device buffers.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
+                "file": "L-库/CUDA-bundle-adjustment/device buffers.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
+                "file": "L-库/CUDA-bundle-adjustment/device buffers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md"
+                "file": "L-库/CUDA-bundle-adjustment/device buffers.md"
               }
             }
           },
@@ -211,8 +211,9 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "38b2e80634a3613c",
+  "active": "c80e7bb24d94ff79",
   "lastOpenFiles": [
+    "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
     "L-库/CUDA-bundle-adjustment/BA流程.md",
     "C-课程/深蓝-从零开始手写VIO/理论1-最小二乘.md",
     "L-库/G2O/代码结构.md",
@@ -221,7 +222,6 @@
     "C-课程/深蓝-从零开始手写VIO/pdf/第4节 滑动窗口理论.pdf",
     "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md",
     "L-库/CUDA-bundle-adjustment/Fixstars Tech Blog _proc_cpuinfo_files/ba-3.png",
-    "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md",
-    "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md"
+    "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md"
   ]
 }
