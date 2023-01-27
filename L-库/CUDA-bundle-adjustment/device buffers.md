@@ -1,6 +1,8 @@
 
 
-##  fixed_vector 用于索引 CPU / GPU 内存指针指向的数据
+##  fixed_vector 创建 CPU / GPU 内存的数组
+
+- 拷贝内存指针指向的数据 
 
 ```cpp
 using Vec2d = Vec<Scalar, 2>;
@@ -13,7 +15,8 @@ using Vecxd = Vec<Scalar, N>;
 template <typename T, int N>
 struct Vec
 {
-	/、
+	//将一块其他格式的数组指针用Vec管理。
+	//比如vector的data，或者eigen的data
     HOST_DEVICE Vec(const T* values) { for (int i = 0; i < N; i++) data[i] = values[i]; }
     
     T data[N];
