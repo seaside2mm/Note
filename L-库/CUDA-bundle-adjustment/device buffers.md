@@ -121,9 +121,11 @@ using Lx1BlockPtr = BlockPtr<Scalar, LDIM, 1>;
 ```
 
 
-### DeviceBlockVector：矩阵数组
+### DeviceBlockVector：
 
-- `DeviceBuffer<T> values_` :  T 类型的数据起始地址
+DeviceBuffer
+
+- `DeviceBuffer<T> values_` :  T 类型的数据起始地址，注意 DeviceBuffer 实际是一块数组大小
 - `int size_` :  向量大小
 
 ```c++
