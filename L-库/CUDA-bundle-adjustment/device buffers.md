@@ -1,13 +1,19 @@
 
 
-##  fixed_vector 用于索引 CPU 以及 GPU 内存指针指向的数据
+##  fixed_vector 用于索引 CPU / GPU 内存指针指向的数据
 
+```cpp
+using Vec2d = Vec<Scalar, 2>;
+template <int N>
+using Vecxd = Vec<Scalar, N>;
+```
 
 ```c++
 #define HOST_DEVICE __host__ __device__ inline
 template <typename T, int N>
 struct Vec
 {
+	/、
     HOST_DEVICE Vec(const T* values) { for (int i = 0; i < N; i++) data[i] = values[i]; }
     
     T data[N];
@@ -22,6 +28,7 @@ struct Vec
 - `bool allocated_` ： 是否分配
 
 ```cpp
+//T类型的GPU数组
 template <typename T>
 using GpuVec = DeviceBuffer<T>;
 
@@ -31,8 +38,6 @@ using GpuVec1i = GpuVec<int>;
 using GpuVec1b = GpuVec<uint8_t>;
 
 
-template <int N>
-using Vecxd = Vec<Scalar, N>;
 template <int N>
 using GpuVecxd = GpuVec<Vecxd<N>>;
 ```
