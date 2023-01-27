@@ -18,7 +18,7 @@ struct Vec
 ##  device_buffer 用于包装 GPU 数据的指针
 
 - `T* data_` :  数据首地址
-- `size_t size_, capacity_` : 数据大小
+- `size_t size_, capacity_` : 实际数据大小，持有内存空间大小
 - `bool allocated_` ： 是否分配
 ```mermaid
 graph TD
@@ -95,13 +95,6 @@ using GpuVecxd = GpuVec<Vecxd<N>>;
 using GpuHplBlockMat = DeviceBlockMatrix<Scalar, PDIM, LDIM, COL_MAJOR>;
 using GpuHscBlockMat = DeviceBlockMatrix<Scalar, PDIM, PDIM, ROW_MAJOR>;
 
-
-using GpuPxPBlockVec = DeviceBlockVector<Scalar, PDIM, PDIM>;
-using GpuLxLBlockVec = DeviceBlockVector<Scalar, LDIM, LDIM>;
-using GpuPxLBlockVec = DeviceBlockVector<Scalar, PDIM, LDIM>;
-using GpuPx1BlockVec = DeviceBlockVector<Scalar, PDIM, 1>;
-using GpuLx1BlockVec = DeviceBlockVector<Scalar, LDIM, 1>;
-
 ```
 
 
@@ -109,7 +102,7 @@ using GpuLx1BlockVec = DeviceBlockVector<Scalar, LDIM, 1>;
 
 ### BlockPtr：  连续矩阵块的索引
 
--  `T* data_ `：GPU 内存，连续矩阵块
+-  `T* data_ ` ：指向一块 GPU 内存，一般是连续矩阵块
 
 ``` c++
 template <typename T, int BLOCK_ROWS, int BLOCK_COLS>
@@ -136,6 +129,13 @@ using Lx1BlockPtr = BlockPtr<Scalar, LDIM, 1>;
 ```c++
 static const int BLOCK_AREA = BLOCK_ROWS * BLOCK_COLS;
 using BlockPtrT = BlockPtr<T, BLOCK_ROWS, BLOCK_COLS>; 
+
+using GpuPxPBlockVec = DeviceBlockVector<Scalar, PDIM, PDIM>;
+using GpuLxLBlockVec = DeviceBlockVector<Scalar, LDIM, LDIM>;
+using GpuPxLBlockVec = DeviceBlockVector<Scalar, PDIM, LDIM>;
+using GpuPx1BlockVec = DeviceBlockVector<Scalar, PDIM, 1>;
+using GpuLx1BlockVec = DeviceBlockVector<Scalar, LDIM, 1>;
+
 ```
 
 ```c++
