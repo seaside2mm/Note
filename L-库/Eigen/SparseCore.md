@@ -2,7 +2,7 @@
 
 # Data Storage Formats
 [[cuda-programming.pdf#page=361]]
-实现： [[sparse_block_matrix 用于Host]]
+实现： [[host稀疏矩阵定义]]
 
 - COO
 	- the coordinate (COO) sparse matrix format stores the non-zero value with both its row index and its column index.

@@ -13,24 +13,14 @@
             "dimension": 76.2071992976295,
             "children": [
               {
-                "id": "48a90c104279702e",
+                "id": "8f097ab4e2b1efa5",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
+                    "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
                     "mode": "source",
                     "source": false
-                  }
-                }
-              },
-              {
-                "id": "8f097ab4e2b1efa5",
-                "type": "leaf",
-                "state": {
-                  "type": "surfing-view",
-                  "state": {
-                    "url": "https://syndication.twitter.com/srv/timeline-profile/screen-name/Fixstars_JP?creatorScreenName=Fixstars_JP&dnt=false&embedId=twitter-widget-0&features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0Zndfc2hvd19idXNpbmVzc192ZXJpZmllZF9iYWRnZSI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfbWl4ZWRfbWVkaWFfMTU4OTciOnsiYnVja2V0IjoidHJlYXRtZW50IiwidmVyc2lvbiI6bnVsbH0sInRmd19leHBlcmltZW50c19jb29raWVfZXhwaXJhdGlvbiI6eyJidWNrZXQiOjEyMDk2MDAsInZlcnNpb24iOm51bGx9LCJ0ZndfZHVwbGljYXRlX3NjcmliZXNfdG9fc2V0dGluZ3MiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3ZpZGVvX2hsc19keW5hbWljX21hbmlmZXN0c18xNTA4MiI6eyJidWNrZXQiOiJ0cnVlX2JpdHJhdGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmx1ZV92ZXJpZmllZF9iYWRnZSI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0Zndfc2hvd19nb3ZfdmVyaWZpZWRfYmFkZ2UiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYnVzaW5lc3NfYWZmaWxpYXRlX2JhZGdlIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd190d2VldF9lZGl0X2Zyb250ZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH19&frame=false&hideBorder=false&hideFooter=false&hideHeader=false&hideScrollBar=false&lang=ja&maxHeight=260px&origin=https%3A%2F%2Fproc-cpuinfo.fixstars.com%2F2020%2F10%2Fcuda-bundle-adjustment%2F&sessionId=8a9c1b16b96de49c29c152a6859faeddb4538cdc&showHeader=true&showReplies=false&siteScreenName=Fixstars_JP&theme=dark&transparent=false&widgetsVersion=aaf4084522e3a%3A1674595607486"
                   }
                 }
               },
@@ -57,7 +47,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "L-库/CUDA-bundle-adjustment/sparse_block_matrix 用于Host.md",
+                    "file": "L-库/CUDA-bundle-adjustment/host稀疏矩阵定义.md",
                     "mode": "source",
                     "source": false
                   }
@@ -152,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
+                "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
+                "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md"
+                "file": "L-库/CUDA-bundle-adjustment/块求解器.md"
               }
             }
           },
@@ -225,12 +215,12 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "48a90c104279702e",
+  "active": "8f097ab4e2b1efa5",
   "lastOpenFiles": [
-    "L-库/CUDA-bundle-adjustment/sparse_block_matrix 用于Host.md",
-    "L-库/CUDA-bundle-adjustment/device buffers.md",
-    "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
     "L-库/CUDA-bundle-adjustment/BA流程.md",
+    "L-库/CUDA-bundle-adjustment/host稀疏矩阵定义.md",
+    "L-库/CUDA-bundle-adjustment/device数据格式定义.md",
+    "L-库/CUDA-bundle-adjustment/块求解器.md",
     "C-课程/深蓝-从零开始手写VIO/理论1-最小二乘.md",
     "L-库/G2O/代码结构.md",
     "L-库/G2O/源码3-优化.md",
