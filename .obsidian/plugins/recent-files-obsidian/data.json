@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "BA流程",
+      "path": "L-库/CUDA-bundle-adjustment/BA流程.md"
+    },
+    {
+      "basename": "雅可比计算",
+      "path": "L-库/G2O/雅可比计算.md"
+    },
+    {
+      "basename": "G2O架构",
+      "path": "L-库/G2O/G2O架构.md"
+    },
+    {
+      "basename": "源码3-优化",
+      "path": "L-库/G2O/源码3-优化.md"
+    },
+    {
+      "basename": "源码2-顶点和边",
+      "path": "L-库/G2O/源码2-顶点和边.md"
+    },
+    {
+      "basename": "源码1-顶点和边的抽象",
+      "path": "L-库/G2O/源码1-顶点和边的抽象.md"
+    },
+    {
       "basename": "Sparse Linear Solver：包装cuda sparse solver",
       "path": "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md"
     },
@@ -9,32 +33,12 @@
       "path": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md"
     },
     {
-      "basename": "BA流程",
-      "path": "L-库/CUDA-bundle-adjustment/BA流程.md"
-    },
-    {
       "basename": "CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo",
       "path": "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md"
     },
     {
       "basename": "顶点与边，以及管理",
       "path": "L-库/CUDA-bundle-adjustment/顶点与边，以及管理.md"
-    },
-    {
-      "basename": "BA求解理论-边缘化",
-      "path": "C-课程/深蓝-从零开始手写VIO/BA求解理论-边缘化.md"
-    },
-    {
-      "basename": "理论1-最小二乘",
-      "path": "C-课程/深蓝-从零开始手写VIO/理论1-最小二乘.md"
-    },
-    {
-      "basename": "第4节 滑动窗口理论",
-      "path": "C-课程/深蓝-从零开始手写VIO/pdf/第4节 滑动窗口理论.pdf"
-    },
-    {
-      "basename": "MatView",
-      "path": "L-库/CUDA-bundle-adjustment/MatView.md"
     }
   ],
   "omittedPaths": [],
