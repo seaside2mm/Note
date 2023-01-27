@@ -150,7 +150,7 @@
             }
           },
           {
-            "id": "2731f87e1713d6f0",
+            "id": "468be1811c4fe2fe",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
@@ -158,12 +158,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,7 +178,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "48a90c104279702e",
+  "active": "468be1811c4fe2fe",
   "lastOpenFiles": [
     "L-库/CUDA-bundle-adjustment/BA流程.md",
     "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md",
