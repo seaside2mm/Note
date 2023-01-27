@@ -183,7 +183,7 @@
             }
           },
           {
-            "id": "188137ecf046fde2",
+            "id": "38b2e80634a3613c",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
@@ -195,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,7 +211,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "c80e7bb24d94ff79",
+  "active": "38b2e80634a3613c",
   "lastOpenFiles": [
     "L-库/CUDA-bundle-adjustment/BA流程.md",
     "C-课程/深蓝-从零开始手写VIO/理论1-最小二乘.md",

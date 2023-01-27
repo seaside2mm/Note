@@ -96,7 +96,8 @@ GpuVec1i d_nnzPerCol_;
 
 
 ## initialize
-为 Host 变量赋值，主要包括顶点，边，
+- 为 Host 变量赋值，主要包括顶点的信息，边的信息，以及对应关系
+- 创建稀疏求解器
 
 ```cpp
 void initialize(const VertexMapP& vertexMapP, const VertexMapL& vertexMapL, const EdgeSet2D& edgeSet2D, const EdgeSet3D& edgeSet3D, const RobustKernel kernels[])
@@ -120,7 +121,31 @@ for (const auto& [id, vertexP] : vertexMapP)
 	}
 }
 
+// gather each edge members into each vector
+for (const auto e : edgeSet2D)
+{
+	const auto vertexP = e->vertexP;
+	const auto vertexL = e->vertexL;
 
+	if (!vertexP->fixed && !vertexL->fixed)
+		HplBlockPos_.push_back({ vertexP->iP, vertexL->iL, edgeId });
+
+	if (!vertexP->fixed || !vertexL->fixed)
+	{
+		baseEdges_.push_back(e);
+		measurements2D_.emplace_back(e->measurement.data());
+		omegas_.push_back(ScalarCast(e->information));
+		edge2PL_.push_back({ vertexP->iP, vertexL->iL });
+		edgeFlags_.push_back(makeEdgeFlag(vertexP->fixed, vertexL->fixed));
+		edgeId++;
+		nedges2D++;
+	}
+}
+
+///////////////////////////////////////////////
+// create sparse linear solver
+if (!linearSolver_)
+	linearSolver_ = SparseLinearSolver::create();
 ```
 
 ## buildStructure 
