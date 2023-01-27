@@ -57,7 +57,7 @@ void optimize(int niterations) override
 		//Step 3
 		const double iniF = solver_.computeErrors();
 		F = iniF;
-
+		//Step 4
 		solver_.buildSystem();
 		
 		if (iteration == 0)
@@ -70,9 +70,9 @@ void optimize(int niterations) override
 			solver_.push();
 
 			solver_.setLambda(lambda);
-
+		    //Step 5
 			const bool success = solver_.solve();
-
+		    //Step 6
 			solver_.update();
 
 			const double Fhat = solver_.computeErrors();

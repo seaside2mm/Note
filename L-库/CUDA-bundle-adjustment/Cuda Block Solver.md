@@ -96,9 +96,31 @@ GpuVec1i d_nnzPerCol_;
 
 
 ## initialize
+为 Host 变量赋值，主要包括顶点，边，
 
 ```cpp
 void initialize(const VertexMapP& vertexMapP, const VertexMapL& vertexMapL, const EdgeSet2D& edgeSet2D, const EdgeSet3D& edgeSet3D, const RobustKernel kernels[])
+
+///////////////////////////////////////////////
+// assign pose vertex id
+// gather rotations and translations into each vector
+for (const auto& [id, vertexP] : vertexMapP)
+{
+	if (!vertexP->fixed)
+	{
+		vertexP->iP = numP++;
+		verticesP_.push_back(vertexP);
+		qs_.emplace_back(vertexP->q.coeffs().data());
+		ts_.emplace_back(vertexP->t.data());
+		cameras_.emplace_back(vectorize(vertexP->camera));
+	}
+	else
+	{
+		fixedVerticesP_.push_back(vertexP);
+	}
+}
+
+
 ```
 
 ## buildStructure 

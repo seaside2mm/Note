@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Cuda Block Solver",
+      "path": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md"
+    },
+    {
       "basename": "BA流程",
       "path": "L-库/CUDA-bundle-adjustment/BA流程.md"
     },
@@ -27,10 +31,6 @@
     {
       "basename": "Sparse Linear Solver：包装cuda sparse solver",
       "path": "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md"
-    },
-    {
-      "basename": "Cuda Block Solver",
-      "path": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md"
     },
     {
       "basename": "雅可比计算",
