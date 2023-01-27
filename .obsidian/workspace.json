@@ -4,55 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "dd043a81ae4506cf",
-        "type": "tabs",
+        "id": "f592cf45c8b4eb2f",
+        "type": "split",
         "children": [
           {
-            "id": "48a90c104279702e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L-库/CUDA-bundle-adjustment/BA流程.md",
-                "mode": "source",
-                "source": false
+            "id": "dd043a81ae4506cf",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "48a90c104279702e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8f097ab4e2b1efa5",
+                "type": "leaf",
+                "state": {
+                  "type": "surfing-view",
+                  "state": {
+                    "url": "https://syndication.twitter.com/srv/timeline-profile/screen-name/Fixstars_JP?creatorScreenName=Fixstars_JP&dnt=false&embedId=twitter-widget-0&features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0Zndfc2hvd19idXNpbmVzc192ZXJpZmllZF9iYWRnZSI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfbWl4ZWRfbWVkaWFfMTU4OTciOnsiYnVja2V0IjoidHJlYXRtZW50IiwidmVyc2lvbiI6bnVsbH0sInRmd19leHBlcmltZW50c19jb29raWVfZXhwaXJhdGlvbiI6eyJidWNrZXQiOjEyMDk2MDAsInZlcnNpb24iOm51bGx9LCJ0ZndfZHVwbGljYXRlX3NjcmliZXNfdG9fc2V0dGluZ3MiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3ZpZGVvX2hsc19keW5hbWljX21hbmlmZXN0c18xNTA4MiI6eyJidWNrZXQiOiJ0cnVlX2JpdHJhdGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmx1ZV92ZXJpZmllZF9iYWRnZSI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0Zndfc2hvd19nb3ZfdmVyaWZpZWRfYmFkZ2UiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYnVzaW5lc3NfYWZmaWxpYXRlX2JhZGdlIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd190d2VldF9lZGl0X2Zyb250ZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH19&frame=false&hideBorder=false&hideFooter=false&hideHeader=false&hideScrollBar=false&lang=ja&maxHeight=260px&origin=https%3A%2F%2Fproc-cpuinfo.fixstars.com%2F2020%2F10%2Fcuda-bundle-adjustment%2F&sessionId=8a9c1b16b96de49c29c152a6859faeddb4538cdc&showHeader=true&showReplies=false&siteScreenName=Fixstars_JP&theme=dark&transparent=false&widgetsVersion=aaf4084522e3a%3A1674595607486"
+                  }
+                }
+              },
+              {
+                "id": "9b85d718c57e6016",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "C-课程/深蓝-从零开始手写VIO/pdf/第5节 滑动窗口算法实践.pdf"
+                  }
+                }
               }
-            }
+            ]
           },
           {
-            "id": "8f097ab4e2b1efa5",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://syndication.twitter.com/srv/timeline-profile/screen-name/Fixstars_JP?creatorScreenName=Fixstars_JP&dnt=false&embedId=twitter-widget-0&features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0Zndfc2hvd19idXNpbmVzc192ZXJpZmllZF9iYWRnZSI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfbWl4ZWRfbWVkaWFfMTU4OTciOnsiYnVja2V0IjoidHJlYXRtZW50IiwidmVyc2lvbiI6bnVsbH0sInRmd19leHBlcmltZW50c19jb29raWVfZXhwaXJhdGlvbiI6eyJidWNrZXQiOjEyMDk2MDAsInZlcnNpb24iOm51bGx9LCJ0ZndfZHVwbGljYXRlX3NjcmliZXNfdG9fc2V0dGluZ3MiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3ZpZGVvX2hsc19keW5hbWljX21hbmlmZXN0c18xNTA4MiI6eyJidWNrZXQiOiJ0cnVlX2JpdHJhdGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmx1ZV92ZXJpZmllZF9iYWRnZSI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0Zndfc2hvd19nb3ZfdmVyaWZpZWRfYmFkZ2UiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYnVzaW5lc3NfYWZmaWxpYXRlX2JhZGdlIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd190d2VldF9lZGl0X2Zyb250ZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH19&frame=false&hideBorder=false&hideFooter=false&hideHeader=false&hideScrollBar=false&lang=ja&maxHeight=260px&origin=https%3A%2F%2Fproc-cpuinfo.fixstars.com%2F2020%2F10%2Fcuda-bundle-adjustment%2F&sessionId=0e864db561765e7b9fafe6cf4acc84a26f8880c0&showHeader=true&showReplies=false&siteScreenName=Fixstars_JP&theme=dark&transparent=false&widgetsVersion=aaf4084522e3a%3A1674595607486"
+            "id": "0c553040ce7abd45",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "523c27af7e1ae1c2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "L-库/CUDA-bundle-adjustment/device buffers.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
-          },
-          {
-            "id": "9b85d718c57e6016",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "C-课程/深蓝-从零开始手写VIO/pdf/第5节 滑动窗口算法实践.pdf"
-              }
-            }
-          },
-          {
-            "id": "c80e7bb24d94ff79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L-库/CUDA-bundle-adjustment/device buffers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+            ]
           }
         ],
-        "currentTab": 3
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -138,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/device buffers.md",
+                "file": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/device buffers.md",
+                "file": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/device buffers.md"
+                "file": "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md"
               }
             }
           },
@@ -211,17 +223,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "c80e7bb24d94ff79",
+  "active": "48a90c104279702e",
   "lastOpenFiles": [
-    "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
     "L-库/CUDA-bundle-adjustment/BA流程.md",
+    "L-库/CUDA-bundle-adjustment/device buffers.md",
+    "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
     "C-课程/深蓝-从零开始手写VIO/理论1-最小二乘.md",
     "L-库/G2O/代码结构.md",
     "L-库/G2O/源码3-优化.md",
     "C-课程/深蓝-从零开始手写VIO/pdf/第5节 滑动窗口算法实践.pdf",
     "C-课程/深蓝-从零开始手写VIO/pdf/第4节 滑动窗口理论.pdf",
     "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md",
-    "L-库/CUDA-bundle-adjustment/Fixstars Tech Blog _proc_cpuinfo_files/ba-3.png",
-    "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md"
+    "L-库/CUDA-bundle-adjustment/Fixstars Tech Blog _proc_cpuinfo_files/ba-3.png"
   ]
 }
