@@ -14,7 +14,7 @@ url: 'https://proc-cpuinfo.fixstars.com/2020/10/cuda-bundle-adjustment/'
 # 流程
 
 * Initialize Optimizer
-* Build Structure
+* Build Structure 
 	* 未迭代之前，首先构建 $Hx=b$ 这样一个线性系统。
 * Compute Error
 * Build System 
@@ -25,23 +25,18 @@ url: 'https://proc-cpuinfo.fixstars.com/2020/10/cuda-bundle-adjustment/'
 * Update Solution 
 	* 把得到的 $Δx$ 对应的状态变量进行更新 
 
+<iframe src=" https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221021184218.png" width=100% height="500px" frameborder="0" scrolling="auto">
+</iframe>
 
-
-<iframe src=" https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221021184218.png" width=100% height="500px" frameborder="0" scrolling="auto"></iframe>
 
 核心步骤是实现在 `CudaBlockSolver` 类中。
-
-
 ```cpp
 void initialize() override
 {
 	solver_.initialize(vertexMapP_, vertexMapL_, edges2D_, edges3D_, kernels_);
 }
 ```
-
-
-
-
+dcsc4FGEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEH64HY
 ```cpp
 void optimize(int niterations) override
 {
