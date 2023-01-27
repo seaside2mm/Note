@@ -123,7 +123,7 @@ using Lx1BlockPtr = BlockPtr<Scalar, LDIM, 1>;
 
 ### DeviceBlockVector：
 
-进一步管理 DeviceBuffer，作为外部使用接口。注意类中实际创建了一个 T 类型数据，而数组大小需要计算管理。
+进一步管理 DeviceBuffer，作为外部使用接口。注意类中实际创建了一个 T 类型数据，而 BLOCK_AREA 的数组需要计算管理。
 
 - `DeviceBuffer<T> values_` :  创建了 T 类型的数据
 - `int size_` :  buffer 数组大小
@@ -164,7 +164,6 @@ public:
     void fillZero()
 
 	operator BlockPtrT() const { return BlockPtrT((T*)values_.data()); }
-
 };
 
 ```
