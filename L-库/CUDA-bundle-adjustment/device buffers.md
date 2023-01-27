@@ -20,6 +20,22 @@ struct Vec
 - `T* data_` :  数据首地址
 - `size_t size_, capacity_` : 实际数据大小，持有内存空间大小
 - `bool allocated_` ： 是否分配
+
+```cpp
+template <typename T>
+using GpuVec = DeviceBuffer<T>;
+
+using GpuVec1d = GpuVec<Scalar>;
+using GpuVec2d = GpuVec<Vec2d>;
+using GpuVec1i = GpuVec<int>;
+using GpuVec1b = GpuVec<uint8_t>;
+
+
+template <int N>
+using Vecxd = Vec<Scalar, N>;
+template <int N>
+using GpuVecxd = GpuVec<Vecxd<N>>;
+```
 ```mermaid
 graph TD
 %%此图示由列表文本转换而成！%%
@@ -78,19 +94,6 @@ public:
 ### 需要的类型
 
 ```c++
-template <typename T>
-using GpuVec = DeviceBuffer<T>;
-
-using GpuVec1d = GpuVec<Scalar>;
-using GpuVec2d = GpuVec<Vec2d>;
-using GpuVec1i = GpuVec<int>;
-using GpuVec1b = GpuVec<uint8_t>;
-
-
-template <int N>
-using Vecxd = Vec<Scalar, N>;
-template <int N>
-using GpuVecxd = GpuVec<Vecxd<N>>;
 
 using GpuHplBlockMat = DeviceBlockMatrix<Scalar, PDIM, LDIM, COL_MAJOR>;
 using GpuHscBlockMat = DeviceBlockMatrix<Scalar, PDIM, PDIM, ROW_MAJOR>;
