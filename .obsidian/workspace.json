@@ -207,6 +207,7 @@
   "active": "701765e6ce9689bb",
   "lastOpenFiles": [
     "L-库/CUDA-bundle-adjustment/BA流程.md",
+    "L-库/CUDA-bundle-adjustment/Cuda Block Solver.md",
     "L-库/G2O/雅可比计算.md",
     "L-库/G2O/G2O架构.md",
     "L-库/G2O/源码3-优化.md",
@@ -214,7 +215,6 @@
     "L-库/G2O/源码1-顶点和边的抽象.md",
     "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md",
     "L-库/CUDA-bundle-adjustment/SparseLinearSolver 1.md",
-    "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
-    "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md"
+    "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md"
   ]
 }

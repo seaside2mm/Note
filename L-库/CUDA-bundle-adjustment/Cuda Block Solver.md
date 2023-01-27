@@ -1,5 +1,6 @@
 
 ## host buffers
+
 ```cpp
 // graph components
 std::vector<VertexP*> verticesP_;
@@ -37,6 +38,7 @@ RobustKernel kernels_[EDGE_TYPE_NUM];
 
 
 ## device buffers
+
 ```cpp
 // solution vectors
 GpuVec1d d_solution_, d_solutionBackup_;
@@ -90,10 +92,6 @@ GpuVec5d d_cameras_;
 // temporary buffer
 DeviceBuffer<Scalar> d_chi_;
 GpuVec1i d_nnzPerCol_;
-
-////////////////////////////////////////////////////////////////////////////////////
-// statistics
-////////////////////////////////////////////////////////////////////////////////////
-
-std::vector<double> profItems_;
 ```
+
+

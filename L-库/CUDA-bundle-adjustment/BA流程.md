@@ -1,4 +1,7 @@
 
+核心步骤是实现在 `CudaBlockSolver` 类中。
+
+
 ```cpp
 void initialize() override
 {
@@ -7,6 +10,8 @@ void initialize() override
 	stats_.clear();
 }
 ```
+
+
 
 
 ```cpp
