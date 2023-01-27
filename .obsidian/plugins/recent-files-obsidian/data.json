@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "顶点-边的定义",
+      "path": "L-库/CUDA-bundle-adjustment/顶点-边的定义.md"
+    },
+    {
+      "basename": "CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo",
+      "path": "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md"
+    },
+    {
       "basename": "BA求解理论-边缘化",
       "path": "C-课程/深蓝-从零开始手写VIO/BA求解理论-边缘化.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "实践例子",
       "path": "L-库/G2O/实践例子.md"
-    },
-    {
-      "basename": "雅可比计算",
-      "path": "L-库/G2O/雅可比计算.md"
     }
   ],
   "omittedPaths": [],
