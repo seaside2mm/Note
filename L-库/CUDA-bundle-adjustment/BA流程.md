@@ -8,7 +8,6 @@ url: 'https://proc-cpuinfo.fixstars.com/2020/10/cuda-bundle-adjustment/'
 ```
 
 
-
 核心步骤是实现在 `CudaBlockSolver` 类中。
 
 
@@ -16,8 +15,6 @@ url: 'https://proc-cpuinfo.fixstars.com/2020/10/cuda-bundle-adjustment/'
 void initialize() override
 {
 	solver_.initialize(vertexMapP_, vertexMapL_, edges2D_, edges3D_, kernels_);
-
-	stats_.clear();
 }
 ```
 
