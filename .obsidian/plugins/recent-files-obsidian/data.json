@@ -5,6 +5,10 @@
       "path": "L-库/CUDA-bundle-adjustment/块求解器.md"
     },
     {
+      "basename": "Obsidian使用",
+      "path": "T-工具/Obsidian使用.md"
+    },
+    {
       "basename": "BA流程",
       "path": "L-库/CUDA-bundle-adjustment/BA流程.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "第4节 滑动窗口理论",
       "path": "C-课程/深蓝-从零开始手写VIO/pdf/第4节 滑动窗口理论.pdf"
-    },
-    {
-      "basename": "Sparse Linear Solver：包装cuda sparse solver",
-      "path": "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md"
     }
   ],
   "omittedPaths": [],
