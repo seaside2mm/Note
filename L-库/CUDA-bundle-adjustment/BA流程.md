@@ -1,5 +1,12 @@
 
+```cpp
+void initialize() override
+{
+	solver_.initialize(vertexMapP_, vertexMapL_, edges2D_, edges3D_, kernels_);
 
+	stats_.clear();
+}
+```
 
 
 ```cpp

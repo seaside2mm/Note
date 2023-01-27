@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/BA流程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4b90a6f6de9f7e64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L-库/CUDA-bundle-adjustment/BA流程.md",
+                "file": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/BA流程.md",
+                "file": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/BA流程.md",
+                "file": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/BA流程.md"
+                "file": "L-库/CUDA-bundle-adjustment/sparse_block_matrix.md"
               }
             }
           },
@@ -191,9 +178,9 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "4b90a6f6de9f7e64",
+  "active": "48a90c104279702e",
   "lastOpenFiles": [
-    "L-库/CUDA-bundle-adjustment/求解器.md",
+    "L-库/CUDA-bundle-adjustment/SparseLinearSolver.md",
     "L-库/CUDA-bundle-adjustment/BA流程.md",
     "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md",
     "L-库/CUDA-bundle-adjustment/顶点与边，以及管理.md",
