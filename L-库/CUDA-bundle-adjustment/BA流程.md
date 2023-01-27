@@ -33,10 +33,11 @@ url: 'https://proc-cpuinfo.fixstars.com/2020/10/cuda-bundle-adjustment/'
 ```cpp
 void initialize() override
 {
+	//Step 1
 	solver_.initialize(vertexMapP_, vertexMapL_, edges2D_, edges3D_, kernels_);
 }
 ```
-dcsc4FGEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEH64HY
+
 ```cpp
 void optimize(int niterations) override
 {
@@ -51,8 +52,9 @@ void optimize(int niterations) override
 	for (int iteration = 0; iteration < niterations; iteration++)
 	{
 		if (iteration == 0)
+			//Step 2
 			solver_.buildStructure();
-
+		//Step 3
 		const double iniF = solver_.computeErrors();
 		F = iniF;
 
