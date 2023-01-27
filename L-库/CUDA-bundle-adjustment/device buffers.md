@@ -175,9 +175,9 @@ public:
 
 - `DeviceBuffer<T> values_` ： GPU 内存
 - `DeviceBuffer<int> outerIndices_, innerIndices_` ： 稀疏矩阵索引数组
-- `int rows_, cols_` 矩阵大小
+- `int rows_, cols_` : 矩阵大小
 - `int nnz_` ：  non zeros 数
-- `int outerSize_, innerSize_` ： 
+- `int outerSize_, innerSize_` ： 索引数组长度
 
 稀疏矩阵定义查看： [[SparseCore]]
 

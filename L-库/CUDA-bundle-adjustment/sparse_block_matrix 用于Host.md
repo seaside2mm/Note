@@ -83,8 +83,6 @@ public:
 </iframe>
 
 
-<iframe src="" width=100% height="500px" frameborder="0" scrolling="auto"></iframe>
-
 ```cpp
 class HschurSparseBlockMatrix : public SparseBlockMatrix<PDIM, PDIM, ROW_MAJOR>
 {
