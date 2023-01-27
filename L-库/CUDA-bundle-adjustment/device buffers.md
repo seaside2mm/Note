@@ -58,7 +58,7 @@ template <typename T>
 class DeviceBuffer
 {
 public:
-	// 分配GPU内存
+	// 分配GPU内存,未初始化
 	void allocate(size_t count)
 	{
 		if (data_ && capacity_ >= count)
@@ -83,32 +83,21 @@ public:
 		size_ = size;
 		allocated_ = false;
 	}
-	// 
+	
 	void assign(size_t size, const void* h_data)
 	{
 		resize(size);
 		upload((T*)h_data);
 	}
 
-	void upload(const T* h_data)
-	void download(T* h_data) const
-	void fillZero()
+	void upload(const T* h_data) // cudaCopy
+	void download(T* h_data) const 
+	void fillZero() //cuda Memset
 };
 
 ```
 
 ##  device_matrix
-
-### 需要的类型
-
-```c++
-
-using GpuHplBlockMat = DeviceBlockMatrix<Scalar, PDIM, LDIM, COL_MAJOR>;
-using GpuHscBlockMat = DeviceBlockMatrix<Scalar, PDIM, PDIM, ROW_MAJOR>;
-
-```
-
-
 
 
 ### BlockPtr：  连续矩阵块的索引
@@ -139,6 +128,7 @@ using Lx1BlockPtr = BlockPtr<Scalar, LDIM, 1>;
 
 ```c++
 static const int BLOCK_AREA = BLOCK_ROWS * BLOCK_COLS;
+//每个矩阵块的开始地址
 using BlockPtrT = BlockPtr<T, BLOCK_ROWS, BLOCK_COLS>; 
 
 using GpuPxPBlockVec = DeviceBlockVector<Scalar, PDIM, PDIM>;
@@ -186,6 +176,17 @@ public:
 - `int rows_, cols_, nnz_, outerSize_, innerSize_` ： 
 
 [[SparseCore]]
+
+
+
+```c++
+
+using GpuHplBlockMat = DeviceBlockMatrix<Scalar, PDIM, LDIM, COL_MAJOR>;
+using GpuHscBlockMat = DeviceBlockMatrix<Scalar, PDIM, PDIM, ROW_MAJOR>;
+
+```
+
+
 
 ``` c++
 template <typename T, int BLOCK_ROWS, int BLOCK_COLS, int ORDER>
