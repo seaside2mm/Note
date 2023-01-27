@@ -102,6 +102,22 @@
           "lastUpdated": 1674789964527
         }
       }
+    },
+    "System": {
+      "System": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1674801868523
+        }
+      }
+    },
+    "Solution": {
+      "Solution": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674801880088
+        }
+      }
     }
   }
 }
