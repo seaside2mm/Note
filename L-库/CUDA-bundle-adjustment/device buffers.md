@@ -123,10 +123,10 @@ using Lx1BlockPtr = BlockPtr<Scalar, LDIM, 1>;
 
 ### DeviceBlockVector：
 
-DeviceBuffer
+进一步管理 DeviceBuffer，作为外部使用接口。注意类中实际创建了一个 T 类型数据，而数组大小需要计算管理。
 
-- `DeviceBuffer<T> values_` :  T 类型的数据起始地址，注意 DeviceBuffer 实际是一块数组大小
-- `int size_` :  向量大小
+- `DeviceBuffer<T> values_` :  创建了 T 类型的数据
+- `int size_` :  buffer 数组大小
 
 ```c++
 static const int BLOCK_AREA = BLOCK_ROWS * BLOCK_COLS;
