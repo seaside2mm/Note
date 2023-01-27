@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/device数据格式定义.md",
+                "file": "C-课程/深蓝-从零开始手写VIO/BA求解理论-边缘化.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/device数据格式定义.md",
+                "file": "C-课程/深蓝-从零开始手写VIO/BA求解理论-边缘化.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/device数据格式定义.md",
+                "file": "C-课程/深蓝-从零开始手写VIO/BA求解理论-边缘化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/device数据格式定义.md"
+                "file": "C-课程/深蓝-从零开始手写VIO/BA求解理论-边缘化.md"
               }
             }
           },
@@ -180,11 +180,11 @@
   },
   "active": "8f097ab4e2b1efa5",
   "lastOpenFiles": [
+    "L-库/CUDA-bundle-adjustment/device数据格式定义.md",
     "L-库/CUDA-bundle-adjustment/块求解器.md",
     "T-工具/Obsidian使用.md",
     "L-库/CUDA-bundle-adjustment/BA流程.md",
     "L-库/CUDA-bundle-adjustment/host稀疏矩阵定义.md",
-    "L-库/CUDA-bundle-adjustment/device数据格式定义.md",
     "C-课程/深蓝-从零开始手写VIO/理论1-最小二乘.md",
     "L-库/G2O/代码结构.md",
     "L-库/G2O/源码3-优化.md",

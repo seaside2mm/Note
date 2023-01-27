@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "BA求解理论-边缘化",
+      "path": "C-课程/深蓝-从零开始手写VIO/BA求解理论-边缘化.md"
+    },
+    {
       "basename": "device数据格式定义",
       "path": "L-库/CUDA-bundle-adjustment/device数据格式定义.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "第5节 滑动窗口算法实践",
       "path": "C-课程/深蓝-从零开始手写VIO/pdf/第5节 滑动窗口算法实践.pdf"
-    },
-    {
-      "basename": "第4节 滑动窗口理论",
-      "path": "C-课程/深蓝-从零开始手写VIO/pdf/第4节 滑动窗口理论.pdf"
     }
   ],
   "omittedPaths": [],
