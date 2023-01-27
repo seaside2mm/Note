@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f592cf45c8b4eb2f",
-        "type": "split",
+        "id": "dd043a81ae4506cf",
+        "type": "tabs",
         "children": [
           {
-            "id": "dd043a81ae4506cf",
-            "type": "tabs",
-            "dimension": 76.2071992976295,
-            "children": [
-              {
-                "id": "8f097ab4e2b1efa5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "9b85d718c57e6016",
-                "type": "leaf",
-                "state": {
-                  "type": "pdf",
-                  "state": {
-                    "file": "C-课程/深蓝-从零开始手写VIO/pdf/第5节 滑动窗口算法实践.pdf"
-                  }
-                }
+            "id": "8f097ab4e2b1efa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "0c553040ce7abd45",
-            "type": "tabs",
-            "dimension": 23.7928007023705,
-            "children": [
-              {
-                "id": "523c27af7e1ae1c2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "L-库/CUDA-bundle-adjustment/host稀疏矩阵定义.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -217,10 +180,10 @@
   },
   "active": "8f097ab4e2b1efa5",
   "lastOpenFiles": [
+    "L-库/CUDA-bundle-adjustment/块求解器.md",
     "L-库/CUDA-bundle-adjustment/BA流程.md",
     "L-库/CUDA-bundle-adjustment/host稀疏矩阵定义.md",
     "L-库/CUDA-bundle-adjustment/device数据格式定义.md",
-    "L-库/CUDA-bundle-adjustment/块求解器.md",
     "C-课程/深蓝-从零开始手写VIO/理论1-最小二乘.md",
     "L-库/G2O/代码结构.md",
     "L-库/G2O/源码3-优化.md",
