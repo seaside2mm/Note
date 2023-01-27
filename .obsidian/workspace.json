@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e603ce633abce1a7",
+        "id": "dd043a81ae4506cf",
         "type": "tabs",
         "children": [
           {
-            "id": "d8408be64acbcc11",
+            "id": "48a90c104279702e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C-课程/深蓝-从零开始手写VIO/BA求解理论-边缘化.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -178,7 +174,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "d8408be64acbcc11",
+  "active": "5186dddb7992a812",
   "lastOpenFiles": [
     "C-课程/深蓝-从零开始手写VIO/理论1-最小二乘.md",
     "C-课程/深蓝-从零开始手写VIO/BA求解理论-边缘化.md",
