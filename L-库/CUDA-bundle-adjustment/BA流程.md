@@ -1,3 +1,13 @@
+[CUDAによるバンドル調整の高速化とソースコード公開]( https://proc-cpuinfo.fixstars.com/2020/10/cuda-bundle-adjustment/ )
+
+```embed
+title: 'CUDAによるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog /proc/cpuinfo'
+image: 'https://proc-cpuinfo.fixstars.com/wp-content/uploads/2020/10/ba-3-no-alpha.png'
+description: 'はじめに こんにちは、エンジニアの高木です。 私は現在、adaskitという社内の自動運転関連のオープンソースプロジェクトに携わっており、プロジェクトのこれまでの成果としてlibSGMやsegmentation-sgm、 […]'
+url: 'https://proc-cpuinfo.fixstars.com/2020/10/cuda-bundle-adjustment/'
+```
+
+
 
 核心步骤是实现在 `CudaBlockSolver` 类中。
 
