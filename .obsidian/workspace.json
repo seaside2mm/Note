@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/顶点-边的定义.md",
+                "file": "L-库/CUDA-bundle-adjustment/顶点与边，以及管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/顶点-边的定义.md",
+                "file": "L-库/CUDA-bundle-adjustment/顶点与边，以及管理.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/顶点-边的定义.md",
+                "file": "L-库/CUDA-bundle-adjustment/顶点与边，以及管理.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/顶点-边的定义.md",
+                "file": "L-库/CUDA-bundle-adjustment/顶点与边，以及管理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/顶点-边的定义.md"
+                "file": "L-库/CUDA-bundle-adjustment/顶点与边，以及管理.md"
               }
             }
           },
@@ -206,7 +206,7 @@
   "active": "dd8a05405d2b29bb",
   "lastOpenFiles": [
     "L-库/CUDA-bundle-adjustment/未命名.md",
-    "L-库/CUDA-bundle-adjustment/顶点-边的定义.md",
+    "L-库/CUDA-bundle-adjustment/顶点与边，以及管理.md",
     "L-库/CUDA-bundle-adjustment/CUDA によるバンドル調整の高速化とソースコード公開 - Fixstars Tech Blog _proc_cpuinfo.md",
     "C-课程/深蓝-从零开始手写VIO/BA求解理论-边缘化.md",
     "C-课程/深蓝-从零开始手写VIO/理论1-最小二乘.md",
