@@ -121,10 +121,10 @@ using Lx1BlockPtr = BlockPtr<Scalar, LDIM, 1>;
 ```
 
 
-### DeviceBlockVector：向量类型
+### DeviceBlockVector：矩阵数组
 
-- `DeviceBuffer<T> values_` : 数据内存
-- `int size_` :  数据大小
+- `DeviceBuffer<T> values_` :  T 类型的数据起始地址
+- `int size_` :  向量大小
 
 ```c++
 static const int BLOCK_AREA = BLOCK_ROWS * BLOCK_COLS;
