@@ -5,6 +5,10 @@
       "path": "L-库/CUDA-bundle-adjustment/BA流程.md"
     },
     {
+      "basename": "理论1-最小二乘",
+      "path": "C-课程/深蓝-从零开始手写VIO/理论1-最小二乘.md"
+    },
+    {
       "basename": "代码结构",
       "path": "L-库/G2O/代码结构.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "G2O架构",
       "path": "L-库/G2O/G2O架构.md"
-    },
-    {
-      "basename": "源码2-顶点和边",
-      "path": "L-库/G2O/源码2-顶点和边.md"
     }
   ],
   "omittedPaths": [],

@@ -26,6 +26,9 @@ url: 'https://proc-cpuinfo.fixstars.com/2020/10/cuda-bundle-adjustment/'
 	* 把得到的 $Δx$ 对应的状态变量进行更新 
 
 
+
+<iframe src=" https://raw.githubusercontent.com/seaside2mm/github-photos/master/images/20221021184218.png" width=100% height="500px" frameborder="0" scrolling="auto"></iframe>
+
 核心步骤是实现在 `CudaBlockSolver` 类中。
 
 
