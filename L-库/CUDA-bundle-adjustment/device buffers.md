@@ -1,6 +1,7 @@
 
 
-##  fixed_vector 用于 CPU 以及 GPU 数据
+##  fixed_vector 用于索引 CPU 以及 GPU 内存指针指向的数据
+
 
 ```c++
 #define HOST_DEVICE __host__ __device__ inline
