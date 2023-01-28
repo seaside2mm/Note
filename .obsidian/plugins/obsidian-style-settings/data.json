@@ -7,12 +7,12 @@
   "Blue-Topaz-Codebox-Highlight@@letter-space-code": 0.4,
   "Blue-Topaz-Codebox-Highlight@@code-box-style-option": "codebox-default-style",
   "Blue-Topaz-Codebox-Highlight@@blur-codebox-frosted-glass": 0,
-  "Blue-Topaz-Codebox-Highlight@@remove-language-type": false,
+  "Blue-Topaz-Codebox-Highlight@@remove-language-type": true,
   "blue-topaz-theme@@resizable-mermaid": true,
   "blue-topaz-theme@@canvas-card-text-middle": true,
   "blue-topaz-theme@@canvas-card-focus-mode": true,
   "blue-topaz-theme@@toggle-bg-panel-page": true,
   "blue-topaz-theme@@bg-panel-page-option": "panel-page-bg-theme-dark-curves",
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-lillimon-topaz",
-  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-material-palenight"
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-sublime"
 }
