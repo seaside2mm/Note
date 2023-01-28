@@ -3,6 +3,7 @@
 
 ```cpp
 HplBlockPos_.push_back({ vertexP->iP, vertexL->iL, edgeId });
+edge2PL_.push_back({ vertexP->iP, vertexL->iL });
 ```
 
 第 1 步：buildStructure
