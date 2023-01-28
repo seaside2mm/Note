@@ -1,9 +1,11 @@
 
-第 0 步： 
+第 0 步： 初始化遍历所有边的时候，准备 host 数据
 
-```c
+```cpp
+HplBlockPos_.push_back({ vertexP->iP, vertexL->iL, edgeId });
 ```
-第一步：buildStructure
+
+第 1 步：buildStructure
 
 ```cpp
 // build Hpl block matrix structure
