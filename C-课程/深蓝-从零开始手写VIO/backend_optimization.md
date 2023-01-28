@@ -1,5 +1,10 @@
 
 
+# Problem
+
+## MakeHessian
+
+
 ## SolveLinearSystem
 
 
@@ -44,9 +49,10 @@ VecX delta_x_pp(VecX::Zero(reserve_size));
 for (ulong i = 0; i < ordering_poses_; ++i) {
     H_pp_schur_(i, i) += currentLambda_;
 }
-int n = H_pp_schur_.rows() * 2;                       // 迭代次数
+int n = H_pp_schur_.rows() * 2;  // 迭代次数
 delta_x_pp = PCGSolver(H_pp_schur_, b_pp_schur_, n);  
 delta_x_.head(reserve_size) = delta_x_pp;
+
 //step3: solve landmark
 VecX delta_x_ll(marg_size);
 delta_x_ll = Hmm_inv * (bmm - Hmp * delta_x_pp); //公式6
