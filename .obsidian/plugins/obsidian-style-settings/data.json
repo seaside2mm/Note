@@ -14,5 +14,5 @@
   "blue-topaz-theme@@toggle-bg-panel-page": true,
   "blue-topaz-theme@@bg-panel-page-option": "panel-page-bg-theme-dark-curves",
   "blue-topaz-theme@@color-scheme-options": "color-scheme-options-lillimon-topaz",
-  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-custom"
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-material-palenight"
 }
