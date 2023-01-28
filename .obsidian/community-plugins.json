@@ -1,6 +1,5 @@
 [
   "obsidian-kanban",
-  "templater-obsidian",
   "media-extended",
   "mx-bili-plugin",
   "obsidian-git",
@@ -23,5 +22,12 @@
   "obsidian-link-embed",
   "surfing",
   "obsidian-custom-frames",
-  "obsidian-linter"
+  "obsidian-linter",
+  "obsidian-icon-folder",
+  "obsidian-memos",
+  "obsidian-dynamic-highlights",
+  "notion-like-tables",
+  "obsidian-quiet-outline",
+  "obsidian-code-block-enhancer",
+  "periodic-notes"
 ]

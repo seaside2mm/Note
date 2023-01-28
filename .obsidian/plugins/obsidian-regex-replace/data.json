@@ -1,0 +1,10 @@
+{
+  "findText": "x",
+  "replaceText": "https://www.youtube.com/watch?v=fRKsKR9wvqE&ab_channel=CameraZone",
+  "useRegEx": true,
+  "selOnly": false,
+  "caseInsensitive": false,
+  "processLineBreak": false,
+  "processTab": false,
+  "prefillFind": false
+}

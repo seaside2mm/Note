@@ -1,11 +1,10 @@
 {
   "pluginList": [
-    "Quorafind/Obsidian-Surfing",
-    "obsidian-canzi/Enhanced-editing"
+    "Quorafind/Obsidian-Surfing"
   ],
   "pluginSubListFrozenVersion": [],
   "themesList": [],
-  "updateAtStartup": true,
+  "updateAtStartup": false,
   "updateThemesAtStartup": false,
   "ribbonIconEnabled": true,
   "loggingEnabled": false,
