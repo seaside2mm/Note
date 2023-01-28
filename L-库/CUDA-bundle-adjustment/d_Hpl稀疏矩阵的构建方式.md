@@ -38,6 +38,7 @@ void buildHplStructure(GpuVec3i& blockpos, GpuHplBlockMat& Hpl, GpuVec1i& indexP
     // 取出每个blockpos的col值，并赋1给nnzPerCol的对应位置
 	nnzPerColKernel<<<grid, block>>>(blockpos, nblocks, nnzPerCol);
 	exclusiveScan(nnzPerCol, colPtr, Hpl.cols() + 1);
+	
 	setRowIndKernel<<<grid, block>>>(blockpos, nblocks, rowInd, indexPL);
 }
 ```
