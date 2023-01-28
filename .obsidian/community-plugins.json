@@ -22,5 +22,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-link-embed",
   "surfing",
-  "obsidian-custom-frames"
+  "obsidian-custom-frames",
+  "obsidian-linter"
 ]
