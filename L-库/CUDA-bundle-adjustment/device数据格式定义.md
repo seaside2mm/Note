@@ -128,7 +128,7 @@ using Lx1BlockPtr = BlockPtr<Scalar, LDIM, 1>;
 - `DeviceBuffer<T> values_` :  创建了 T 类型的数据，用于提供 GPU 的起始地址
 - `int size_` :  block 数
 
-```c++
+```cpp
 static const int BLOCK_AREA = BLOCK_ROWS * BLOCK_COLS;
 //每个矩阵块的开始地址
 using BlockPtrT = BlockPtr<T, BLOCK_ROWS, BLOCK_COLS>; 
@@ -141,7 +141,7 @@ using GpuLx1BlockVec = DeviceBlockVector<Scalar, LDIM, 1>;
 
 ```
 
-```c++
+```cpp
 template <typename T, int BLOCK_ROWS, int BLOCK_COLS>
 class DeviceBlockVector
 {
@@ -180,7 +180,7 @@ public:
 - `int outerSize_, innerSize_` ： 索引数组长度
 
 稀疏矩阵定义查看： [[SparseCore]]
->@log  ROW_MAJOR 则是 CSR
+> ROW_MAJOR 则是 CSR
 
 ```c++
 using GpuHplBlockMat = DeviceBlockMatrix<Scalar, PDIM, LDIM, COL_MAJOR>;

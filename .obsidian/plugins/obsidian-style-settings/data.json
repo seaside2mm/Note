@@ -3,15 +3,16 @@
   "Blue-Topaz-Codebox-Highlight@@mute-code-indent-line": true,
   "Blue-Topaz-Codebox-Highlight@@code-line-number": true,
   "Blue-Topaz-Codebox-Highlight@@whole-code-wrap": true,
-  "Blue-Topaz-Codebox-Highlight@@nowrap-edit-codebox": false,
+  "Blue-Topaz-Codebox-Highlight@@nowrap-edit-codebox": true,
   "Blue-Topaz-Codebox-Highlight@@letter-space-code": 0.4,
   "Blue-Topaz-Codebox-Highlight@@code-box-style-option": "codebox-default-style",
-  "Blue-Topaz-Codebox-Highlight@@blur-codebox-frosted-glass": 1,
+  "Blue-Topaz-Codebox-Highlight@@blur-codebox-frosted-glass": 0,
   "Blue-Topaz-Codebox-Highlight@@remove-language-type": false,
   "blue-topaz-theme@@resizable-mermaid": true,
   "blue-topaz-theme@@canvas-card-text-middle": true,
   "blue-topaz-theme@@canvas-card-focus-mode": true,
   "blue-topaz-theme@@toggle-bg-panel-page": true,
   "blue-topaz-theme@@bg-panel-page-option": "panel-page-bg-theme-dark-curves",
-  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-lillimon-topaz"
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-lillimon-topaz",
+  "Blue-Topaz-Codebox-Highlight@@code-theme-selection": "code-theme-custom"
 }
