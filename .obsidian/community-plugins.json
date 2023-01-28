@@ -5,7 +5,6 @@
   "obsidian-git",
   "obsidian-outliner",
   "quickadd",
-  "easy-typing-obsidian",
   "recent-files-obsidian",
   "obsidian-image-toolkit",
   "various-complements",
@@ -27,6 +26,6 @@
   "obsidian-dynamic-highlights",
   "notion-like-tables",
   "obsidian-quiet-outline",
-  "obsidian-code-block-enhancer",
-  "periodic-notes"
+  "periodic-notes",
+  "easy-typing-obsidian"
 ]
