@@ -7,5 +7,6 @@
   "Blue-Topaz-Codebox-Highlight@@letter-space-code": 0.4,
   "Blue-Topaz-Codebox-Highlight@@code-box-style-option": "codebox-default-style",
   "Blue-Topaz-Codebox-Highlight@@blur-codebox-frosted-glass": 1,
-  "Blue-Topaz-Codebox-Highlight@@remove-language-type": false
+  "Blue-Topaz-Codebox-Highlight@@remove-language-type": false,
+  "blue-topaz-theme@@resizable-mermaid": true
 }
