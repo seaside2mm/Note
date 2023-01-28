@@ -35,7 +35,7 @@ void buildHplStructure(GpuVec3i& blockpos, GpuHplBlockMat& Hpl, GpuVec1i& indexP
 	thrust::sort(ptrBlockPos, ptrBlockPos + nblocks, LessColId());
 
 	CUDA_CHECK(cudaMemset(nnzPerCol, 0, sizeof(int) * (Hpl.cols() + 1)));
-	//
+    //
 	nnzPerColKernel<<<grid, block>>>(blockpos, nblocks, nnzPerCol);
 	exclusiveScan(nnzPerCol, colPtr, Hpl.cols() + 1);
 	setRowIndKernel<<<grid, block>>>(blockpos, nblocks, rowInd, indexPL);
