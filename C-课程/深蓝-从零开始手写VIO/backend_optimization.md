@@ -1,9 +1,72 @@
 
 
-# Problem
+# Problem 类
 
 ## MakeHessian
 
+```cpp
+// 直接构造大的 H 矩阵
+MatXX H(MatXX::Zero(size, size));
+VecX b(VecX::Zero(size));
+
+for (auto &edge: edges_) {
+
+	edge.second->ComputeResidual();
+	edge.second->ComputeJacobians();
+
+	auto jacobians = edge.second->Jacobians();
+	auto verticies = edge.second->Verticies();
+
+	
+	for (size_t i = 0; i < verticies.size(); ++i) {
+		auto v_i = verticies[i];
+		// Hessian 里不需要添加它的信息，也就是它的雅克比为 0
+		if (v_i->IsFixed()) continue;    
+
+		auto jacobian_i = jacobians[i];
+		ulong index_i = v_i->OrderingId();
+		ulong dim_i = v_i->LocalDimension();
+
+		MatXX JtW = jacobian_i.transpose() * edge.second->Information();
+		
+		for (size_t j = i; j < verticies.size(); ++j) {
+			auto v_j = verticies[j];
+
+			if (v_j->IsFixed()) continue;
+
+			auto jacobian_j = jacobians[j];
+			ulong index_j = v_j->OrderingId();
+			ulong dim_j = v_j->LocalDimension();
+
+			assert(v_j->OrderingId() != -1);
+			MatXX hessian = JtW * jacobian_j;
+			// 所有的信息矩阵叠加起来
+			H.block(index_i, index_j, dim_i, dim_j).noalias() += hessian;
+			if (j != i) {
+				// 对称的下三角
+				H.block(index_j, index_i, dim_j, dim_i).noalias() += hessian.transpose();
+			}
+		}
+		b.segment(index_i, dim_i).noalias() -= JtW * edge.second->Residual();
+	}
+
+}
+Hessian_ = H;
+b_ = b;
+t_hessian_cost_ += t_h.toc();
+
+
+//    Eigen::JacobiSVD<Eigen::MatrixXd> svd(H, Eigen::ComputeThinU | Eigen::ComputeThinV);
+//    std::cout << svd.singularValues() <<std::endl;
+
+if (err_prior_.rows() > 0) {
+	b_prior_ -= H_prior_ * delta_x_.head(ordering_poses_);   // update the error_prior
+}
+Hessian_.topLeftCorner(ordering_poses_, ordering_poses_) += H_prior_;
+b_.head(ordering_poses_) += b_prior_;
+
+delta_x_ = VecX::Zero(size);  // initial delta_x = 0_n;
+```
 
 ## SolveLinearSystem
 
