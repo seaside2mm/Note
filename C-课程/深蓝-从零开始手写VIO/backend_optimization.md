@@ -25,7 +25,6 @@ while (!stop && (iter < iterations)) {
 //            AddLambdatoHessianLM();
 		// 第四步，解线性方程
 		SolveLinearSystem();
-		//
 //            RemoveLambdaHessianLM();
 
 		// 优化退出条件1： delta_x_ 很小则退出
@@ -42,13 +41,6 @@ while (!stop && (iter < iterations)) {
 		if (oneStepSuccess) {
 			// 在新线性化点 构建 hessian
 			MakeHessian();
-			// TODO:: 这个判断条件可以丢掉，条件 b_max <= 1e-12 很难达到，这里的阈值条件不应该用绝对值，而是相对值
-//                double b_max = 0.0;
-//                for (int i = 0; i < b_.size(); ++i) {
-//                    b_max = max(fabs(b_(i)), b_max);
-//                }
-//                // 优化退出条件2： 如果残差 b_max 已经很小了，那就退出
-//                stop = (b_max <= 1e-12);
 			false_cnt = 0;
 		} else {
 			false_cnt ++;
@@ -62,6 +54,8 @@ while (!stop && (iter < iterations)) {
 		stop = true;
 }
 ```
+
+
 ## MakeHessian
 
 ```cpp
