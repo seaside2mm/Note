@@ -180,7 +180,7 @@ public:
 - `int outerSize_, innerSize_` ： 索引数组长度
 
 稀疏矩阵定义查看： [[SparseCore]]
-> ROW_MAJOR 则是 CSR
+>@log  ROW_MAJOR 则是 CSR
 
 ```c++
 using GpuHplBlockMat = DeviceBlockMatrix<Scalar, PDIM, LDIM, COL_MAJOR>;
