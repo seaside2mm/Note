@@ -2,6 +2,66 @@
 
 # Problem 类
 
+
+## Solve
+
+```cpp
+// 统计优化变量的维数，为构建 H 矩阵做准备
+SetOrdering();
+// 遍历edge, 构建 H 矩阵
+MakeHessian();
+// LM 初始化
+ComputeLambdaInitLM();
+// LM 算法迭代求解
+bool stop = false;
+int iter = 0;
+while (!stop && (iter < iterations)) {
+
+	bool oneStepSuccess = false;
+	int false_cnt = 0;
+	while (!oneStepSuccess)  // 不断尝试 Lambda, 直到成功迭代一步
+	{
+		// setLambda
+//            AddLambdatoHessianLM();
+		// 第四步，解线性方程
+		SolveLinearSystem();
+		//
+//            RemoveLambdaHessianLM();
+
+		// 优化退出条件1： delta_x_ 很小则退出
+		if (delta_x_.squaredNorm() <= 1e-6 || false_cnt > 10) {
+			stop = true;
+			break;
+		}
+
+		// 更新状态量
+		UpdateStates();
+		// 判断当前步是否可行以及 LM 的 lambda 怎么更新
+		oneStepSuccess = IsGoodStepInLM();
+		// 后续处理，
+		if (oneStepSuccess) {
+			// 在新线性化点 构建 hessian
+			MakeHessian();
+			// TODO:: 这个判断条件可以丢掉，条件 b_max <= 1e-12 很难达到，这里的阈值条件不应该用绝对值，而是相对值
+//                double b_max = 0.0;
+//                for (int i = 0; i < b_.size(); ++i) {
+//                    b_max = max(fabs(b_(i)), b_max);
+//                }
+//                // 优化退出条件2： 如果残差 b_max 已经很小了，那就退出
+//                stop = (b_max <= 1e-12);
+			false_cnt = 0;
+		} else {
+			false_cnt ++;
+			RollbackStates();   // 误差没下降，回滚
+		}
+	}
+	iter++;
+
+	// 优化退出条件3： currentChi_ 跟第一次的chi2相比，下降了 1e6 倍则退出
+	if (sqrt(currentChi_) <= stopThresholdLM_)
+		stop = true;
+}
+```
 ## MakeHessian
 
 ```cpp

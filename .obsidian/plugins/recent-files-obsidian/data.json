@@ -5,6 +5,10 @@
       "path": "C-课程/深蓝-从零开始手写VIO/backend_optimization.md"
     },
     {
+      "basename": "IOFormat",
+      "path": "L-库/Eigen/IOFormat.md"
+    },
+    {
       "basename": "BA求解理论-边缘化",
       "path": "C-课程/深蓝-从零开始手写VIO/BA求解理论-边缘化.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "代码结构",
       "path": "L-库/G2O/代码结构.md"
-    },
-    {
-      "basename": "源码3-优化",
-      "path": "L-库/G2O/源码3-优化.md"
     }
   ],
   "omittedPaths": [],
