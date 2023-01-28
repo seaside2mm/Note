@@ -221,6 +221,7 @@
   "active": "370c7d4713453041",
   "lastOpenFiles": [
     "C-课程/深蓝-从零开始手写VIO/BA求解理论-边缘化.md",
+    "C-课程/深蓝-从零开始手写VIO/backend_optimization.md",
     "L-库/CUDA-bundle-adjustment/块求解器.md",
     "L-库/CUDA-bundle-adjustment/BA流程.md",
     "L-库/CUDA-bundle-adjustment/device数据格式定义.md",
@@ -228,7 +229,6 @@
     "L-库/CUDA-bundle-adjustment/host稀疏矩阵定义.md",
     "C-课程/深蓝-从零开始手写VIO/理论1-最小二乘.md",
     "L-库/G2O/代码结构.md",
-    "L-库/G2O/源码3-优化.md",
-    "C-课程/深蓝-从零开始手写VIO/pdf/第5节 滑动窗口算法实践.pdf"
+    "L-库/G2O/源码3-优化.md"
   ]
 }
