@@ -45,6 +45,8 @@ VecX delta_x_ll(marg_size);
 delta_x_ll = Hmm_inv * (bmm - Hmp * delta_x_pp); //公式6
 delta_x_.tail(marg_size) = delta_x_ll;
 ```
+
+
 # 问题
 - 重投影误差最小化
 [](https://proc-cpuinfo.fixstars.com/wp-content/uploads/2020/10/ba-3.png)
