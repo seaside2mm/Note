@@ -22,17 +22,13 @@ Eigen::MatrixXd X = Eigen::MatrixXd::Zero(100, 3);
 Eigen::MatrixXd X = Eigen::MatrixXd::Ones(100, 3);
 Eigen::MatrixXd X = Eigen::MatrixXd::Random(100, 3);
 Eigen::MatrixXd X = Eigen::MatrixXd::Identity(3, 3);
-
-
 ```
 
 リサイズ
 
-```
+```cpp
 X.resize(X.rows()+1, X.cols()); // 要素を保持しない
 X.conservativeResize(X.rows()+1, Eigen::NoChange); // 要素を保持する
-
-
 ```
 
 部分行列
