@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
+                    "file": "L-库/CUDA-bundle-adjustment/BA流程.md",
                     "mode": "source",
                     "source": false
                   }
@@ -29,7 +29,7 @@
           {
             "id": "6abb9122675ba1b7",
             "type": "tabs",
-            "dimension": 30.789473684210527,
+            "dimension": 30.789473684210524,
             "children": [
               {
                 "id": "3fb216448a7c1cc7",
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
+                "file": "L-库/CUDA-bundle-adjustment/BA流程.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
+                "file": "L-库/CUDA-bundle-adjustment/BA流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/块求解器.md"
+                "file": "L-库/CUDA-bundle-adjustment/BA流程.md"
               }
             }
           },
@@ -216,15 +216,15 @@
   },
   "active": "c038714f9e67ba5b",
   "lastOpenFiles": [
+    "L-库/CUDA-bundle-adjustment/BA流程.md",
+    "L-库/CUDA-bundle-adjustment/块求解器.md",
     "L-库/CUDA-bundle-adjustment/host稀疏矩阵定义.md",
     "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md",
     "L-库/CUDA-bundle-adjustment/device数据格式定义.md",
     "L-库/CUDA-bundle-adjustment/GPU矩阵操作.md",
     "I-Inbox/Sparse Matrices · Matt Eding.md",
     "I-Inbox/稀疏矩阵.md",
-    "L-库/CUDA-bundle-adjustment/块求解器.md",
     "L-库/CUDA-bundle-adjustment/d_Hpl稀疏矩阵的构建方式.md",
-    "img/Screen.md",
-    "A-专业知识/数学体系概论/概率论基础.md"
+    "img/Screen.md"
   ]
 }
