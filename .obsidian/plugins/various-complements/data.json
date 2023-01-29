@@ -46,5 +46,14 @@
     "maxNumberOfHistoryToKeep": 0
   },
   "showLogAboutPerformanceInConsole": false,
-  "selectionHistoryTree": {}
+  "selectionHistoryTree": {
+    "\\end{pmatrix}\\end{Vmatrix}": {
+      "\\end{pmatrix}\\end{Vmatrix}": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1674955223920
+        }
+      }
+    }
+  }
 }
