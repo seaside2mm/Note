@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#excalidraw",
+                "query": "tag:#高斯消元法主要通过系数矩阵行向量加减消元，产生一个行阶梯形矩阵，通过行阶梯形矩阵的最后一行的等式，求解一个未知量，并不断向上回代求解，直到求解出所有变量。",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -212,7 +213,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "2d35841fb5e45d8a",
+  "active": "277526e2216a29cb",
   "lastOpenFiles": [
     "L-库/Eigen/Eigen 学习与使用笔记 2.md",
     "L-库/Eigen/代码示例-线程方程求解.md",
