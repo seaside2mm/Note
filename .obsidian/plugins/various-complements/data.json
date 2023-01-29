@@ -41,47 +41,10 @@
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
+  "intelligentSuggestionPrioritization": {
+    "maxDaysToKeepHistory": 30,
+    "maxNumberOfHistoryToKeep": 0
+  },
   "showLogAboutPerformanceInConsole": false,
-  "selectionHistoryTree": {
-    "推导过程到这里基本结束。从上式已经可以得到景深与对焦距离、光圈之间的关系，即": {
-      "推导过程到这里基本结束。从上式已经可以得到景深与对焦距离、光圈之间的关系，即": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1659274262414
-        }
-      }
-    },
-    "使用修补工具": {
-      "使用修补工具": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1661345052669
-        }
-      }
-    },
-    "仿制图章": {
-      "仿制图章": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1661419142661
-        }
-      }
-    },
-    "侧逆光，柔焦，星光": {
-      "侧逆光，柔焦，星光": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1661676779444
-        }
-      }
-    },
-    "明度偏高，绿色偏蓝，冷色": {
-      "明度偏高，绿色偏蓝，冷色": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1661677267704
-        }
-      }
-    }
-  }
+  "selectionHistoryTree": {}
 }
