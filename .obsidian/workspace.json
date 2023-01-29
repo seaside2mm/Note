@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L-库/Eigen/Eigen 学习与使用笔记 2.md",
+                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/Eigen/Eigen 学习与使用笔记 2.md",
+                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/Eigen/Eigen 学习与使用笔记 2.md",
+                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/Eigen/Eigen 学习与使用笔记 2.md"
+                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md"
               }
             }
           },
@@ -214,9 +214,9 @@
   },
   "active": "2d35841fb5e45d8a",
   "lastOpenFiles": [
+    "L-库/Eigen/Eigen 学习与使用笔记 2.md",
     "L-库/Eigen/代码示例-线程方程求解.md",
     "L-库/Eigen/代码示例-稀疏矩阵.md",
-    "L-库/Eigen/Eigen 学习与使用笔记 2.md",
     "L-库/Eigen/Eigen 学习与使用笔记 3.md",
     "L-库/Eigen/Eigen 学习与使用笔记 4.md",
     "A-专业知识/线性代数与矩阵论/使用 C++ Eigen 库对几种常规解法进行性能分析.md",
