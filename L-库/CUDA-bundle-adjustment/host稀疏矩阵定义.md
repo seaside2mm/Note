@@ -58,6 +58,8 @@ public:
 
 ## HschurSparseBlockMatrix
 
+[[Sparse Matrices · Matt Eding#Block Sparse Row]]
+
 	int nmultiplies_;
 	Eigen::VectorXi rowPtr_, colInd_, nnzPerRow_, BSR2CSR_;
 	
