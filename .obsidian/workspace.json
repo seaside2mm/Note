@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
+                "file": "A-专业知识/数学体系概论/微积分的本质.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
+                "file": "A-专业知识/数学体系概论/微积分的本质.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
+                "file": "A-专业知识/数学体系概论/微积分的本质.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md"
+                "file": "A-专业知识/数学体系概论/微积分的本质.md"
               }
             }
           },
@@ -189,15 +189,15 @@
   },
   "active": "220aed0cf93228ee",
   "lastOpenFiles": [
-    "C-课程/牛津-数值计算/未命名.md",
+    "A-专业知识/数学体系概论/Dahua Lin的数学体系.md",
+    "A-专业知识/数学体系概论/【测度论】之长度是怎样炼成的.md",
     "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
+    "C-课程/牛津-数值计算/未命名.md",
     "L-库/Eigen/Eigen 学习与使用笔记 2.md",
     "L-库/Eigen/四元数.md",
     "L-库/Eigen/【C++】Eigen サンプルコード - Qiita.md",
     "L-库/Eigen/代码示例-线程方程求解.md",
     "L-库/Eigen/代码示例-稀疏矩阵.md",
-    "L-库/Eigen/Eigen 学习与使用笔记 3.md",
-    "L-库/Eigen/Eigen 学习与使用笔记 4.md",
-    "A-专业知识/线性代数与矩阵论/使用 C++ Eigen 库对几种常规解法进行性能分析.md"
+    "L-库/Eigen/Eigen 学习与使用笔记 3.md"
   ]
 }
