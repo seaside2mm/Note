@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
+                "file": "I-Inbox/Sparse Matrices · Matt Eding.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,11 +85,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 236.5110321044922
+    "width": 271.5110321044922
   },
   "right": {
     "id": "e6e0923f74be1f25",
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
+                "file": "I-Inbox/Sparse Matrices · Matt Eding.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
+                "file": "I-Inbox/Sparse Matrices · Matt Eding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/块求解器.md"
+                "file": "I-Inbox/Sparse Matrices · Matt Eding.md"
               }
             }
           },
@@ -166,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -189,6 +190,8 @@
   },
   "active": "c038714f9e67ba5b",
   "lastOpenFiles": [
+    "I-Inbox/稀疏矩阵.md",
+    "L-库/CUDA-bundle-adjustment/块求解器.md",
     "L-库/CUDA-bundle-adjustment/d_Hpl稀疏矩阵的构建方式.md",
     "img/Screen.md",
     "A-专业知识/数学体系概论/概率论基础.md",
@@ -196,8 +199,6 @@
     "A-专业知识/数学体系概论/微积分的本质.md",
     "A-专业知识/数学体系概论/Dahua Lin的数学体系.md",
     "A-专业知识/数学体系概论/【测度论】之长度是怎样炼成的.md",
-    "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
-    "C-课程/牛津-数值计算/未命名.md",
-    "L-库/Eigen/Eigen 学习与使用笔记 2.md"
+    "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md"
   ]
 }

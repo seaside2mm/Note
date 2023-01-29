@@ -281,7 +281,7 @@ In [49]: %timeit arr @ arr  # order of magnitude slower!
 
 **B**lock **S**parse **R**ow ([BSR](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.bsr_matrix.html)) is like CSR but stores sub-matrices rather than scalar values at locations.
 
-```
+```python
 In [50]: ones = np.ones((2, 3), dtype=int)
 
 In [51]: data = np.array([ones + i for i in range(4)])
@@ -304,7 +304,7 @@ matrix([[0, 0, 0, 1, 1, 1, 2, 2, 2],
 
 This implementation requires all the sub-matrices to have the same shape, but there are more generalized constructs with [block matrices](https://en.wikipedia.org/wiki/Block_matrix) that relax this constraint. These matrices do not have their unique data structure in SciPy, but can be indirectly made via the `sparse.bmat` constructor function.
 
-```
+```python
 In [56]: A = np.arange(8).reshape(2, 4)  # can use dense arrays
 
 In [57]: T = np.tri(5, 4)
