@@ -11,8 +11,12 @@
             "id": "220aed0cf93228ee",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -101,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/Eigen/【C++】Eigen サンプルコード - Qiita.md",
+                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/Eigen/【C++】Eigen サンプルコード - Qiita.md",
+                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/Eigen/【C++】Eigen サンプルコード - Qiita.md"
+                "file": "A-专业知识/线性代数与矩阵论/几种常用线性方程组的直接解法探究.md"
               }
             }
           },
@@ -162,11 +166,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 461.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,7 +187,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e18d9a79727752a6",
+  "active": "220aed0cf93228ee",
   "lastOpenFiles": [
     "L-库/CUDA-bundle-adjustment/顶点与边，以及管理.md",
     "L-库/CUDA-bundle-adjustment/块求解器.md",
