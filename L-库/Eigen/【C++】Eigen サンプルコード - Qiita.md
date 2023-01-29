@@ -15,7 +15,7 @@ summary: 行列計算ライブラリ Eigen のサンプルコード
 
 初期化
 
-```
+```cpp
 Eigen::MatrixXd X(3, 3);
 X << 1, 2, 3, 4, 5, 6, 7, 8, 9;
 Eigen::MatrixXd X = Eigen::MatrixXd::Zero(100, 3);
