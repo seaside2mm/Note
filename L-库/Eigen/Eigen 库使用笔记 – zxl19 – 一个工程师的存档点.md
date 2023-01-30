@@ -61,26 +61,25 @@ MatrixWrapper<Array44f> a1m(a1);    // a1m相当于a1.matrix()，二者参数相
     
     *   固定大小——大小确定，可不加行列数：
         
-        ```
-          typedef {Matrix3f | Array33f} FixedXD;
-          FixedXD x;
-          // 创建对应类的对象（作为等号右值）
-          x = FixedXD::Identity();
-          x = FixedXD::Zero();
-          x = FixedXD::Ones();
-          x = FixedXD::Constant(value);
-          x = FixedXD::Random();
-          x = FixedXD::LinSpaced(size, low, high);
-          // 调用对应成员函数
-          x.setIdentity();
-          x.setZero();
-          x.setOnes();
-          x.setConstant(value);
-          x.setRandom();
-          x.setLinSpaced(size, low, high);
-        
-        
-        ```
+```cpp
+typedef {Matrix3f | Array33f} FixedXD;
+FixedXD x;
+// 创建对应类的对象（作为等号右值）
+x = FixedXD::Identity();
+x = FixedXD::Zero();
+x = FixedXD::Ones();
+x = FixedXD::Constant(value);
+x = FixedXD::Random();
+x = FixedXD::LinSpaced(size, low, high);
+// 调用对应成员函数
+x.setIdentity();
+x.setZero();
+x.setOnes();
+x.setConstant(value);
+x.setRandom();
+x.setLinSpaced(size, low, high);
+
+```
         
     *   二维动态大小：
         
@@ -557,7 +556,7 @@ array1.isNaN()                isnan(array1)
 
 示例：
 
-```
+```cpp
 // 3D旋转矩阵直接使用Matrix3d或Matrix3f
 Matrix3d rotation_matrix = Matrix3d::Identity();
 // 旋转向量使用AngleAxis，其底层不直接是Matrix类，但运算可以当作矩阵（因为重载了运算符）
@@ -569,15 +568,13 @@ Vector3d v(1, 0, 0);
 Vector3d v_rotated = rotation_vector * v;
 // 相当于用旋转矩阵进行坐标变换
 Vector3d v_rotated = rotation_matrix * v;
-
-
 ```
 
 #### 欧拉角
 
 示例：
 
-```
+```cpp
 // 欧拉角转旋转矩阵，借助旋转向量
 AngleAxisd roll_vector(roll_rad, Vector3d::UnitX());
 AngleAxisd pitch_vector(pitch_rad, Vector3d::UnitY());
@@ -585,17 +582,15 @@ AngleAxisd yaw_vector(yaw_rad, Vector3d::UnitZ());
 Matrix3d rotation_matrix = (roll_vector * pitch_vector * yaw_vector).toRotationMatrix();
 // 旋转矩阵转欧拉角
 Vector3d euler_angles = rotation_matrix.eulerAngles(2, 1, 0);   // ZYX顺序，即yaw-pitch-roll顺序
-
-
 ```
 
 #### 四元数
 
-必须使用单位四元数表示旋转。
+必须使用单位 #四元数 表示旋转。
 
 示例：
 
-```
+```cpp
 // 直接初始化，注意参数顺序为(w，x，y，z)
 Quaterniond q = Quaterniond(q_w, q_x, q_y, q_z);
 // 可以把AngleAxis赋值给四元数，反之亦然
@@ -624,7 +619,7 @@ v_rotated = q * v;      // 注意数学上是qvq^{-1}
 
 示例：
 
-```
+```cpp
 // 欧氏变换矩阵使用Isometry
 Isometry3d T = Isometry3d::Identity();  // 虽然称为3d，实质上是4*4的矩阵
 T.rotate(rotation_vector);              // 按照rotation_vector进行旋转
@@ -632,8 +627,6 @@ T.pretranslate(Vector3d(1, 2, 3))       // 把平移向量设成(1, 2, 3)
 T.matrix()                              // 欧氏变换矩阵
 // 用欧氏变换矩阵进行坐标变换
 Vector3d v_transformed = T * v;         // 相当于R * v + t
-
-
 ```
 
 ### 位姿相关运算
@@ -644,12 +637,10 @@ Vector3d v_transformed = T * v;         // 相当于R * v + t
     
     通过将旋转矩阵转换为四元数，将四元数归一化后再转回旋转矩阵。
     
-    ```
+    ```cpp
      Matrix3f R;
      Quaternionf q(R);
      R = q.normalized().toRotationMatrix();
-    
-    
     ```
     
 2.  SVD 分解法：
