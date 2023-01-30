@@ -17,52 +17,45 @@ summary: 我的 Eigen 库使用笔记。
 5.  `#include <Eigen/Core>`为核心模块，包含`Matrix`类和`Array`类的定义、基础的线性代数操作等；
 6.  `#include <Eigen/Geometry>`为几何模块，包含 SLAM 相关的位姿表示、四元数、旋转向量等；
 7.  对于 MATLAB 用户，可以参考 [Eigen short ASCII reference](https://eigen.tuxfamily.org/dox/AsciiQuickReference.txt) 快速入门，[zxl19/Eigen-Cheatsheet](https://github.com/zxl19/Eigen-Cheatsheet) 将其整理成 Markdown 和 PDF 文档；
-8.  `Matrix`模板类定义了矩阵和向量，用于进行线性代数运算，`Array`模板类定义了数组，用于进行类似 MATLAB 的逐元素操作，以`Matrix`模板类的原型声明为例对于模板参数进行说明：
-    
-    ```cpp
-Matrix<typename Scalar,                                 // [必需] 数据类型
+8.  `Matrix` 模板类定义了矩阵和向量，用于进行线性代数运算，`Array` 模板类定义了数组，用于进行类似 MATLAB 的逐元素操作，以 `Matrix` 模板类的原型声明为例对于模板参数进行说明： 
+
+```cpp
+Matrix<typename Scalar,                          // [必需] 数据类型
 int RowsAtCompileTime,                           // [必需] 编译时确定的行数，如果不确定可以使用Dynamic指定动态大小
 int ColsAtCompileTime,                           // [必需] 编译时确定的列数，如果不确定可以使用Dynamic指定动态大小
 int Options = 0,                                 // [可选] 位字段，可以使用RowMajor指定逐行保存，或者使用ColMajor指定逐列保存，默认逐列保存
 int MaxRowsAtCompileTime = RowsAtCompileTime,    // [可选] 编译时确定的最大行数，用于避免动态内存分配
 int MaxColsAtCompileTime = ColsAtCompileTime>    // [可选] 编译时确定的最大列数，用于避免动态内存分配
+```
 
+9. Eigen 使用 `typedef` 关键字重命名了常用大小的矩阵和数组，后缀 `f` 代表 `float`、`d` 代表 `double`、`i` 代表 `int`，不同数据类型的矩阵在运算中禁止混用，需要显式类型转换，在使用中应尽可能少用动态大小的矩阵和数组，以提高运行速度： 
+
+```cpp
+ // Matrix类
+ Matrix<float, Dynamic, Dynamic>     <=>     MatrixXf
+ Matrix<double, Dynamic, 1>          <=>     VectorXd
+ Matrix<int, 1, Dynamic>             <=>     RowVectorXi
+ Matrix<float, 3 , 3>                <=>     Matrix3f
+ Matrix<float, 4, 1>                 <=>     Vector4f
+ // Array类
+ Array<float, Dynamic, Dynamic>      <=>     ArrayXXf
+ Array<double, Dynamic, 1>           <=>     ArrayXd
+ Array<int, 1, Dynamic>              <=>     RowArrayXi
+ Array<float, 3, 3>                  <=>     Array33f
+ Array<float, 4, 1>                  <=>     Array4f
+```
+1.  `Matrix`类和`Array`类之间运算和类型转换的规则：
     
-    ```
-    
-9.  Eigen 使用`typedef`关键字重命名了常用大小的矩阵和数组，后缀`f`代表`float`、`d`代表`double`、`i`代表`int`，不同数据类型的矩阵在运算中禁止混用，需要显式类型转换，在使用中应尽可能少用动态大小的矩阵和数组，以提高运行速度：
-    
-    ```
-     // Matrix类
-     Matrix<float, Dynamic, Dynamic>     <=>     MatrixXf
-     Matrix<double, Dynamic, 1>          <=>     VectorXd
-     Matrix<int, 1, Dynamic>             <=>     RowVectorXi
-     Matrix<float, 3 , 3>                <=>     Matrix3f
-     Matrix<float, 4, 1>                 <=>     Vector4f
-     // Array类
-     Array<float, Dynamic, Dynamic>      <=>     ArrayXXf
-     Array<double, Dynamic, 1>           <=>     ArrayXd
-     Array<int, 1, Dynamic>              <=>     RowArrayXi
-     Array<float, 3, 3>                  <=>     Array33f
-     Array<float, 4, 1>                  <=>     Array4f
-    
-    
-    ```
-    
-10.  `Matrix`类和`Array`类之间运算和类型转换的规则：
-    
-    ```
-    Array44f a1, a2;
-    Matrix4f m1, m2;
-    m1 = a1 * a2;                       // 逐元素相乘，运算结果从Array类到Matrix类隐式类型转换
-    a1 = m1 * m2;                       // 矩阵相乘，运算结果从Matrix类到Array类隐式类型转换
-    a2 = a1 + m1.array();               // Array类和Matrix类的对象在运算中禁止混用，需要显式类型转换
-    m2 = a1.matrix() + m1;              // Array类和Matrix类的对象在运算中禁止混用，需要显式类型转换
-    ArrayWrapper<Matrix4f> m1a(m1);     // m1a相当于m1.array()，二者参数相同
-    MatrixWrapper<Array44f> a1m(a1);    // a1m相当于a1.matrix()，二者参数相同
-    
-    
-    ```
+```cpp
+Array44f a1, a2;
+Matrix4f m1, m2;
+m1 = a1 * a2;                       // 逐元素相乘，运算结果从Array类到Matrix类隐式类型转换
+a1 = m1 * m2;                       // 矩阵相乘，运算结果从Matrix类到Array类隐式类型转换
+a2 = a1 + m1.array();               // Array类和Matrix类的对象在运算中禁止混用，需要显式类型转换
+m2 = a1.matrix() + m1;              // Array类和Matrix类的对象在运算中禁止混用，需要显式类型转换
+ArrayWrapper<Matrix4f> m1a(m1);     // m1a相当于m1.array()，二者参数相同
+MatrixWrapper<Array44f> a1m(a1);    // a1m相当于a1.matrix()，二者参数相同
+```
     
 11.  `Matrix`类和`Array`类的初始化方式，建议在定义后对变量进行初始化；
     
