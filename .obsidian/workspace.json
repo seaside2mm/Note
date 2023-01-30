@@ -4,49 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "79c7f7f5e92f9b4e",
-        "type": "split",
+        "id": "0c208fe27783d92a",
+        "type": "tabs",
         "children": [
           {
-            "id": "0c208fe27783d92a",
-            "type": "tabs",
-            "dimension": 69.21052631578948,
-            "children": [
-              {
-                "id": "c038714f9e67ba5b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "c038714f9e67ba5b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "L-库/Eigen/【C++】Eigen サンプルコード - Qiita.md",
+                "mode": "source",
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "6abb9122675ba1b7",
-            "type": "tabs",
-            "dimension": 30.789473684210524,
-            "children": [
-              {
-                "id": "3fb216448a7c1cc7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "L-库/CUDA-bundle-adjustment/host稀疏矩阵定义.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
+                "file": "L-库/Eigen/【C++】Eigen サンプルコード - Qiita.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
+                "file": "L-库/Eigen/【C++】Eigen サンプルコード - Qiita.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/块求解器.md"
+                "file": "L-库/Eigen/【C++】Eigen サンプルコード - Qiita.md"
               }
             }
           },
@@ -216,8 +189,8 @@
   },
   "active": "c038714f9e67ba5b",
   "lastOpenFiles": [
-    "L-库/CUDA-bundle-adjustment/BA流程.md",
     "L-库/CUDA-bundle-adjustment/块求解器.md",
+    "L-库/CUDA-bundle-adjustment/BA流程.md",
     "L-库/CUDA-bundle-adjustment/host稀疏矩阵定义.md",
     "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md",
     "L-库/CUDA-bundle-adjustment/device数据格式定义.md",

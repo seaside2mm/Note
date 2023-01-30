@@ -13,7 +13,7 @@ summary: 行列計算ライブラリ Eigen のサンプルコード
 行列計算には Matrix 型、Vector 型、RowVector 型を使う。  
 .array(), .matrix() で型変換可能。
 
-初期化
+## 初期化
 
 ```cpp
 Eigen::MatrixXd X(3, 3);
@@ -24,16 +24,16 @@ Eigen::MatrixXd X = Eigen::MatrixXd::Random(100, 3);
 Eigen::MatrixXd X = Eigen::MatrixXd::Identity(3, 3);
 ```
 
-リサイズ
+## リサイズ
 
 ```cpp
 X.resize(X.rows()+1, X.cols()); // 要素を保持しない
 X.conservativeResize(X.rows()+1, Eigen::NoChange); // 要素を保持する
 ```
 
-部分行列
+## 部分行列
 
-```
+```cpp
 Eigen::MatrixXd X = Eigen::MatrixXd::Random(10, 10);
 
 std::cout << X << std::endl;
@@ -51,13 +51,11 @@ std::cout << X.topLeftCorner(2, 3) << std::endl;
 std::cout << X.topRightCorner(2, 3) << std::endl;
 std::cout << X.bottomLeftCorner(2, 3) << std::endl;
 std::cout << X.bottomRightCorner(2, 3) << std::endl;
-
-
 ```
 
-行をランダムにシャッフル
+## 行 をランダムにシャッフル
 
-```
+```cpp
 Eigen::MatrixXd X = Eigen::MatrixXd::Random(100, 3);
 std::cout << "X" << std::endl << X << std::endl;
 
@@ -76,13 +74,11 @@ std::cout << random_row_X << std::endl;
 
 // 元に戻す
 std::cout << perm_row.inverse() * random_row_X << std::endl;
-
-
 ```
 
-query との距離で行をソート
+## query との距離で行をソート
 
-```
+```cpp
 Eigen::MatrixXd X = Eigen::MatrixXd::Random(10, 3);
 Eigen::RowVectorXd query = Eigen::RowVectorXd::Random(3);
 std::cout << "X" << std::endl << X << std::endl;
@@ -114,9 +110,9 @@ std::cout << "sorted_X" << std::endl << perm_row.transpose().inverse() * sorted_
 
 ```
 
-行列 X から query との距離が 1 以下の行のみを取得
+## 行列 X から query との距離が 1 以下の行のみを取得
 
-```
+```cpp
 // 出力整形（小数点第二位まで出力）
 std::cout << std::fixed << std::setprecision(2);
 
@@ -190,20 +186,18 @@ std::cout << "selected_X" << std::endl << selected_X << std::endl;
 // selected_X
 // 1.00 1.00 3.00
 // 1.00 1.00 4.00
-
-
 ```
 
-統計
+## 統計
 
-```
+```cpp
 Eigen::RowVectorXd meanX = X.colwise().mean();
 Eigen::RowVectorXd stdX = ((X.rowwise() - X.colwise().mean()).colwise().squaredNorm() / (X.rows() - 1)).cwiseSqrt();
 
 
 ```
 
-NG 集
+## NG 集
 
 ```
 // 1xN行列やNx1行列はベクトルとみなされない
