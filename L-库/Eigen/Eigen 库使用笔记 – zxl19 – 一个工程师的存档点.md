@@ -11,22 +11,22 @@ summary: 我的 Eigen 库使用笔记。
 
 1.  Eigen 是纯头文件库，定义的类、函数、常量等均在`Eigen`命名空间中，为了使表示形式简便，本文默认使用`Eigen`命名空间：
     
-2.  Eigen 稠密矩阵和数组模块功能可以查询 [[QuickRef] Dense matrix and array manipulations](https://eigen.tuxfamily.org/dox/group__QuickRefPage.html)；
-3.  Eigen 稀疏线性代数模块功能可以查询 [[QuickRef] Sparse linear algebra](https://eigen.tuxfamily.org/dox/group__SparseQuickRefPage.html)；
+2.  Eigen 稠密矩阵和数组模块功能可以查询 [Dense matrix and array manipulations](https://eigen.tuxfamily.org/dox/group__QuickRefPage.html)；
+3.  Eigen 稀疏线性代数模块功能可以查询 [Sparse linear algebra](https://eigen.tuxfamily.org/dox/group__SparseQuickRefPage.html)；
 4.  `#include <Eigen/Eigen>`（全部模块功能）=`#include <Eigen/Dense>`（绝大部分模块功能）+`#include <Eigen/Sparse>`（稀疏矩阵模块功能）；
 5.  `#include <Eigen/Core>`为核心模块，包含`Matrix`类和`Array`类的定义、基础的线性代数操作等；
 6.  `#include <Eigen/Geometry>`为几何模块，包含 SLAM 相关的位姿表示、四元数、旋转向量等；
 7.  对于 MATLAB 用户，可以参考 [Eigen short ASCII reference](https://eigen.tuxfamily.org/dox/AsciiQuickReference.txt) 快速入门，[zxl19/Eigen-Cheatsheet](https://github.com/zxl19/Eigen-Cheatsheet) 将其整理成 Markdown 和 PDF 文档；
 8.  `Matrix`模板类定义了矩阵和向量，用于进行线性代数运算，`Array`模板类定义了数组，用于进行类似 MATLAB 的逐元素操作，以`Matrix`模板类的原型声明为例对于模板参数进行说明：
     
-    ```
-     Matrix<typename Scalar,                                 // [必需] 数据类型
-            int RowsAtCompileTime,                           // [必需] 编译时确定的行数，如果不确定可以使用Dynamic指定动态大小
-            int ColsAtCompileTime,                           // [必需] 编译时确定的列数，如果不确定可以使用Dynamic指定动态大小
-            int Options = 0,                                 // [可选] 位字段，可以使用RowMajor指定逐行保存，或者使用ColMajor指定逐列保存，默认逐列保存
-            int MaxRowsAtCompileTime = RowsAtCompileTime,    // [可选] 编译时确定的最大行数，用于避免动态内存分配
-            int MaxColsAtCompileTime = ColsAtCompileTime>    // [可选] 编译时确定的最大列数，用于避免动态内存分配
-    
+    ```cpp
+Matrix<typename Scalar,                                 // [必需] 数据类型
+int RowsAtCompileTime,                           // [必需] 编译时确定的行数，如果不确定可以使用Dynamic指定动态大小
+int ColsAtCompileTime,                           // [必需] 编译时确定的列数，如果不确定可以使用Dynamic指定动态大小
+int Options = 0,                                 // [可选] 位字段，可以使用RowMajor指定逐行保存，或者使用ColMajor指定逐列保存，默认逐列保存
+int MaxRowsAtCompileTime = RowsAtCompileTime,    // [可选] 编译时确定的最大行数，用于避免动态内存分配
+int MaxColsAtCompileTime = ColsAtCompileTime>    // [可选] 编译时确定的最大列数，用于避免动态内存分配
+
     
     ```
     

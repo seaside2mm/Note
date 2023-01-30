@@ -199,23 +199,14 @@ Eigen::RowVectorXd stdX = ((X.rowwise() - X.colwise().mean()).colwise().squaredN
 
 ## NG 集
 
-```
+```cpp
 // 1xN行列やNx1行列はベクトルとみなされない
 Eigen::MatrixXd meanX = X.colwise().mean();
 Eigen::MatrixXd hoge = X.rowwise() - meanX; // NG : rowwise()としているのに行列を掛けている
 Eigen::MatrixXd hoge = X.rowwise() - meanX.row(0); // OK
-
-
 ```
 
 随時追加  
 【参考】  
 [Eigen 公式](http://eigen.tuxfamily.org/index.php)  
 [MATLAB to Eigen](http://igl.ethz.ch/projects/libigl/matlab-to-eigen.html)
-
-Register as a new user and use Qiita more conveniently
-
-1.  You get articles that match your needs
-2.  You can efficiently read back useful information
-
-[What you can do with signing up](https://help.qiita.com/ja/articles/qiita-login-user)
