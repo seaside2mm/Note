@@ -637,31 +637,27 @@ Vector3d v_transformed = T * v;         // 相当于R * v + t
     
     通过将旋转矩阵转换为四元数，将四元数归一化后再转回旋转矩阵。
     
-    ```cpp
-     Matrix3f R;
-     Quaternionf q(R);
-     R = q.normalized().toRotationMatrix();
-    ```
+```cpp
+	Matrix3f R;
+	Quaternionf q(R);
+	R = q.normalized().toRotationMatrix();
+	```
     
 2.  SVD 分解法：
     
-    ```
+    ```cpp
      Matrix3f R;
      JacobiSVD<MatrixXf> svd(R, ComputeFullU | ComputeFullV);
      R = svd.matrixU() * svd.matrixV().transpose();
-    
-    
     ```
     
 3.  流形投影法：
     
-    ```
+    ```cpp
      Matrix3f R;
      Matrix3f H = R * R.transpose();
      Matrix3f L = H.llt().matrixL();
      R = L.inverse() * R;
-    
-    
     ```
     
 
