@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "L-库/CUDA-bundle-adjustment/BA流程.md",
+                    "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
                     "mode": "source",
                     "source": false
                   }
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/BA流程.md",
+                "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/BA流程.md",
+                "file": "L-库/CUDA-bundle-adjustment/块求解器.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "L-库/CUDA-bundle-adjustment/BA流程.md"
+                "file": "L-库/CUDA-bundle-adjustment/块求解器.md"
               }
             }
           },
