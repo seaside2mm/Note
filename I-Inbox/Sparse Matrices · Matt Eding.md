@@ -282,12 +282,13 @@ In [49]: %timeit arr @ arr  # order of magnitude slower!
 **B**lock **S**parse **R**ow ([BSR](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.bsr_matrix.html)) is like CSR but stores sub-matrices rather than scalar values at locations.
 
 ```python
+# 矩阵块大小
 In [50]: ones = np.ones((2, 3), dtype=int)
-
+# 矩阵块数据
 In [51]: data = np.array([ones + i for i in range(4)])
-
+# 矩阵块列索引
 In [52]: indices = [1, 2, 2, 0]
-
+# 行起始位置在列索引数组中的位置
 In [53]: indptr = [0, 2, 3, 4]
 
 In [54]: bsr = sparse.bsr_matrix((data, indices, indptr))

@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "fec768f90048222b",
+    "id": "365fa74bdd9460d9",
     "type": "split",
     "children": [
       {
-        "id": "0c208fe27783d92a",
+        "id": "db4cc6fa70f4e62e",
         "type": "tabs",
         "children": [
           {
-            "id": "c038714f9e67ba5b",
+            "id": "4e4df4a8596d73c5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "L-库/Eigen/Eigen 库使用笔记 – zxl19 – 一个工程师的存档点.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f2edf295bf517c39",
+    "id": "d64296c612060e14",
     "type": "split",
     "children": [
       {
-        "id": "d0e13f2fd8a94f2a",
+        "id": "668fc487772fc9b2",
         "type": "tabs",
         "children": [
           {
-            "id": "5186dddb7992a812",
+            "id": "64331703e4942741",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,12 +39,12 @@
             }
           },
           {
-            "id": "277526e2216a29cb",
+            "id": "93ca2ee807342d97",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#SimpRead",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "28d82c7965790763",
+            "id": "ba5be3e8d9f5ff80",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -66,22 +62,10 @@
             }
           },
           {
-            "id": "c8d182b049babbfb",
+            "id": "9e6e61b142f4ab43",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "I-Inbox/(34 条消息) 在 WSL2 上运行 nVIDIA Nsight_SAGAERA 的博客 - CSDN 博客.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bdd27d79330575ba",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
+              "type": "book-explorer-view",
               "state": {}
             }
           }
@@ -89,47 +73,45 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5110321044922
+    "width": 480.5110321044922
   },
   "right": {
-    "id": "e6e0923f74be1f25",
+    "id": "ffc417293825ce6b",
     "type": "split",
     "children": [
       {
-        "id": "474075aa8b457e4f",
+        "id": "b9ccddf82d0547d8",
         "type": "tabs",
         "children": [
           {
-            "id": "a1ab7e6edc817fb6",
+            "id": "62382db19ac36d5f",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "L-库/Eigen/Eigen 库使用笔记 – zxl19 – 一个工程师的存档点.md",
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0c50fde4b53f685e",
+            "id": "ec4b2395c2faac78",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "L-库/Eigen/Eigen 库使用笔记 – zxl19 – 一个工程师的存档点.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "8cd597e901de5237",
+            "id": "f2cbb96ac08bf093",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -140,64 +122,93 @@
             }
           },
           {
-            "id": "2d0778f677e5f075",
+            "id": "0f137147dd25a804",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "L-库/Eigen/Eigen 库使用笔记 – zxl19 – 一个工程师的存档点.md"
-              }
-            }
-          },
-          {
-            "id": "38b2e80634a3613c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
               "state": {}
             }
           },
           {
-            "id": "e18d9a79727752a6",
+            "id": "9690532ee2ad4718",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
               "state": {}
             }
+          },
+          {
+            "id": "b410ca7380431023",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 469.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:新建白板": true,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": true,
+      "obsidian42-brat:BRAT": true,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": true,
+      "templater-obsidian:Templater": true,
+      "obsidian-booknote-plugin:书库": false,
       "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:Create new canvas": false,
+      "graph:查看关系图谱": true,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "command-palette:打开命令面板": true,
       "workspaces:管理工作区布局": false,
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false,
-      "obsidian42-brat:BRAT": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "omnisearch:Omnisearch": true,
+      "mermaid-tools:Open Mermaid Toolbar": true,
+      "obsidian-rich-links:Rich Links": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open today": false
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "c038714f9e67ba5b",
+  "active": "4e4df4a8596d73c5",
   "lastOpenFiles": [
-    "L-库/Eigen/Eigen 库使用笔记 – zxl19 – 一个工程师的存档点.md",
-    "L-库/Eigen/【C++】Eigen サンプルコード - Qiita.md",
-    "L-库/CUDA-bundle-adjustment/块求解器.md",
-    "L-库/CUDA-bundle-adjustment/BA流程.md",
-    "L-库/CUDA-bundle-adjustment/host稀疏矩阵定义.md",
-    "L-库/CUDA-bundle-adjustment/Sparse Linear Solver：包装cuda sparse solver.md",
-    "L-库/CUDA-bundle-adjustment/device数据格式定义.md",
-    "L-库/CUDA-bundle-adjustment/GPU矩阵操作.md",
-    "I-Inbox/Sparse Matrices · Matt Eding.md",
-    "I-Inbox/稀疏矩阵.md"
+    "T-模板/项目.md",
+    "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
+    "navipedia/index.php/Transformation_between_Terrestrial_Frames.md",
+    "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
+    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
+    "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
+    "Projects - Demo Project/The Best Notes You'll Ever Make.md",
+    "Projects - Demo Project",
+    "P-项目",
+    "主页.md",
+    "Chapter 7 矩阵分解 {matirx application} - 数值分析笔记.md",
+    "L-库/G2O/cmake使用.md",
+    "L-库/G2O/代码结构.md",
+    "L-库/Ceres/example/pose_graph_2d.md",
+    "L-库/Sophus/(39 条消息) Sophus 库的安装和使用教程_Dongdong Bai 的博客 - CSDN 博客.md",
+    "C-课程/视觉slam十四讲/视觉 SLAM 十四讲 (第二版) 习题解答 - 知乎.md",
+    "L-库/Sophus",
+    "L-库/Ceres/example/(39 条消息) Ceres-solver examples 之 pose_graph_3d 学习笔记_applyontheleft_幽冥小龙的博客 - CSDN 博客.md",
+    "L-库/Ceres/example/pose_graph_3d.md",
+    "P-论文/Visual_SLAM_Why_Bundle_Adjust.md",
+    "L-库/Ceres/example",
+    "P-论文/pdf/Visual_SLAM_Why_Bundle_Adjust.pdf",
+    "P-论文/pdf/未确认 590239.crdownload",
+    "L-库/Ceres/factor例子/Ceres 常用的优化手段 - 古月居.md",
+    "P-论文/未命名",
+    "I-Inbox/经典论文阅读之 - GICP（ICP 大一统） - 古月居.md",
+    "L-库/Eigen/矩阵分解函数.md",
+    "C-课程/深蓝-从零开始手写VIO/SLAM 之划窗优化 - 古月居.md",
+    "I-Inbox/SLAM 本质剖析 - Eigen - 古月居.md",
+    "L-库/Ceres/factor例子/Factor例子.md",
+    "L-库/Ceres/factor例子/RelativePoseFactor.md",
+    "L-库/Ceres/factor例子",
+    "L-库/Ceres/官方文档.md",
+    "L-库/Ceres/源码-linearsolver.md",
+    "P-编程语言/pytorch",
+    "B-书籍/CUDA编程权威指南/pdf/cublas-cula.pdf"
   ]
 }

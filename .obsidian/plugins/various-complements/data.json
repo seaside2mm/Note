@@ -47,27 +47,319 @@
   },
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "\\end{pmatrix}\\end{Vmatrix}": {
-      "\\end{pmatrix}\\end{Vmatrix}": {
+    "sqrt_information": {
+      "sqrt_information": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1674955223920
+          "count": 6,
+          "lastUpdated": 1676437288693
         }
       }
     },
-    "模板类的原型声明为例对于模板参数进行说明：": {
-      "模板类的原型声明为例对于模板参数进行说明：": {
+    "intro}}": {
+      "intro}}": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1675084536067
+          "lastUpdated": 1675582631263
         }
       }
     },
-    "，不同数据类型的矩阵在运算中禁止混用，需要显式类型转换，在使用中应尽可能少用动态大小的矩阵和数组，以提高运行速度：": {
-      "，不同数据类型的矩阵在运算中禁止混用，需要显式类型转换，在使用中应尽可能少用动态大小的矩阵和数组，以提高运行速度：": {
+    "algebra": {
+      "algebra": {
         "currentFile": {
           "count": 1,
-          "lastUpdated": 1675084632791
+          "lastUpdated": 1675586193325
+        }
+      }
+    },
+    "products": {
+      "products": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675602808214
+        }
+      }
+    },
+    "jacobian_a": {
+      "jacobian_a": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675735372561
+        }
+      }
+    },
+    "conjugate": {
+      "conjugate": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675735538909
+        }
+      }
+    },
+    "左乘右乘以及导数定理": {
+      "左乘右乘以及导数定理": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1675817465615
+        }
+      }
+    },
+    "任意的旋转都可以由两个互为相反数的四元数表示": {
+      "任意的旋转都可以由两个互为相反数的四元数表示": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675822072729
+        }
+      }
+    },
+    "local": {
+      "local": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675822902644
+        }
+      }
+    },
+    "global": {
+      "global": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675822911709
+        }
+      }
+    },
+    "对四元数的微分": {
+      "对四元数的微分": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675834660374
+        }
+      }
+    },
+    "product": {
+      "product": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675921329983
+        }
+      }
+    },
+    "Chi2D": {
+      "Chi2D": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1675942820989
+        }
+      }
+    },
+    "ERROR": {
+      "ERROR": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676014560810
+        }
+      }
+    },
+    "调试过程中，切换线程switch": {
+      "调试过程中，切换线程switch": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676031384189
+        }
+      }
+    },
+    "实部1，虚部2，3，4": {
+      "实部1，虚部2，3，4": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676270192751
+        }
+      }
+    },
+    "initializeHschurKernel": {
+      "initializeHschurKernel": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676276763601
+        }
+      }
+    },
+    "GPU矩阵操作": {
+      "GPU矩阵操作": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676276770057
+        }
+      }
+    },
+    "relative_odom_": {
+      "relative_odom_": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1676437281420
+        }
+      }
+    },
+    "RelativePoseFactor": {
+      "RelativePoseFactor": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676437270331
+        },
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676437275036
+        }
+      }
+    },
+    "cost_function": {
+      "cost_function": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676437304854
+        }
+      }
+    },
+    "camera_a": {
+      "camera_a": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676437312202
+        }
+      }
+    },
+    "camera_b": {
+      "camera_b": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676437315428
+        }
+      }
+    },
+    "space": {
+      "space": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676439487187
+        }
+      }
+    },
+    "零空间与行空间正交": {
+      "零空间与行空间正交": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676439492100
+        }
+      }
+    },
+    "tyljd": {
+      "tyljd": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676847964421
+        }
+      }
+    },
+    "Tyjld": {
+      "Tyjld": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676847965569
+        }
+      }
+    },
+    "dtyjld": {
+      "dtyjld": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676847965818
+        }
+      }
+    },
+    "quaternion": {
+      "quaternion": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676859412031
+        }
+      }
+    },
+    "cuSolverDN": {
+      "cuSolverDN": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676868809537
+        }
+      }
+    },
+    "systems": {
+      "systems": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676876468648
+        }
+      }
+    },
+    "svd-solver/svd-impl.h": {
+      "svd-solver/svd-impl.h": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676876537587
+        }
+      }
+    },
+    "types": {
+      "types": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676877086957
+        }
+      }
+    },
+    "level optimation功能追加": {
+      "level optimation功能追加": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1676877563970
+        }
+      }
+    },
+    "cusolverSpXcsrperm": {
+      "cusolverSpXcsrperm": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1676879101652
+        }
+      }
+    },
+    "Derivatives": {
+      "Derivatives": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677303383692
+        }
+      }
+    },
+    "pose_graph_2d": {
+      "pose_graph_2d": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677304282891
+        }
+      }
+    },
+    "\\end{split}": {
+      "\\end{split}": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1677304521813
+        }
+      }
+    },
+    "如果有链接错误，则需要手动指定": {
+      "如果有链接错误，则需要手动指定": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1678151903888
         }
       }
     }

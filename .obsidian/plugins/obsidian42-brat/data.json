@@ -1,5 +1,7 @@
 {
   "pluginList": [
+    "nothingislost/obsidian-bartender",
+    "Kenshin/simpread-obsidian-plugin",
     "obsidian-canzi/Enhanced-editing",
     "Quorafind/Obsidian-Surfing"
   ],

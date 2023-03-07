@@ -1,6 +1,10 @@
+---
+date: 星期一, 一月 23日 2023, 9:24:55 上午
+modified: 星期四, 二月 9日 2023, 3:00:38 下午
+---
 
 
-##  fixed_vector 创建 CPU / GPU 内存的数组
+#  fixed_vector 创建 CPU / GPU 内存的数组
 
 - 拷贝一个指针指向的数据
 
@@ -10,7 +14,7 @@ template <int N>
 using Vecxd = Vec<Scalar, N>;
 ```
 
-```c++
+```cpp
 #define HOST_DEVICE __host__ __device__ inline
 template <typename T, int N>
 struct Vec
@@ -24,7 +28,7 @@ struct Vec
 ```
 
 
-##  device_buffer 用于包装 GPU 数据的指针
+#  device_buffer 用于包装 GPU 数据的指针
 
 - `T* data_` :  数据首地址
 - `size_t size_, capacity_` : 实际数据大小，持有内存空间大小
@@ -53,7 +57,7 @@ graph TD
 
 
 ```
-```c++
+```cpp
 template <typename T>
 class DeviceBuffer
 {
@@ -97,14 +101,14 @@ public:
 
 ```
 
-##  device_matrix
+#  device_matrix
 
 
-### BlockPtr：  连续矩阵块的索引
+## BlockPtr：  连续矩阵块的索引
 
 -  `T* data_ ` ：指向一块 GPU 内存，一般是连续矩阵块
 
-``` c++
+``` cpp
 template <typename T, int BLOCK_ROWS, int BLOCK_COLS>
 class BlockPtr
 {
@@ -121,11 +125,11 @@ using Lx1BlockPtr = BlockPtr<Scalar, LDIM, 1>;
 ```
 
 
-### DeviceBlockVector：Dense 矩阵管理的外部接口
+## DeviceBlockVector：Dense 矩阵管理的外部接口
 
 进一步管理 DeviceBuffer，作为外部使用接口。注意类中实际创建了一个 T 类型数据，而 BLOCK_AREA 的数组需要计算管理。
 
-- `DeviceBuffer<T> values_` :  创建了 T 类型的数据，用于提供 GPU 的起始地址
+- `DeviceBuffer<T> values_` :  创建了 T 类型的数据，用于提供 GPU 的起始地址 
 - `int size_` :  block 数
 
 ```cpp
@@ -133,6 +137,8 @@ static const int BLOCK_AREA = BLOCK_ROWS * BLOCK_COLS;
 //每个矩阵块的开始地址
 using BlockPtrT = BlockPtr<T, BLOCK_ROWS, BLOCK_COLS>; 
 
+// 注意此处以下的Hpp等由于是对角矩阵，构建时并不是一个完整的矩阵，而是类似稀疏矩阵，只将对角元素按照id顺序放入数组中。
+// Block: [ Jpp1, Jpp2, Jpp3, Jpp4, ...]
 using GpuPxPBlockVec = DeviceBlockVector<Scalar, PDIM, PDIM>;
 using GpuLxLBlockVec = DeviceBlockVector<Scalar, LDIM, LDIM>;
 using GpuPxLBlockVec = DeviceBlockVector<Scalar, PDIM, LDIM>;
@@ -170,7 +176,7 @@ public:
 ```
 
 
-### DeviceBlockMatrix：稀疏矩阵的外部接口
+## DeviceBlockMatrix：稀疏矩阵的外部接口
 
 
 - `DeviceBuffer<T> values_` ： GPU 内存
@@ -179,10 +185,19 @@ public:
 - `int nnz_` ：  non zeros 数
 - `int outerSize_, innerSize_` ： 索引数组长度
 
-稀疏矩阵定义查看： [[SparseCore]]
-> ROW_MAJOR 则是 CSR
+> [!info] 
+> 稀疏矩阵定义查看： [[SparseCore]]
+>   ROW_MAJOR 则是 CSR 
+
+> [!faq] 
+> 由于类内部定义了 `BlockPtrT`, 可以使用内部类的 `Hpl.at(edge2Hpl[iE])` 
+
 
 ```c++
+static const int BLOCK_AREA = BLOCK_ROWS * BLOCK_COLS;
+//每个矩阵块的开始地址
+using BlockPtrT = BlockPtr<T, BLOCK_ROWS, BLOCK_COLS>; 
+
 using GpuHplBlockMat = DeviceBlockMatrix<Scalar, PDIM, LDIM, COL_MAJOR>;
 using GpuHscBlockMat = DeviceBlockMatrix<Scalar, PDIM, PDIM, ROW_MAJOR>;
 ```
@@ -210,7 +225,7 @@ public:
 		values_.resize(nnz * BLOCK_AREA);
 		innerIndices_.resize(nnz);
 	}
-
+	//将cpu的SparseBlockMatrix的索引数据传到gpu
 	void upload(const T* values, const int* outerIndices, const int* innerIndices)
 	{
 		if (values)
@@ -223,13 +238,13 @@ public:
 
 	void download(T* values, int* outerIndices, int* innerIndices) const
 	
- 
+	// ?
 	operator BlockPtrT() const { return BlockPtrT((T*)values_.data()); }
 
 };
 ```
 
-### GpuVecAny： 
+## GpuVecAny： 
 
 ``` c++
 class GpuVecAny

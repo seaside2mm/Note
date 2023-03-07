@@ -67,7 +67,7 @@ Tags: [SLAM](http://zhaoxuhui.top/tags#SLAM "SLAM")
 
 下面是一些简单的使用示例。
 
-```
+```cpp
 #include <iostream>
 #include <opencv2/opencv.hpp>
 #include <Eigen/Dense>
@@ -187,7 +187,7 @@ target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})
 
 简单使用示例如下：
 
-```
+```cpp
 #include <iostream>
 #include <Eigen/Dense>
 #include <Eigen/Geometry>
@@ -266,7 +266,7 @@ int main() {
 
 简单使用示例如下：
 
-```
+```cpp
 #include <iostream>
 #include <Eigen/Dense>
 #include <Eigen/Geometry>

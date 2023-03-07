@@ -1,12 +1,12 @@
 {
-  "accentColor": "#b6a863",
+  "accentColor": "#bfeeeb",
   "cssTheme": "Blue Topaz",
   "translucency": false,
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "page-width",
-    "obsidian"
+    "obsidian",
+    "page-width"
   ],
-  "baseFontSize": 17,
+  "baseFontSize": 20,
   "nativeMenus": true
 }

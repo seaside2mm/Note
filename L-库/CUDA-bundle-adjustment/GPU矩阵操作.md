@@ -1,10 +1,8 @@
 
-```cpp
-////////////////////////////////////////////////////////////////////////////////////
-// Device functions (template matrix and verctor operation)
-////////////////////////////////////////////////////////////////////////////////////
+## Device functions (template matrix and verctor operation)
 
-// assignment operations
+### assignment operations
+```cpp
 using AssignOP = void(*)(Scalar*, Scalar);
 __device__ inline void ASSIGN(Scalar* address, Scalar value) { *address = value; }
 __device__ inline void ACCUM(Scalar* address, Scalar value) { *address += value; }
@@ -13,6 +11,7 @@ __device__ inline void ACCUM_ATOMIC(Scalar* address, Scalar value) { atomicAdd(a
 __device__ inline void DEACCUM_ATOMIC(Scalar* address, Scalar value) { atomicAdd(address, -value); }
 ```
 
+### dot product 
 
 ```cpp
 // recursive dot product for inline expansion
@@ -43,6 +42,22 @@ __device__ inline Scalar dot_stride_<1, PDIM, PDIM>(const Scalar* a, const Scala
 template <>
 __device__ inline Scalar dot_stride_<1, LDIM, LDIM>(const Scalar* a, const Scalar* b) { return a[0] * b[0]; }
 
+```
+
+
+
+### matrix operation
+
+<mark style="background: #FFB8EBA6;">例子</mark>
+
+```cpp
+// Hpp += = JPT*Ω*JP
+// matrix(tansposed)-matrix product: C = AT*B
+MatTMulMat<PDIM, MDIM, PDIM, ACCUM_ATOMIC>(JP, JP, Hpp.at(iP), omega);
+
+// Hpl += = JPT*Ω*JL
+// 
+MatTMulMat<PDIM, MDIM, LDIM, ASSIGN>(JP, JL, Hpl.at(edge2Hpl[iE]), omega);
 ```
 
 
@@ -91,7 +106,13 @@ __device__ inline void MatMulMatT(const Scalar* A, const Scalar* B, Scalar* C)
 	for (int i = 0; i < N; i++)
 		MatMulVec<L, M, N, OP>(A, B + i, C + i * L);
 }
+```
 
+
+
+### norm
+
+```cpp
 // squared L2 norm
 template <int N>
 __device__ inline Scalar squaredNorm(const Scalar* x) { return dot_<N>(x, x); }
